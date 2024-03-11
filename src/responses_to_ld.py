@@ -2,36 +2,8 @@ import xml.etree.ElementTree as ET
 from rdflib import Graph, Namespace, URIRef, Literal, BNode
 from rdflib.namespace import FOAF, DCTERMS, DCAT, PROV, OWL, RDFS, RDF, XMLNS, SKOS, SOSA, ORG
 import hashlib
-
-def qid_to_answerValue(AS, root,  target_qid): 
-
-    # AS= the answerset within the xml tree
-    # root= the whole tree
-    # target_qid = the question id for which we would like to parse the answer
-
-    qid_to_aid = {} 
-    for answer in AS.findall(".//Answer"):
-        qid = answer.get("qid")
-        aid = answer.get("aid")
-        qid_to_aid.setdefault(qid, []).append(aid) 
-
-
-    # Retrieve the corresponding aid
-    if target_qid in qid_to_aid:
-        target_aid = qid_to_aid[target_qid]
-
-        value = []
-        for taid in target_aid :
-        # Now find the corresponding value in the Survey section
-            for survey_answer in root.findall(".//Survey/Elements/Answer[@id='{}']".format(taid)):
-                
-                value.append(survey_answer.text)
-                #print(f"Value for qid '{target_qid}': {value}")
-
-        return value
-    else:
-        print(f"No value found for qid '{target_qid}' in the survey.")
-        return []
+import classify_characteristic
+import qid_to_answerValue
 
 
         
@@ -117,48 +89,48 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
             # add informaton from q1-10 from questioonaire
 
             ## persons area of expertise
-            dox= qid_to_answerValue(AS= AS, root=root, target_qid=q1_id)
+            dox= qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q1_id)
             for i in dox:
                 domainOfExpertise_uri = sgam_ns[str(i).replace(" ", "")]
 
                 graph.add((areaOfExpertise, ema_ns.inDomain, domainOfExpertise_uri))
 
-            zox = qid_to_answerValue(AS= AS, root=root, target_qid=q2_id)  
+            zox = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q2_id)  
             for i in zox :
                 zoneOfExpertise_uri = sgam_ns[str(i).replace(" ", "")]
                 graph.add((areaOfExpertise, ema_ns.inZone, zoneOfExpertise_uri))
 
-            lox = qid_to_answerValue(AS= AS, root=root, target_qid=q3_id)
+            lox = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q3_id)
             for i in lox :      
                 layerOfExpertise_uri = sgam_ns[str(i).replace(" ", "")]
                 graph.add((areaOfExpertise, ema_ns.onLayer , layerOfExpertise_uri))
 
-            organizationDescription = qid_to_answerValue( AS=AS, root=root, target_qid= q4_id)
+            organizationDescription = qid_to_answerValue.qid_to_answerValue( AS=AS, root=root, target_qid= q4_id)
             for i in organizationDescription:
                 graph.add((organization, ema_ns.description, Literal(i) ))
 
-            orgsize = qid_to_answerValue( AS= AS, root=root, target_qid= q5_id)[0]
+            orgsize = qid_to_answerValue.qid_to_answerValue( AS= AS, root=root, target_qid= q5_id)[0]
             graph.add((organization, ema_ns.organizationSize, Literal(orgsize)))
 
-            sector = qid_to_answerValue(AS = AS, root=root, target_qid= q6_id)
+            sector = qid_to_answerValue.qid_to_answerValue(AS = AS, root=root, target_qid= q6_id)
             for i in sector:
                 graph.add((organization, ema_ns.sector, Literal(i)))
 
-            alt_sector = qid_to_answerValue(AS = AS, root=root, target_qid= q6a_id)
+            alt_sector = qid_to_answerValue.qid_to_answerValue(AS = AS, root=root, target_qid= q6a_id)
             if alt_sector != None:
                 graph.add((organization, ema_ns.sector, Literal(alt_sector)))
 
-            doo = qid_to_answerValue(AS= AS, root=root, target_qid=q7_id)
+            doo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q7_id)
             for i in doo:
                 domainOfOperation_uri = sgam_ns[str(i).replace(" ", "")]
                 graph.add((areaOfOperation, ema_ns.inDomain, domainOfOperation_uri))
 
-            zoo = qid_to_answerValue(AS= AS, root=root, target_qid=q8_id)
+            zoo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q8_id)
             for i in zoo : 
                 zoneOfOperation_uri = sgam_ns[str(i).replace(" ", "")]
                 graph.add((areaOfOperation, ema_ns.inZone , zoneOfOperation_uri))
 
-            loo = qid_to_answerValue(AS= AS, root=root, target_qid=q9_id)
+            loo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q9_id)
             for i in loo :
                 layerOfOperation_uri = sgam_ns[str(i).replace(" ", "")]
                 graph.add((areaOfOperation, ema_ns.onLayer, layerOfOperation_uri))
@@ -193,13 +165,23 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
                     uniqueAnswerID =  str(id_hash)
                     answer_uri = emar_ns[uniqueAnswerID]
                     question_uri = ema_ns[question_id]
-                    choiceanswer_uri = ema_ns[answer_id]
+                    answer_value = str(qid_to_answerValue.qid_to_answerValue(AS=AS, root=root, target_qid=question_id )[0])
+                    if answer_value != []:
+                        if answer_value == "Unsure" or answer_value == "Unsure.": # nopt sure how we ever got a period there
+                            choiceanswer_uri= ema_ns.Unsure
+                        else :
+                            print(answer_value)
+                            choiceanswer_uri = classify_characteristic.classify_characteristic(description=answer_value)
+                            print(choiceanswer_uri)
+
 
                     # add triples for each given answer to the graph
-                    graph.add((answer_uri, RDF.type, ema_ns.Answer))
-                    graph.add((answer_uri, DCTERMS.isPartOf, answerset_uri))
+                        graph.add((answer_uri, SOSA.hasResult, choiceanswer_uri))
+                        graph.add((answer_uri, ema_ns.result_text, Literal(answer_value)))
+                        graph.add((answer_uri, RDF.type, ema_ns.Answer))
+                        graph.add((answer_uri, DCTERMS.isPartOf, answerset_uri))
                     graph.add((answer_uri, SOSA.usedProcedure, question_uri))
-                    graph.add((answer_uri, SOSA.hasResult, choiceanswer_uri))
+                    
 
 
 
@@ -208,5 +190,4 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
 
 
 
-answerset_to_rdf(input_xml= './tests/Content_Export_Eminent_testdata2.xml', output_rdf= './tests/test2.ttl')
-answerset_to_rdf(input_xml= './tests/EUSurveyTestData.xml', output_rdf= './tests/test1.ttl')
+answerset_to_rdf(input_xml= './tests/Content_Export_Eminent_eminentresponses.xml', output_rdf= './tests/eminentresponses.ttl')

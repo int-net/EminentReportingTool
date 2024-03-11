@@ -6,7 +6,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 ema:003b79cb-f328-eb1b-b862-90a00c21a602 a ema:Question ;
-    ema:measures emm:1.1.o ;
+    ema:measures emm:CommunityGrowth_peopleandorganization ;
     ema:phrasing """1.1.o: Considering the <span style="text-decoration: underline;">people and organization</span> dimension of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples for organization for community growth are:<br>
 <ul>
 <li>Individuals or teams/working groups are tasked with growing the community.</li>
@@ -17,44 +17,8 @@ ema:003b79cb-f328-eb1b-b862-90a00c21a602 a ema:Question ;
     dcterms:identifier "1.1.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:0129eaa3-d01a-44ed-8bfb-2d3ab9541537 a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Tool, Product and Reference Implementation Development with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Tool, Product and Reference Implementation Development." .
-
-ema:0205c4a4-07ca-4288-baf7-94bda530cb11 a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Standardization. Most work done for Standardization is compensated." .
-
-ema:03624d77-13a1-41cf-bd40-4e3cf950a2d1 a emm:Characteristic ;
-    skos:definition "Processes for Operational Alignment are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:0364625c-6900-4918-a3b0-aa682a6025db a emm:Characteristic ;
-    skos:definition "There are no processes for Operational Alignment." .
-
-ema:0397c288-d671-4e15-b391-043ac354a837 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Knowledge Retention . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:03b1f6ec-8edf-42a4-b6e2-6db790b98171 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Market Creation and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:04343c7e-b9ec-4dc6-beb1-84c7f8df2677 a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Community Growth. Most work done for Community Growth is compensated." .
-
-ema:055c594d-461f-4714-b838-65d318d9baf1 a emm:Characteristic ;
-    skos:definition "Information to support Community Growth is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:06afd814-f911-4167-a4ac-37f43721278e a emm:Characteristic ;
-    skos:definition "Some resources are identified for Tool, Product and Reference Implementation Development, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:07d84965-3abe-4a58-b56b-5caf1e0e076d a emm:Characteristic ;
-    skos:definition "Community members have some skills for User Base Growth but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:081f3762-24cf-408b-899b-6cd6a3167e89 a emm:Characteristic ;
-    skos:definition "Processes for Integration Profile Establishment are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:095a9847-a1bf-4d47-92d1-d774363cc864 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Operational Alignment. Some participating individuals receive resources from the organizations they represent." .
-
 ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 a ema:Question ;
-    ema:measures emm:3.1.o ;
+    ema:measures emm:UserBaseGrowth_peopleandorganization ;
     ema:phrasing """3.1.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support user base growth:<br>
 <ul>
 <li>Consultants and vendors are part of the community.</li>
@@ -64,26 +28,8 @@ ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 a ema:Question ;
     dcterms:identifier "3.1.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:0ab47684-03c5-4774-878e-a5889142df4a a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Diversity of Perspectives. Progress on Diversity of Perspectives is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:0b426587-526c-466f-9232-90460a626a95 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Community Growth and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:0bfc10c7-16d3-4f7a-a87c-8f07b3ff4977 a emm:Characteristic ;
-    skos:definition "Some resources are identified for Knowledge Retention, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:0e18f4de-7e89-4302-99cf-f835752e0e5d a emm:Characteristic ;
-    skos:definition "Information to support Standardization is available in silos, hard to locate for others." .
-
-ema:0e717ac3-1781-494c-9016-16cf8772259a a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Community Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Community Growth." .
-
-ema:0eddaf10-c972-410b-8211-b48dacd82ac1 a emm:Characteristic ;
-    skos:definition "There are no processes for Community Growth." .
-
 ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a a ema:Question ;
-    ema:measures emm:1.2.p ;
+    ema:measures emm:KnowledgeRetention_process ;
     ema:phrasing """1.2.p: Considering the<span style="text-decoration: underline;"> process dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for knowledge retention include:<br>
 <ul>
 <li>Onboarding and debriefing/exit processes.</li>
@@ -93,14 +39,8 @@ ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a a ema:Question ;
     dcterms:identifier "1.2.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:10748d31-8be9-422e-a936-0da93aa74d0a a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Integration Profile Establishment with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Integration Profile Establishment." .
-
-ema:10914abf-a450-4c82-a942-3917ac1607f2 a emm:Characteristic ;
-    skos:definition "Information to support Tool, Product and Reference Implementation Development is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
 ema:11816273-4bd7-4afc-cd72-8806d0770e8b a ema:Question ;
-    ema:measures emm:3.4.r ;
+    ema:measures emm:MarketCreation_resources ;
     ema:phrasing """3.4.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support market creation include:<br>
 <ul>
 <li>Investments in marketing</li>
@@ -110,32 +50,8 @@ ema:11816273-4bd7-4afc-cd72-8806d0770e8b a ema:Question ;
     dcterms:identifier "3.4.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:122bb8dc-471f-4b99-9f20-ae53ae471a6e a emm:Characteristic ;
-    skos:definition "There are no processes for Knowledge Retention." .
-
-ema:135aa741-ad1d-4d56-9f8b-f36400658090 a emm:Characteristic ;
-    skos:definition "Data/information to support Knowledge Retention does not exist." .
-
-ema:13a39c0a-53e8-4bf4-9e17-8f4ce107b032 a emm:Characteristic ;
-    skos:definition "There are no resources available for Knowledge Retention . Individuals who do participate in Knowledge Retention do so voluntarily in their own time." .
-
-ema:1407b3e1-eb8e-435a-bd28-23264982ec27 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Standardization. Some participating individuals receive resources from the organizations they represent." .
-
-ema:16231e6b-c94f-42a6-a4a1-f7284adcddea a emm:Characteristic ;
-    skos:definition "There are no processes for Compliance Testing." .
-
-ema:17b69c9a-a858-41a7-9bb3-8554e80af263 a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Compliance Testing. Progress on Compliance Testing is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:185d4289-0921-41bb-990d-6a3db0fdf0d3 a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Knowledge Retention are investigated, benchmarked, proven, and deployed. All work done towards Knowledge Retention is compensated." .
-
-ema:187a85ff-8e6f-4f92-991b-8fe975f6a37b a emm:Characteristic ;
-    skos:definition "Information to support Knowledge Retention is available in silos, hard to locate for others." .
-
 ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 a ema:Question ;
-    ema:measures emm:1.3.p ;
+    ema:measures emm:DiversityofPerspectives_process ;
     ema:phrasing """1.3.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for diversity of perspectives include:<br>
 <ul>
 <li>Regular evaluation whether the active community properly represents the stakeholders and related activities to correct if necessary.</li>
@@ -146,20 +62,8 @@ ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 a ema:Question ;
     dcterms:identifier "1.3.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:18d9e790-8c07-42b7-b2ca-1c9e066e0c3b a emm:Characteristic ;
-    skos:definition "Community members have some skills for Diversity of Perspectives but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:1980ac9e-51ad-4a90-874c-6f780edf733d a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Compliance Testing. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:1a3a4bbe-3039-45f9-a2f9-66cf933d98ae a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Diversity of Perspectives. Some participating individuals receive resources from the organizations they represent." .
-
-ema:1c92dfda-115e-4823-8b2e-87fef9e5f8d4 a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Community Growth is collected, stored, understood, accessed, owned, and deleted." .
-
 ema:1d856148-30ae-c626-57a7-2ec96b48e5dc a ema:Question ;
-    ema:measures emm:1.3.o ;
+    ema:measures emm:DiversityofPerspectives_peopleandorganization ;
     ema:phrasing """1.3.o: Considering the<span style="text-decoration: underline;"> people and organization dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples for people and organization to support a diversity of perspectives include:<br>
 <ul>
 <li>The community has a culture where it (as a community) and its members evaluate themselves on the match of their perspective and skillset to the challenges the community aims to address.</li>
@@ -171,75 +75,15 @@ ema:1d856148-30ae-c626-57a7-2ec96b48e5dc a ema:Question ;
     dcterms:identifier "1.3.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:1e1d28fd-1ba3-42fc-8045-9df301ea9e7d a emm:Characteristic ;
-    skos:definition "Processes for Integration Profile Establishment are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
 ema:1ecc4b9e-0476-9d94-c518-5f15f896e0d4 a ema:Question ;
-    ema:measures emm:3.1.p ;
+    ema:measures emm:UserBaseGrowth_process ;
     ema:phrasing "3.1.p: Considering the <span style=\"text-decoration: underline;\">process dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for user base growth include:<br> Processes for outreach. Processes for demo-ing."^^rdf:HTML ;
     ema:question_type "Multiple Choice"@en ;
     dcterms:identifier "3.1.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:20239abe-0c6c-40fd-87f2-dfb10469713c a emm:Characteristic ;
-    skos:definition "Processes for Operational Alignment are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:22285c5f-2af8-4bbf-90ed-ca974d07f5f2 a emm:Characteristic ;
-    skos:definition "Some resources are identified for User Base Growth, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:222afcc2-c5e3-4731-9ce0-0795a6fabe85 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Integration Profile Establishment . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:2297bea5-ee41-48d5-98e3-0b802ce9f9a3 a emm:Characteristic ;
-    skos:definition "New information for Operational Alignment is continuously identified and benchmarked." .
-
-ema:22cab17f-9772-4873-aed3-81ff8d8ab576 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Knowledge Retention and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:2381a339-878d-4c73-a02c-8b21f6e5965d a emm:Characteristic ;
-    skos:definition "Data/information to support Tool, Product and Reference Implementation Development does not exist." .
-
-ema:24a35330-50c7-4669-95ab-2e98c38e55a4 a emm:Characteristic ;
-    skos:definition "Some resources are identified for Compliance Testing, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:259b6687-e1ca-4e99-8511-cd8ef80e9c78 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Market Creation. Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:262b2371-3a3a-42f1-b0bd-6b415b2b3c7b a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Compliance Testing. Most work done for Compliance Testing is compensated." .
-
-ema:26d570ec-d25f-43f4-bf72-f8512e61915b a emm:Characteristic ;
-    skos:definition "Key processes for Knowledge Retention are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:280d7f0d-d3da-4556-ae2c-ce1e3ca536c1 a emm:Characteristic ;
-    skos:definition "Diversity of Perspectives' relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Diversity of Perspectives are compensated for their effort by the organization they represent." .
-
-ema:2891a6d8-d16b-4253-bd92-96e4c2c044ad a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Diversity of Perspectives. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:28d498c4-9717-44cd-90e0-d8d05f6701da a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Integration Profile Establishment are investigated, benchmarked, proven, and deployed. All work done towards Integration Profile Establishment is compensated." .
-
-ema:2abc248b-0381-45b3-aef9-8a93d9f6df91 a emm:Characteristic ;
-    skos:definition "Community members have some skills for Diversity of Perspectives but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:2ddfbc37-8f1b-4ade-94d9-81eb827ef942 a emm:Characteristic ;
-    skos:definition "Information governance defines how information for User Base Growth is collected, stored, understood, accessed, owned, and deleted." .
-
-ema:2e818162-8254-4e48-98ad-090fdc90676d a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Compliance Testing . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:2eb1a6dd-28e4-4fc4-b829-8c38a2b4098b a emm:Characteristic ;
-    skos:definition "Key processes for Diversity of Perspectives are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:31a2d97b-644e-4b44-a8be-1866bd94888a a emm:Characteristic ;
-    skos:definition "There is no organization for Knowledge Retention." .
-
-ema:33e44ec8-edf7-4b2f-bdd3-527d5e285fe3 a emm:Characteristic ;
-    skos:definition "Information for Knowledge Retention is available and well understood across the community and externally. Information quality is measured and corrected." .
-
 ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b a ema:Question ;
-    ema:measures emm:2.3.p ;
+    ema:measures emm:ComplianceTesting_process ;
     ema:phrasing """2.3.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Compliance Testing</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for compliance testing include:<br>
 <ul>
 <li>Testing procedures.</li>
@@ -251,17 +95,8 @@ ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b a ema:Question ;
     dcterms:identifier "2.3.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:3731523e-a45d-4e16-8f36-241ff9767f3e a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Operational Alignment. Progress on Operational Alignment is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:3870c3d4-bb9f-491d-9f5d-18febe71bc19 a emm:Characteristic ;
-    skos:definition "Key processes for Operational Alignment are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:38920f1f-a9e9-468d-b3d3-410cb2c17a5d a emm:Characteristic ;
-    skos:definition "There are no processes for Tool, Product and Reference Implementation Development." .
-
 ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc a ema:Question ;
-    ema:measures emm:2.3.i ;
+    ema:measures emm:ComplianceTesting_Information ;
     ema:phrasing """2.3.i: Considering the<span style="text-decoration: underline;"> Information dimension</span> of <strong>Compliance Testing,</strong> which description best fits the situation in your interoperability community?<br><br>Examples of information to support compliance testing includes:<br>
 <ul>
 <li>Documented testing procedures.</li>
@@ -272,26 +107,8 @@ ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc a ema:Question ;
     dcterms:identifier "2.3.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:3c6c3c98-4aa1-46f9-8112-7aed3ea18c6b a emm:Characteristic ;
-    skos:definition "Processes for Market Creation are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:3c98a516-b4fc-43df-a874-52f931233661 a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Operational Alignment. Progress on Operational Alignment is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:3cb6b680-42db-44b5-a934-d46b3ea6cb34 a emm:Characteristic ;
-    skos:definition "There are no processes for Operational Alignment" .
-
-ema:3ce4765b-09c2-4d56-b138-0a516ea5e959 a emm:Characteristic ;
-    skos:definition "There is no organization for Community Growth." .
-
-ema:3db860ab-e571-43b2-a37d-1f12ea6a3593 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for User Base Growth . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:3f09add0-6590-4e23-a108-067965571efd a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Knowledge Retention. Roles and responsibilities are defined and assigned to members/working groups." .
-
 ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 a ema:Question ;
-    ema:measures emm:2.1.p ;
+    ema:measures emm:IntegrationProfileEstablishment_process ;
     ema:phrasing """2.1.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Integration Profile Establishment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for integration profile establishment include:<br>
 <ul>
 <li>Backlog and prioritization processes.</li>
@@ -304,17 +121,8 @@ ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 a ema:Question ;
     dcterms:identifier "2.1.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:416e7776-c61d-4968-b11f-6ff63545053e a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Standardization are investigated, benchmarked, proven, and deployed. All work done towards Standardization is compensated." .
-
-ema:422f8ae7-14f2-427a-ab93-fb78fb0b2b9b a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Integration Profile Establishment is collected, stored, understood, accessed, owned, and deleted." .
-
-ema:42c8e4cc-b98f-4b63-a5e6-5e4194921bc2 a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Diversity of Perspectives with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Diversity of Perspectives." .
-
 ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b a ema:Question ;
-    ema:measures emm:2.3.r ;
+    ema:measures emm:ComplianceTesting_resources ;
     ema:phrasing """2.3.r: Considering the<span style="text-decoration: underline;"> resources dimension</span> of <strong>Compliance Testing</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support compliance testing:<br>
 <ul>
 <li>Available investments for testing.</li>
@@ -324,50 +132,8 @@ ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b a ema:Question ;
     dcterms:identifier "2.3.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:439c207d-7134-4a66-9ffe-00ebe60d41c4 a emm:Characteristic ;
-    skos:definition "Information for Tool, Product and Reference Implementation Development is available and well understood across the community and externally. Information quality is measured and corrected." .
-
-ema:43ea0005-cff8-404c-bd0b-7c11c93c2ec8 a emm:Characteristic ;
-    skos:definition "Processes for Diversity of Perspectives are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:44888405-cd41-415c-8555-8727c96404e3 a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Knowledge Retention with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Knowledge Retention." .
-
-ema:454f94eb-a97f-466c-b215-7d032dc40ada a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Diversity of Perspectives. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:456a56db-5147-4dc9-8e4b-a81de9179461 a emm:Characteristic ;
-    skos:definition "Data/information to support Operational Alignment does not exist." .
-
-ema:467f2387-91f0-4733-9743-58011fd9c920 a emm:Characteristic ;
-    skos:definition "There are no processes for Standardization." .
-
-ema:4759b273-b98e-4155-a760-477fc6f8f829 a emm:Characteristic ;
-    skos:definition "There is no organization for Operational Alignment." .
-
-ema:47e06eec-f852-438f-ac5a-8c4cd3ff1433 a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Integration Profile Establishment. Most work done for Integration Profile Establishment is compensated." .
-
-ema:4833ac98-6afb-46d7-8923-85512b23ac48 a emm:Characteristic ;
-    skos:definition "Some resources are identified for Community Growth, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:4856f497-f9cd-4e96-8c2d-566259ee4ef4 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Diversity of Perspectives . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:48d6d902-51e1-4fe7-b19c-3ffc05d05e45 a emm:Characteristic ;
-    skos:definition "Data/information to support Market Creation does not exist." .
-
-ema:49d6dcc9-7241-41b4-af34-ab8bfc8ae5a8 a emm:Characteristic ;
-    skos:definition "Community members have some skills for Operational Alignment but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:4b9a7d4d-9927-47e8-b70d-1ca080992ad5 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Diversity of Perspectives and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:4e57b26b-33ec-4a58-ab5a-136cefdf8189 a emm:Characteristic ;
-    skos:definition "Processes for Operational Alignment are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
 ema:5005a479-40ce-dbb8-c906-b2ea4c96624c a ema:Question ;
-    ema:measures emm:1.3.r ;
+    ema:measures emm:DiversityofPerspectives_resources ;
     ema:phrasing """1.3.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for diversity of perspectives include:<br>
 <ul>
 <li>Budget to bring in underrepresented perspectives.</li>
@@ -378,11 +144,8 @@ ema:5005a479-40ce-dbb8-c906-b2ea4c96624c a ema:Question ;
     dcterms:identifier "1.3.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:51994727-d1f8-4d02-a40b-27fbacfe1b84 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Integration Profile Establishment and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
 ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 a ema:Question ;
-    ema:measures emm:3.3.p ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_process ;
     ema:phrasing """3.3.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Tool, Product and Reference Implementation Development</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes that support Tool, Product and Reference implementation development include:<br>
 <ul>
 <li>Software/product development processes</li>
@@ -392,14 +155,8 @@ ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 a ema:Question ;
     dcterms:identifier "3.3.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:55ef61d1-bafd-499e-8c94-6fa01d9045df a emm:Characteristic ;
-    skos:definition "Community members have some skills for Community Growth but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:5732f699-afdc-4e9a-b314-5a78a32c5572 a emm:Characteristic ;
-    skos:definition "New information for Tool, Product and Reference Implementation Development is continuously identified and benchmarked." .
-
 ema:575511d2-f0cf-6885-1218-d7064dc25b31 a ema:Question ;
-    ema:measures emm:2.2.r ;
+    ema:measures emm:Standardization_resources ;
     ema:phrasing """2.2.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for standardization include:<br>
 <ul>
 <li>Budget to create standards.</li>
@@ -412,23 +169,8 @@ ema:575511d2-f0cf-6885-1218-d7064dc25b31 a ema:Question ;
     dcterms:identifier "2.2.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:57b974e0-863b-4769-847c-313ff0ae07a8 a emm:Characteristic ;
-    skos:definition "Processes for Community Growth are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:5989ca64-3ae6-4999-bea7-3a45ddc6b697 a emm:Characteristic ;
-    skos:definition "Some resources are identified for Market Creation, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:5bfafd4b-07c8-47b1-9fcc-45e0dbd34d5d a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Diversity of Perspectives are investigated, benchmarked, proven, and deployed. All work done towards Diversity of Perspectives is compensated." .
-
-ema:5cec2330-1004-415b-a364-e4a677d9bf9f a emm:Characteristic ;
-    skos:definition "Information for Community Growth is available and well understood across the community and externally. Information quality is measured and corrected." .
-
-ema:5d449d90-ab87-4054-ba03-fa7a78e5f608 a emm:Characteristic ;
-    skos:definition "Key processes for Knowledge Retention are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
 ema:5d8279ed-c94d-5118-20c0-9ca39717d60a a ema:Question ;
-    ema:measures emm:3.2.r ;
+    ema:measures emm:OperationalAlignment_resources ;
     ema:phrasing """3.2.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Operational Alignment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources to support operational alignment include: <br>
 <ul>
 <li>Resources/funding to create agreements among parties.</li>
@@ -438,26 +180,8 @@ ema:5d8279ed-c94d-5118-20c0-9ca39717d60a a ema:Question ;
     dcterms:identifier "3.2.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:5dbf7439-c2dc-484e-8248-f68bf18e8191 a emm:Characteristic ;
-    skos:definition "Operational Alignment's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Operational Alignment are compensated for their effort by the organization they represent." .
-
-ema:5e26ac50-f68e-4383-b219-00bc724cee2f a emm:Characteristic ;
-    skos:definition "Knowledge Retention's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Knowledge Retention are compensated for their effort by the organization they represent." .
-
-ema:5e777209-aa00-47e2-aea8-cff9f1a8d0e6 a emm:Characteristic ;
-    skos:definition "Processes for Market Creation are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:5edebccf-4df1-4c6f-b8e4-3ffe955b637d a emm:Characteristic ;
-    skos:definition "Community members have some skills for Standardization but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:6064d217-09b5-4ab8-adfa-a062e8ab5b99 a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Community Growth are investigated, benchmarked, proven, and deployed. All work done towards Community Growth is compensated." .
-
-ema:60f8e5fa-9f1d-4e39-99e1-3ec28877e4da a emm:Characteristic ;
-    skos:definition "Information to support Market Creation is available in silos, hard to locate for others." .
-
 ema:619d9713-706e-c382-3ba7-6fa142ec136c a ema:Question ;
-    ema:measures emm:1.1.p ;
+    ema:measures emm:CommunityGrowth_process ;
     ema:phrasing """1.1.p: Considering the <span style="text-decoration: underline;">processes</span> dimension of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for community growth can be: <br>
 <ul>
 <li>Processes for outreach to potential new participants</li>
@@ -468,17 +192,8 @@ ema:619d9713-706e-c382-3ba7-6fa142ec136c a ema:Question ;
     dcterms:identifier "1.1.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:61b993ef-06d9-4621-aeed-f495c265b74c a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Compliance Testing with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Compliance Testing." .
-
-ema:620751cc-afdc-4e7b-9942-174d5edb85e1 a emm:Characteristic ;
-    skos:definition "Community members have some skills for Market Creation but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:62d46fe5-576f-47b1-9eb5-02c77b4ba8ec a emm:Characteristic ;
-    skos:definition "New information for Integration Profile Establishment is continuously identified and benchmarked." .
-
 ema:643530c7-c984-cac1-4791-f8b4bc897df3 a ema:Question ;
-    ema:measures emm:3.4.o ;
+    ema:measures emm:MarketCreation_peopleandorganization ;
     ema:phrasing """3.4.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization that supports market creation include:<br>
 <ul>
 <li>Some members of the community have or provide marketing expertise.</li>
@@ -490,53 +205,8 @@ ema:643530c7-c984-cac1-4791-f8b4bc897df3 a ema:Question ;
     dcterms:identifier "3.4.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:64705724-59d6-4e25-8531-2cff5dcb01a6 a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Tool, Product and Reference Implementation Development is collected, stored, understood, accessed, owned, and deleted." .
-
-ema:6480f210-fb96-40a4-b8b7-f511f18a6b9d a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Operational Alignment and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:6510a28f-fee6-444c-90d7-916ea3897517 a emm:Characteristic ;
-    skos:definition "There are no processes for Market Creation." .
-
-ema:667f3236-46f5-42fa-8cd7-f9b26acbdb06 a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Operational Alignment. Most work done for Operational Alignment is compensated." .
-
-ema:669057bd-9809-40af-8538-3ea385571c57 a emm:Characteristic ;
-    skos:definition "There are no resources available for Diversity of Perspectives . Individuals who do participate in Diversity of Perspectives do so voluntarily in their own time." .
-
-ema:67b5de7e-d67d-4b6e-aeef-00885cc94775 a emm:Characteristic ;
-    skos:definition "New information for User Base Growth is continuously identified and benchmarked." .
-
-ema:67ca1789-74af-41ff-aa90-17d443d57a3d a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Market Creation. Most work done for Market Creation is compensated." .
-
-ema:68a39417-23a4-4f25-8ee0-b4976cb99ad2 a emm:Characteristic ;
-    skos:definition "Information for Operational Alignment is available and well understood across the community and externally. Information quality is measured and corrected." .
-
-ema:68d58fca-5549-48da-be46-4eed7b98d33e a emm:Characteristic ;
-    skos:definition "Information for Standardization is available and well understood across the community and externally. Information quality is measured and corrected." .
-
-ema:68d71531-2a35-470f-a00b-47e13f15c789 a emm:Characteristic ;
-    skos:definition "Processes for Diversity of Perspectives are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:69f5eb9b-07ea-4413-bf73-54359b4fd5ed a emm:Characteristic ;
-    skos:definition "Some resources are identified for Diversity of Perspectives, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:6a186392-84c5-4784-890d-4ad8b34cf115 a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Diversity of Perspectives with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Diversity of Perspectives." .
-
-ema:6b25c3c5-a127-4078-854c-5b9b3c7627da a emm:Characteristic ;
-    skos:definition "There are no resources available for Community Growth . Individuals who do participate in Community Growth do so voluntarily in their own time." .
-
-ema:6b3331f1-543f-4c06-80b7-d6fa019edc38 a emm:Characteristic ;
-    skos:definition "Key processes for Compliance Testing are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:6b5cffed-6331-4996-a626-e61954954db5 a emm:Characteristic ;
-    skos:definition "New information for Knowledge Retention is continuously identified and benchmarked." .
-
 ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 a ema:Question ;
-    ema:measures emm:3.3.i ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_Information ;
     ema:phrasing """3.3.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Tool, Product and Reference Implementation Developmen</strong>t, which description best fits the situation in your interoperability community?<br><br>Information to support Tool, Product and Reference Implementation Development include (note, that some of this may be proprietary/only available within community member organizations):<br>
 <ul>
 <li>Standard documents</li>
@@ -547,29 +217,8 @@ ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 a ema:Question ;
     dcterms:identifier "3.3.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:6bed435a-bc77-477a-9d65-007e274742b1 a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Compliance Testing are investigated, benchmarked, proven, and deployed. All work done towards Compliance Testing is compensated." .
-
-ema:6c06f279-4932-4bc0-ab42-8240ae3d0307 a emm:Characteristic ;
-    skos:definition "Key processes for Operational Alignment are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:6c307916-6d18-4501-bedd-9c6092127238 a emm:Characteristic ;
-    skos:definition "Community members have some skills for Integration Profile Establishment but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
-ema:6c49d04f-a9e5-478b-8109-d368c3f462b3 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Compliance Testing. Some participating individuals receive resources from the organizations they represent." .
-
-ema:6de23bb0-1bc4-4104-b1d7-9728a08f2970 a emm:Characteristic ;
-    skos:definition "Information to support Integration Profile Establishment is available in silos, hard to locate for others." .
-
-ema:6f29eaaa-e2f4-4323-a5a1-13a31557f5c4 a emm:Characteristic ;
-    skos:definition "Processes for Operational Alignment are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:702d04b0-aed5-433f-bf81-4d2a99bc6a10 a emm:Characteristic ;
-    skos:definition "There are no resources available for Integration Profile Establishment . Individuals who do participate in Integration Profile Establishment do so voluntarily in their own time." .
-
 ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 a ema:Question ;
-    ema:measures emm:1.2.i ;
+    ema:measures emm:KnowledgeRetention_Information ;
     ema:phrasing """1.2.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information for knowledge retention include:<br>
 <ul>
 <li>Documents related to the subject of the community are organized in a catalog/library for easy access and findability.</li>
@@ -581,11 +230,8 @@ ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 a ema:Question ;
     dcterms:identifier "1.2.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:71920e57-d179-4890-9c66-fb8ace1660f9 a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Community Growth. Roles and responsibilities are defined and assigned to members/working groups." .
-
 ema:71f6067e-3c57-8729-89dc-7e9324671021 a ema:Question ;
-    ema:measures emm:3.4.p ;
+    ema:measures emm:MarketCreation_process ;
     ema:phrasing """3.4.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes to support market creation involve:<br>
 <ul>
 <li>Lobbying efforts to secure subsidies</li>
@@ -596,35 +242,8 @@ ema:71f6067e-3c57-8729-89dc-7e9324671021 a ema:Question ;
     dcterms:identifier "3.4.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:732b2326-159e-4cca-a0d4-e7500cdf757a a emm:Characteristic ;
-    skos:definition "There are no resources available for Tool, Product and Reference Implementation Development . Individuals who do participate in Tool, Product and Reference Implementation Development do so voluntarily in their own time." .
-
-ema:73ccdfa0-d4e9-4226-afef-b0905bb06a49 a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Operational Alignment with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Operational Alignment." .
-
-ema:74e446c6-4993-4191-81dd-eb4eea538bf6 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Tool, Product and Reference Implementation Development . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:75496e51-567d-46a4-96df-fa81faea8c73 a emm:Characteristic ;
-    skos:definition "Information to support User Base Growth is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:767ea86b-7335-4002-ad4b-b246b3cec56f a emm:Characteristic ;
-    skos:definition "Processes for Tool, Product and Reference Implementation Development are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:7735aa0c-0808-4064-81ad-40a0690da64c a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Market Creation. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:78feb164-0ef0-4f21-b33a-337f5cb47dd1 a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Tool, Product and Reference Implementation Development are investigated, benchmarked, proven, and deployed. All work done towards Tool, Product and Reference Implementation Development is compensated." .
-
-ema:7b8ffb1f-84ef-456f-8523-1b7ca31ddd4d a emm:Characteristic ;
-    skos:definition "Key processes for Market Creation are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:7cd85443-4c6e-4c80-95f2-87ccd17225d7 a emm:Characteristic ;
-    skos:definition "Community members have some skills for Compliance Testing but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
 ema:7d52c284-2657-0b82-492b-e661688f42e1 a ema:Question ;
-    ema:measures emm:3.2.p ;
+    ema:measures emm:OperationalAlignment_process ;
     ema:phrasing """3.2.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Operational Alignment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes that support operational alignment include:<br>
 <ul>
 <li>Processes to establish agreements.</li>
@@ -636,17 +255,8 @@ ema:7d52c284-2657-0b82-492b-e661688f42e1 a ema:Question ;
     dcterms:identifier "3.2.p" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:7db4a8b0-cda6-4cd8-9867-bd46a25c782f a emm:Characteristic ;
-    skos:definition "Information for User Base Growth is available and well understood across the community and externally. Information quality is measured and corrected." .
-
-ema:7dba716b-9dff-4987-9bff-5ed189ccaadf a emm:Characteristic ;
-    skos:definition "Data/information to support Standardization does not exist." .
-
-ema:7ec48eda-7f91-4199-85ff-e8429d81abf0 a emm:Characteristic ;
-    skos:definition "Information for Compliance Testing is available and well understood across the community and externally. Information quality is measured and corrected." .
-
 ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 a ema:Question ;
-    ema:measures emm:2.3.o ;
+    ema:measures emm:ComplianceTesting_peopleandorganization ;
     ema:phrasing """2.3.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Compliance Testing</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support compliance testing include:<br>
 <ul>
 <li>Testing facilities (businesses/organizations) are part of the community.</li>
@@ -658,7 +268,7 @@ ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 a ema:Question ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
 ema:7f5068ec-bce4-025f-1529-c6bb4c689782 a ema:Question ;
-    ema:measures emm:2.2.i ;
+    ema:measures emm:Standardization_Information ;
     ema:phrasing """2.2.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information that supports standardization include:<br>
 <ul>
 <li>Backlog.</li>
@@ -672,17 +282,8 @@ ema:7f5068ec-bce4-025f-1529-c6bb4c689782 a ema:Question ;
     dcterms:identifier "2.2.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:8137c572-33a6-4e42-8077-5c0d28cafaad a emm:Characteristic ;
-    skos:definition "Market Creation's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Market Creation are compensated for their effort by the organization they represent." .
-
-ema:831e6e76-e7bc-4d4a-b967-12fd2a07b720 a emm:Characteristic ;
-    skos:definition "Processes for Knowledge Retention are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:835380f4-7128-4bd6-b02e-1ff726e9d358 a emm:Characteristic ;
-    skos:definition "Some resources are identified for Operational Alignment, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
 ema:850e904a-76a1-e872-281a-3d8442b1ed8d a ema:Question ;
-    ema:measures emm:3.4.i ;
+    ema:measures emm:MarketCreation_Information ;
     ema:phrasing """3.4.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Market Creation</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information that supports market creation includes:<br>
 <ul>
 <li>Documented/shared business cases (examples).</li>
@@ -694,80 +295,8 @@ ema:850e904a-76a1-e872-281a-3d8442b1ed8d a ema:Question ;
     dcterms:identifier "3.4.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:868afa68-29d6-47c0-9a82-b7432a5096d8 a emm:Characteristic ;
-    skos:definition "Processes for Community Growth are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:872ab9b5-5c30-4da7-9967-3e0d266989b1 a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Diversity of Perspectives. Most work done for Diversity of Perspectives is compensated." .
-
-ema:87ca4fd3-7a2e-44ba-971b-0967edece0e6 a emm:Characteristic ;
-    skos:definition "Data/information to support Integration Profile Establishment does not exist." .
-
-ema:87d48f4e-7673-4492-be96-fa55a939fc29 a emm:Characteristic ;
-    skos:definition "Information to support Market Creation is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:88c58377-4305-48ad-a596-dc9146dd878d a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Tool, Product and Reference Implementation Development. Most work done for Tool, Product and Reference Implementation Development is compensated." .
-
-ema:89363ba7-12d0-413d-960e-e72d2fd88f7d a emm:Characteristic ;
-    skos:definition "New information for Market Creation is continuously identified and benchmarked." .
-
-ema:8b73e12b-0c9f-4425-8723-5b852bcb5972 a emm:Characteristic ;
-    skos:definition "Compliance Testing's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Compliance Testing are compensated for their effort by the organization they represent." .
-
-ema:8f86439d-61a2-45fc-a1c0-15754f8fc3a9 a emm:Characteristic ;
-    skos:definition "New information for Community Growth is continuously identified and benchmarked." .
-
-ema:91962614-40b3-4e8a-a77c-71610140295d a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Operational Alignment. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:93c40e34-16b7-4d71-af1d-8a704ec0562d a emm:Characteristic ;
-    skos:definition "Information to support Knowledge Retention is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:93e841f7-ef89-469e-a804-5722a6d4da6a a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Integration Profile Establishment. Progress on Integration Profile Establishment is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:94a32940-5889-44c5-8416-7701b9259bd9 a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Tool, Product and Reference Implementation Development. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:94b642d7-96f4-4e5d-93eb-5385e185427f a emm:Characteristic ;
-    skos:definition "There are no resources available for Operational Alignment . Individuals who do participate in Operational Alignment do so voluntarily in their own time." .
-
-ema:9607bb89-3c8d-4cbb-ab80-db1e68abbc35 a emm:Characteristic ;
-    skos:definition "Information to support User Base Growth is available in silos, hard to locate for others." .
-
-ema:971ba52f-d9cb-4870-880d-801484e88764 a emm:Characteristic ;
-    skos:definition "Integration Profile Establishment's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Integration Profile Establishment are compensated for their effort by the organization they represent." .
-
-ema:97c11670-3e81-44d4-9c95-5287cdc5b3ef a emm:Characteristic ;
-    skos:definition "Information to support Compliance Testing is available in silos, hard to locate for others." .
-
-ema:99769ee0-a3af-4431-8931-27deb2c761ef a emm:Characteristic ;
-    skos:definition "Information to support Compliance Testing is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:99958014-0eac-4eb8-8132-170a153c6211 a emm:Characteristic ;
-    skos:definition "There are no processes for Diversity of Perspectives." .
-
-ema:9a2fab1b-b9ef-4bdb-912c-448c1f2eb281 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Diversity of Perspectives . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:9ae9567c-8af3-492b-a125-66a58912d56b a emm:Characteristic ;
-    skos:definition "Processes for Knowledge Retention are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:9ba55fb2-d0bd-4893-842c-7967a8d0d924 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Tool, Product and Reference Implementation Development. Some participating individuals receive resources from the organizations they represent." .
-
-ema:9c393458-c373-4714-8790-97e5b9d0102a a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Operational Alignment . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:9d0fd37d-0a99-48f7-a541-58d2d257d478 a emm:Characteristic ;
-    skos:definition "Processes for Compliance Testing are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:9ee6f971-164c-45b6-bfe7-3169a1b2ea2f a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Compliance Testing and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
 ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b a ema:Question ;
-    ema:measures emm:1.1.r ;
+    ema:measures emm:CommunityGrowth_resources ;
     ema:phrasing """1.1.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources to support community growth include:<br>
 <ul>
 <li>Budget for community growth activities, such as out reach, conference participation etcetera</li>
@@ -778,17 +307,11 @@ ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b a ema:Question ;
     dcterms:identifier "1.1.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:a03a1140-adfe-402d-b23b-286392f1c1a6 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Integration Profile Establishment. Some participating individuals receive resources from the organizations they represent." .
-
-ema:a25a5857-d455-47e7-b0d8-962fe4352584 a emm:Characteristic ;
-    skos:definition "Key processes for Operational Alignment are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:a324ab03-2387-4ec8-8f2f-68df10fc2534 a emm:Characteristic ;
-    skos:definition "User Base Growth's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for User Base Growth are compensated for their effort by the organization they represent." .
+ema:Unsure emm:maturityScore "Unsure" ;
+    skos:definition "Default response that should be given when the respondent does not know the answer to a question" .
 
 ema:a53fdbd5-e05a-c784-4244-f82f705b5444 a ema:Question ;
-    ema:measures emm:3.3.o ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_peopleandorganization ;
     ema:phrasing """3.3.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Tool, Product and Reference Implementation Development</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization that support tool. product and reference implementation development include :<br>
 <ul>
 <li>Members of the community that specialize in tool development (vendors, consultants)</li>
@@ -800,20 +323,8 @@ ema:a53fdbd5-e05a-c784-4244-f82f705b5444 a ema:Question ;
     dcterms:identifier "3.3.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:a5512e3a-17e4-43d8-a2f4-1c722a047371 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for User Base Growth. Some participating individuals receive resources from the organizations they represent." .
-
-ema:a5c94f9b-4a6d-4f5a-8ad8-283e425b199d a emm:Characteristic ;
-    skos:definition "Key processes for Tool, Product and Reference Implementation Development are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:a79a3f11-6d9f-440e-a592-23349a5cb302 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of User Base Growth and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:a9d8391f-5c81-409d-82ef-78cd53ae49e3 a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Tool, Product and Reference Implementation Development. Progress on Tool, Product and Reference Implementation Development is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
 ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 a ema:Question ;
-    ema:measures emm:3.2.i ;
+    ema:measures emm:OperationalAlignment_Information ;
     ema:phrasing """3.2.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Operational Alignment,</strong> which description best fits the situation in your interoperability community?<br><br>Examples of information that supports operational alignment includes: <br>
 <ul>
 <li>Documentation of agreements (policies).</li>
@@ -825,29 +336,8 @@ ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 a ema:Question ;
     dcterms:identifier "3.2.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:ae755a72-010a-4532-ae80-50c978ac43de a emm:Characteristic ;
-    skos:definition "Key processes for Compliance Testing are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:aebc3bb3-e838-438d-86de-74adb3e24c6f a emm:Characteristic ;
-    skos:definition "There is no organization for User Base Growth." .
-
-ema:af66a4f0-ced4-4fe9-a307-65635fd8bb05 a emm:Characteristic ;
-    skos:definition "There are no resources available for Market Creation . Individuals who do participate in Market Creation do so voluntarily in their own time." .
-
-ema:b099e6aa-5cad-4a9a-894b-5fae85ced813 a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help User Base Growth. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:b136486d-6af9-447d-8f0c-8ff7553fa91f a emm:Characteristic ;
-    skos:definition "Key processes for Integration Profile Establishment are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
-ema:b1949ecc-0394-4108-a9cc-66eaea626d49 a emm:Characteristic ;
-    skos:definition "Key processes for Integration Profile Establishment are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:b2170f29-d789-4366-b9e3-3ff9888401cb a emm:Characteristic ;
-    skos:definition "Community members have some skills for Knowledge Retention but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
 ema:b2f65531-8d1c-947e-4499-bf6882f51066 a ema:Question ;
-    ema:measures emm:3.3.r ;
+    ema:measures emm:ToolProductandReferenceImplementationDevelopment_resources ;
     ema:phrasing """3.3.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Tool, Product and Reference Implementation Development</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support Tool, Product and Reference Implementation Development include:<br>
 <ul>
 <li>Investments made by customers into new product development.</li>
@@ -859,11 +349,8 @@ ema:b2f65531-8d1c-947e-4499-bf6882f51066 a ema:Question ;
     dcterms:identifier "3.3.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:b3c52cb8-6bcf-4bc5-abf2-c89e9f06cbda a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Knowledge Retention is collected, stored, understood, accessed, owned, and deleted." .
-
 ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d a ema:Question ;
-    ema:measures emm:2.2.p ;
+    ema:measures emm:Standardization_process ;
     ema:phrasing """2.2.p: Considering the <span style="text-decoration: underline;">process dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of processes for standardization include:<br>
 <ul>
 <li>Backlog and prioritization processes.</li>
@@ -877,7 +364,7 @@ ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d a ema:Question ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
 ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 a ema:Question ;
-    ema:measures emm:2.1.i ;
+    ema:measures emm:IntegrationProfileEstablishment_Information ;
     ema:phrasing """2.1.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of<strong> Integration Profile Establishment,</strong> which description best fits the situation in your interoperability community?<br><br>Examples of information that supports integration profile establishment include:<br>
 <ul>
 <li>Backlog.</li>
@@ -891,23 +378,8 @@ ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 a ema:Question ;
     dcterms:identifier "2.1.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:b59afe28-83bf-4fd0-9e0a-eaa9de7bf20b a emm:Characteristic ;
-    skos:definition "Data/information to support Compliance Testing does not exist." .
-
-ema:b5e50703-c75a-4679-aef9-dc7d999fff41 a emm:Characteristic ;
-    skos:definition "There is no organization for Diversity of Perspectives." .
-
-ema:b73e295c-9511-4ec3-99d6-2d422f1509d1 a emm:Characteristic ;
-    skos:definition "Data/information to support User Base Growth does not exist." .
-
-ema:b7962a85-524c-48f3-a4ce-ce187b6cce5e a emm:Characteristic ;
-    skos:definition "There is no organization for Standardization." .
-
-ema:b8dbfd46-3b06-418f-b4e0-5882d79a30b3 a emm:Characteristic ;
-    skos:definition "Community members have some skills for Tool, Product and Reference Implementation Development but may be lacking experience or training. Inconsistent roles and responsibilities." .
-
 ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 a ema:Question ;
-    ema:measures emm:1.2.r ;
+    ema:measures emm:KnowledgeRetention_resources ;
     ema:phrasing """1.2.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for knowledge retention include:<br>
 <ul>
 <li>Available budget for knowledge transfer.</li>
@@ -917,20 +389,8 @@ ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 a ema:Question ;
     dcterms:identifier "1.2.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:ba6c2501-da08-411c-a34d-6f1caff93f22 a emm:Characteristic ;
-    skos:definition "Processes for Standardization are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:bbc1019f-475f-4d5b-ae37-eeb5d824cb42 a emm:Characteristic ;
-    skos:definition "There are no processes for Integration Profile Establishment." .
-
-ema:bf2a1e9b-1355-4af2-a739-445b5bb2f7b9 a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Market Creation. Progress on Market Creation is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:c04436dc-67dd-487a-b6a8-10f9058b03a3 a emm:Characteristic ;
-    skos:definition "Key processes for Standardization are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
 ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 a ema:Question ;
-    ema:measures emm:2.1.o ;
+    ema:measures emm:IntegrationProfileEstablishment_peopleandorganization ;
     ema:phrasing """2.1.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Integration Profile Establishment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of People and organization to support profile establishment include:<br>
 <ul>
 <li>Domain experts.</li>
@@ -941,23 +401,8 @@ ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 a ema:Question ;
     dcterms:identifier "2.1.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:c3a47e16-6a88-4379-afd1-c52a24d2d566 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Standardization and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:c42cbd2c-b72e-4ad7-9826-2185dc053c96 a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Standardization. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:c5a17d59-32b0-410d-9a13-360fb53da8bc a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Tool, Product and Reference Implementation Development and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:c7c0fa88-1f91-4ff2-a4c8-f588128c5f09 a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Operational Alignment is collected, stored, understood, accessed, owned, and deleted." .
-
-ema:c817a975-e4a2-48f5-bc0f-4e89193dd54e a emm:Characteristic ;
-    skos:definition "Some resources are identified for Integration Profile Establishment, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
 ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 a ema:Question ;
-    ema:measures emm:2.1.r ;
+    ema:measures emm:IntegrationProfileEstablishment_resources ;
     ema:phrasing """2.1.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>Integration Profile Establishment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources for integration profile establishment include:<br>
 <ul>
 <li>Budget to create profiles.</li>
@@ -969,20 +414,8 @@ ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 a ema:Question ;
     dcterms:identifier "2.1.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:c99fc570-bea9-4712-84b8-333f68cd9841 a emm:Characteristic ;
-    skos:definition "New information for Compliance Testing is continuously identified and benchmarked." .
-
-ema:cab232f4-2cac-485a-9813-21e5ad642d10 a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for User Base Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for User Base Growth." .
-
-ema:cb0eb73f-db4b-43c7-ab4d-496b5ea9d0ef a emm:Characteristic ;
-    skos:definition "Community Growth's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Community Growth are compensated for their effort by the organization they represent." .
-
-ema:cba874da-8926-4cee-aebc-55238570980c a emm:Characteristic ;
-    skos:definition "Key processes for Tool, Product and Reference Implementation Development are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
 ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 a ema:Question ;
-    ema:measures emm:1.3.i ;
+    ema:measures emm:DiversityofPerspectives_Information ;
     ema:phrasing """1.3.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Diversity of Perspectives</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information that supports a diversity of perspectives include:<br>
 <ul>
 <li>Overview of the desired composition of the community (in terms of perspective, skillset etc.).</li>
@@ -992,38 +425,8 @@ ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 a ema:Question ;
     dcterms:identifier "1.3.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:cce3f117-a189-41d7-ad31-46e3f0018067 a emm:Characteristic ;
-    skos:definition "Key processes for Community Growth are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:cf88b449-a9fe-4822-ad79-40dd8372ec76 a emm:Characteristic ;
-    skos:definition "Information for Market Creation is available and well understood across the community and externally. Information quality is measured and corrected." .
-
-ema:cff03227-dd57-4beb-a840-6e4f26f9f906 a emm:Characteristic ;
-    skos:definition "Key processes for Diversity of Perspectives are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:d137f228-e513-4928-9ca5-4dc49f9b45a3 a emm:Characteristic ;
-    skos:definition "Community members have good skills, experience and available training is in place to help Integration Profile Establishment. Roles and responsibilities are defined and assigned to members/working groups." .
-
-ema:d1fa2bb8-77da-4253-8950-fc8e946d4ad0 a emm:Characteristic ;
-    skos:definition "Information to support Operational Alignment is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:d38e5564-e402-41a5-bd51-f1e700d3b7fd a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Standardization. Progress on Standardization is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:d4d1362d-d350-4286-813f-19217b109b78 a emm:Characteristic ;
-    skos:definition "There is no organization for Market Creation." .
-
-ema:d66ec0ea-7b98-48ff-90e9-e2cb206ed04e a emm:Characteristic ;
-    skos:definition "There is no organization for Compliance Testing." .
-
-ema:d7fe047e-ce3e-4f1d-9325-3dbf2ac5e539 a emm:Characteristic ;
-    skos:definition "Processes for Compliance Testing are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
-ema:d86d8c86-178c-4159-9533-9ac7e27260fb a emm:Characteristic ;
-    skos:definition "Processes for Tool, Product and Reference Implementation Development are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." .
-
 ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a a ema:Question ;
-    ema:measures emm:3.2.o ;
+    ema:measures emm:OperationalAlignment_peopleandorganization ;
     ema:phrasing """3.2.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Operational Alignment</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support organizational alignment include:<br>
 <ul>
 <li>Policy and compliance experts.</li>
@@ -1033,14 +436,8 @@ ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a a ema:Question ;
     dcterms:identifier "3.2.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:d8b41df6-be15-463b-8383-416d2e1b84dd a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Standardization with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Standardization." .
-
-ema:d8c6bbcb-1ed1-4611-bee0-1c6ae0c0196a a emm:Characteristic ;
-    skos:definition "Key processes for Community Growth are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." .
-
 ema:db98bace-e849-2709-6d08-39c36791a0e6 a ema:Question ;
-    ema:measures emm:2.2.o ;
+    ema:measures emm:Standardization_peopleandorganization ;
     ema:phrasing """2.2.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Standardization</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization to support standardization include:<br>
 <ul>
 <li>Domain experts.</li>
@@ -1051,14 +448,8 @@ ema:db98bace-e849-2709-6d08-39c36791a0e6 a ema:Question ;
     dcterms:identifier "2.2.o" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:dbe21db8-d895-4d06-86d9-93ea7b79ae32 a emm:Characteristic ;
-    skos:definition "There are no resources available for Standardization . Individuals who do participate in Standardization do so voluntarily in their own time." .
-
-ema:dc8d8c7c-09fd-4435-8a44-83dd40e11e2d a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Community Growth. Some participating individuals receive resources from the organizations they represent." .
-
 ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 a ema:Question ;
-    ema:measures emm:3.1.i ;
+    ema:measures emm:UserBaseGrowth_Information ;
     ema:phrasing """3.1.i: Considering the<span style="text-decoration: underline;"> Information dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information to support user base growth:<br>
 <ul>
 <li>Documented successful implementations or other success stories.</li>
@@ -1069,17 +460,8 @@ ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 a ema:Question ;
     dcterms:identifier "3.1.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:e15ae9b6-f44c-4bc1-b858-b86a996255d3 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Standardization . Members proactively identify people and organizational improvements and have succession plans in place." .
-
-ema:e1c594c8-35fc-475b-bb8d-332bc89e82cd a emm:Characteristic ;
-    skos:definition "There is no organization for Integration Profile Establishment." .
-
-ema:e25871a3-3288-412f-9b97-736de05b6cdc a emm:Characteristic ;
-    skos:definition "Data/information to support Community Growth does not exist." .
-
 ema:e331722f-5bd4-4b43-2415-08fe691fdcaa a ema:Question ;
-    ema:measures emm:1.2.o ;
+    ema:measures emm:KnowledgeRetention_peopleandorganization ;
     ema:phrasing """1.2.o: Considering the <span style="text-decoration: underline;">people and organization dimension</span> of <strong>Knowledge Retention</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of people and organization for knowledge retention include:<br>
 <ul>
 <li>Individuals or teams/working groups are tasked with the efforts related to knowledge retention like training/education of the community.</li>
@@ -1090,7 +472,7 @@ ema:e331722f-5bd4-4b43-2415-08fe691fdcaa a ema:Question ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
 ema:e33dceb9-9f08-4178-43d4-05f48083c73c a ema:Question ;
-    ema:measures emm:3.1.r ;
+    ema:measures emm:UserBaseGrowth_resources ;
     ema:phrasing """3.1.r: Considering the <span style="text-decoration: underline;">resources dimension</span> of <strong>User Base Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of resources that support user base growth include:<br>
 <ul>
 <li>Marketing materials/branding.</li>
@@ -1101,14 +483,8 @@ ema:e33dceb9-9f08-4178-43d4-05f48083c73c a ema:Question ;
     dcterms:identifier "3.1.r" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
 
-ema:e3af986a-1ef2-4fdd-804c-f91e4e6f6f86 a emm:Characteristic ;
-    skos:definition "Key processes for Market Creation are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:e41a64e2-5ae4-4995-823d-48cb2abfa7d5 a emm:Characteristic ;
-    skos:definition "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Community Growth . Members proactively identify people and organizational improvements and have succession plans in place." .
-
 ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa a ema:Question ;
-    ema:measures emm:1.1.i ;
+    ema:measures emm:CommunityGrowth_Information ;
     ema:phrasing """1.1.i: Considering the <span style="text-decoration: underline;">Information dimension</span> of <strong>Community Growth</strong>, which description best fits the situation in your interoperability community?<br><br>Examples of information to support community growth are:<br>
 <ul>
 <li>Mailing lists for potential new members</li>
@@ -1120,96 +496,6 @@ ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa a ema:Question ;
     ema:question_type "Multiple Choice"@en ;
     dcterms:identifier "1.1.i" ;
     dcterms:isPartOf ema:89146514-1776-4ad0-b72b-3d5a2359134a .
-
-ema:e7bf690c-799d-451d-b0e5-b34508914396 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Market Creation. Some participating individuals receive resources from the organizations they represent." .
-
-ema:e7c92829-63d6-4a9a-9e6d-07081c17c00d a emm:Characteristic ;
-    skos:definition "There are no resources available for User Base Growth . Individuals who do participate in User Base Growth do so voluntarily in their own time." .
-
-ema:e7ff5deb-33a0-49b4-8fdf-406e2d191886 a emm:Characteristic ;
-    skos:definition "Standardization's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Standardization are compensated for their effort by the organization they represent." .
-
-ema:e80edd96-7943-4742-8307-bfdc20548ac5 a emm:Characteristic ;
-    skos:definition "There are no resources available for Compliance Testing . Individuals who do participate in Compliance Testing do so voluntarily in their own time." .
-
-ema:e8ba9013-c89a-42cb-8f82-3130d86b5fa7 a emm:Characteristic ;
-    skos:definition "Little to no process documentation, -governance, or -ownership for Knowledge Retention. Progress on Knowledge Retention is based on individualâ€™s knowledge, manual interventions and with unpredictable results." .
-
-ema:e9ea8690-dc31-4d97-adfa-da7b3875324c a emm:Characteristic ;
-    skos:definition "New information for Standardization is continuously identified and benchmarked." .
-
-ema:ea8cb27e-22f9-482b-a931-65064402a8dc a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Operational Alignment are investigated, benchmarked, proven, and deployed. All work done towards Operational Alignment is compensated." .
-
-ema:ebd18549-2c39-4536-bb40-650dd1944352 a emm:Characteristic ;
-    skos:definition "Few, if any, resources, including budget, are assigned for Knowledge Retention. Some participating individuals receive resources from the organizations they represent." .
-
-ema:ec36e715-4650-45b1-a059-0141aeb22f90 a emm:Characteristic ;
-    skos:definition "Information to support Standardization is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:edc449bf-7def-48e2-b838-e605b8c0324e a emm:Characteristic ;
-    skos:definition "Information to support Integration Profile Establishment is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." .
-
-ema:ee81d5f1-7cc1-45ec-8628-eb0a5efde4b9 a emm:Characteristic ;
-    skos:definition "There is no organization for Tool, Product and Reference Implementation Development." .
-
-ema:eeef78bb-1ffb-442e-9cc9-f3e85e6b1dd5 a emm:Characteristic ;
-    skos:definition "Tool, Product and Reference Implementation Development's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Tool, Product and Reference Implementation Development are compensated for their effort by the organization they represent." .
-
-ema:ef3c637e-0b75-4948-87f2-d7dbcbfca779 a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Standardization is collected, stored, understood, accessed, owned, and deleted." .
-
-ema:efa11871-57a8-4c87-8d11-323166ee6710 a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve User Base Growth are investigated, benchmarked, proven, and deployed. All work done towards User Base Growth is compensated." .
-
-ema:efdb7f72-6c44-4051-928d-e5b8384c8431 a emm:Characteristic ;
-    skos:definition "Information to support Operational Alignment is available in silos, hard to locate for others." .
-
-ema:f2c80fe3-8126-40c8-b6ff-92e525069673 a emm:Characteristic ;
-    skos:definition "Information for Integration Profile Establishment is available and well understood across the community and externally. Information quality is measured and corrected." .
-
-ema:f38344b1-dc68-4f65-a9f3-d6549528a369 a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of User Base Growth. Most work done for User Base Growth is compensated." .
-
-ema:f46711dc-f39a-4a2b-8e5f-7a6a4b026273 a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Compliance Testing is collected, stored, understood, accessed, owned, and deleted." .
-
-ema:f4a3ae5d-52b3-41d0-b430-0a67ce961875 a emm:Characteristic ;
-    skos:definition "Key processes for Operational Alignment are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:f4b3a918-c0ab-49a3-a966-6590e7b8ec89 a emm:Characteristic ;
-    skos:definition "Processes for Standardization are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." .
-
-ema:f57478b4-f8f0-43f6-95c9-04202cf2c566 a emm:Characteristic ;
-    skos:definition "Information to support Tool, Product and Reference Implementation Development is available in silos, hard to locate for others." .
-
-ema:f5ca0bdf-0a5c-4657-ad1c-4991411f61b3 a emm:Characteristic ;
-    skos:definition "New resources are made available to increase the maturity of Knowledge Retention. Most work done for Knowledge Retention is compensated." .
-
-ema:f8a52cda-90c3-4aa6-8423-ba1b22d2efe5 a emm:Characteristic ;
-    skos:definition "Some resources are identified for Standardization, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." .
-
-ema:f9418ac9-e23b-4984-b800-8876187b7973 a emm:Characteristic ;
-    skos:definition "New resources and other innovations that can improve Market Creation are investigated, benchmarked, proven, and deployed. All work done towards Market Creation is compensated." .
-
-ema:f973e543-5018-4530-9a73-b01ee741d15a a emm:Characteristic ;
-    skos:definition "Information to support Community Growth is available in silos, hard to locate for others." .
-
-ema:f9a55a74-0c27-49a7-aee2-59edfbfe35a5 a emm:Characteristic ;
-    skos:definition "Community members have an expert and deeply contextualized understanding of Diversity of Perspectives and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." .
-
-ema:fc0e6ceb-60ab-4f0e-8090-0e841729b0e1 a emm:Characteristic ;
-    skos:definition "Information governance defines how information for Market Creation is collected, stored, understood, accessed, owned, and deleted." .
-
-ema:fc12f3f0-92d7-445b-bc58-7c8fad296a58 a emm:Characteristic ;
-    skos:definition "Key processes for Standardization are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." .
-
-ema:fe0f1f07-5f96-476a-a29d-7e8d5633bfc9 a emm:Characteristic ;
-    skos:definition "There is no organization for Diversity of Perspectives." .
-
-ema:ff596433-e604-4c59-b34e-550c5846db50 a emm:Characteristic ;
-    skos:definition "Community members have a weak understanding of how for Market Creation with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Market Creation." .
 
 ema:89146514-1776-4ad0-b72b-3d5a2359134a a ema:QuestionnaireVersion ;
     dcterms:identifier "698159" ;

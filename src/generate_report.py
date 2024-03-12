@@ -31,7 +31,7 @@ figure= cms.compute_maturity_scores(maturity_model=maturity_model,
                         plot_kind=plotKind
                         )
 
-figure.savefig('./tests/maturity_score.svg', pad_inches= 2)
+figure.savefig('./tests/maturity_score.png', pad_inches= 2)
 
 
 

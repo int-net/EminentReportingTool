@@ -16,18 +16,14 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import matplotlib
 
-from generic_radar_plot import generic_radar_plot
+from generic_radar_plot import subcapability_radar_plot
 from raw_data_to_maturityscore import raw_data_to_MaturityScore
 
-
-
-def compute_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef, plot_kind = str):
+def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef, plot_kind = str, output_folder = None ):
     g= Graph()
     g.parse(maturity_model)
     g.parse(maturity_assessment)
     g.parse(responses)
-
-    print(study)
     
     emar_ns= Namespace("http://eminent.intnet.eu/maturity_assessment_results#")
     ema_ns = Namespace("http://eminent.intnet.eu/maturity_assessment#")
@@ -38,38 +34,25 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
     g.bind("emm", emm_ns)
     g.bind("sgam", sgam_ns)
 
-
-
-    #query to find all level 2 capabilities
-    lvl2_capability_query  = """
+    # query to find all level 1 capabilities
+    lvl1_capability_query  = """
     SELECT DISTINCT ?capability ?prefLabel
     WHERE {
         ?capability rdf:type emm:Capability .
         ?capability skos:prefLabel ?prefLabel .
-        ?capability dcterms:isPartOf ?b .
+        FILTER NOT EXISTS {
+            ?capability dcterms:isPartOf ?otherCapability .
+        }
     }"""
-
 
     dimension_per_lvl1_capability_query  = """
-    SELECT DISTINCT ?capability ?prefLabel
+    SELECT DISTINCT ?dimension ?prefLabel
     WHERE {
-        ?capability rdf:type emm:Capability .
-        ?capability skos:prefLabel ?prefLabel .
-        ?capability dcterms:isPartOf ?b .
-    }"""
+        ?dimension rdf:type emm:Dimension .
+        ?dimension skos:prefLabel ?prefLabel .
+        ?dimension dcterms:isPartOf* ?capability .
 
-    desired_order_lvl1= [
-           'Community Growth',
-           'Knowledge Retention',
-           'Diversity of Perspectives',
-           'Integration Profile Establishment',
-           'Standardization',
-           'Compliance Testing',
-           'User Base Growth',
-           'Operational Alignment',
-           'Tool, Product and Reference Implementation Development',
-           'Market Creation'
-    ]
+    }"""
 
     desired_order_community = [
         "Community Growth process",
@@ -107,10 +90,10 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
         "User Base Growth people and organization",
         "User Base Growth Information",
         "User Base Growth resources",        
-        "Operational Alignmnent process",
-        "Operational Alignmnent people and organization",
-        "Operational Alignmnent Information",
-        "Operational Alignmnent resources",
+        "Operational Alignment process",
+        "Operational Alignment people and organization",
+        "Operational Alignment Information",
+        "Operational Alignment resources",
         "Tool, Product and Reference Implementation Development process",
         "Tool, Product and Reference Implementation Development people and organization",
         "Tool, Product and Reference Implementation Development Information",
@@ -122,58 +105,70 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
     ]
 
     # query to find all scores associated with a specific study and a specific capability and/ordimension
-    collect_scores_query = """select ?result where {{ 
+    collect_scores_query = """select ?capabilityOrDimension ?result where {{ 
         ?answer sosa:hasResult/emm:maturityScore ?result .
         ?answer dcterms:isPartOf* ?study .
-        ?answer sosa:usedProcedure/ema:measures/dcterms:isPartOf* ?capabilityOrDimension .
-    }}"""
-
-    collect_scores_per_lvl_query = """select ?result where {{ 
-        ?answer sosa:hasResult/emm:maturityScore ?result .
-        ?answer dcterms:isPartOf* ?study .
-        ?answer sosa:usedProcedure/ema:measures/dcterms:isPartOf* ?capability .
         ?answer sosa:usedProcedure/ema:measures/dcterms:isPartOf* ?capabilityOrDimension .
     }}"""
 
 
     #innittiate maturity data frame
-    maturity_df = pd.DataFrame(dict(
-        capability=[],
+    
+
+    # lvl1_capabilities = g.query(lvl1_capability_query)
+    lvl1cap= g.query(lvl1_capability_query)
+    for row in lvl1cap:
+        # print(f"{row.capability} : {row.prefLabel}")
+
+        maturity_df = pd.DataFrame(dict(
+        dimension =[],
         maturity_avg=[],
         maturity_median= [],
         maturity_mode=[])
         )
 
-    lvl2_capabilities = g.query(lvl2_capability_query)
+        dim = g.query(dimension_per_lvl1_capability_query, initBindings={'study': URIRef(study), 'capability' : URIRef(row.capability)} )
+        print(f"{row.capability } : {len(dim)}")
+        for d in dim:
+            scores= g.query(collect_scores_query, initBindings={'study': URIRef(study), 'capabilityOrDimension' : URIRef(d.dimension)} )
+            raw_data =[]
+            for s in scores:
 
+                raw_data.append(s.result.toPython())
 
-    for row in lvl2_capabilities:
-
-        scores= g.query(collect_scores_query, initBindings={'study': URIRef(study), 'capabilityOrDimension' : URIRef(row.capability)} )
-
-        raw_data= []
-        for r in scores:
-
-            raw_data.append(r.result.toPython())
-
-        
-        maturity_score= raw_data_to_MaturityScore(raw_data=raw_data)
-
-        maturity_df.loc[len(maturity_df.index)] = [str(row.prefLabel), 
+            maturity_score= raw_data_to_MaturityScore(raw_data=raw_data)
+            maturity_df.loc[len(maturity_df.index)] = [str(d.prefLabel), 
                                                         maturity_score.averageScore, 
                                                         maturity_score.medianScore,
                                                         maturity_score.modeScore
-                                                        ] 
+                                                        ]
+            
+        if str(row.capability) == 'http://eminent.intnet.eu/maturity_model#CommunityFacilitation':
+            maturity_df['dimension']=pd.Categorical(maturity_df['dimension'], categories=desired_order_community, ordered=True)
+            maturity_df= maturity_df.sort_values(by='dimension')
+            
+        elif str(row.capability) == 'http://eminent.intnet.eu/maturity_model#TechnicalAgreements':
+            maturity_df['dimension']=pd.Categorical(maturity_df['dimension'], categories=desired_order_agreements, ordered=True)
+            maturity_df= maturity_df.sort_values(by='dimension')
+            
+        elif str(row.capability) == 'http://eminent.intnet.eu/maturity_model#Implementation':
+            maturity_df['dimension']=pd.Categorical(maturity_df['dimension'], categories=desired_order_implementation, ordered=True)
+            maturity_df= maturity_df.sort_values(by='dimension')
+            
+  
 
-    # print(maturity_df)
-    
-    maturity_df['capability']=pd.Categorical(maturity_df['capability'], categories=desired_order_lvl1, ordered=True)
-    maturity_df= maturity_df.sort_values(by='capability')
-
-    plot= generic_radar_plot(maturitydf= maturity_df, plotKind=plot_kind)
-
+        plot = subcapability_radar_plot(maturitydf=maturity_df, plotKind=plot_kind, capability= row.capability) 
+        filename = output_folder + str(study).split("#",1)[1]+'_' +str(row.capability).split("#",1)[1] + '.svg'
+        plot.savefig(filename, pad_inches= 2)
     return plot
-        
 
+
+
+probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
+                                          maturity_assessment= './tests/EminentQUestionnaire_1.0.0.ttl',
+                                          responses= './tests/eminentresponses.ttl',
+                                          study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
+                                          plot_kind='maturity_avg',
+                                          output_folder='./tests/')
 
 

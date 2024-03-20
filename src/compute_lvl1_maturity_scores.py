@@ -19,7 +19,7 @@ import matplotlib
 from generic_radar_plot import subcapability_radar_plot
 from raw_data_to_maturityscore import raw_data_to_MaturityScore
 
-def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef, plot_kind = str, output_folder = None ):
+def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef, plot_kind = str, output_folder= str):
     g= Graph()
     g.parse(maturity_model)
     g.parse(maturity_assessment)
@@ -160,15 +160,15 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
         plot = subcapability_radar_plot(maturitydf=maturity_df, plotKind=plot_kind, capability= row.capability) 
         filename = output_folder + str(study).split("#",1)[1]+'_' +str(row.capability).split("#",1)[1] + '.svg'
         plot.savefig(filename, pad_inches= 2)
-    return plot
+    return maturity_df
 
 
 
-probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
-                                          maturity_assessment= './tests/EminentQUestionnaire_1.0.0.ttl',
-                                          responses= './tests/eminentresponses.ttl',
-                                          study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-                                          plot_kind='maturity_avg',
-                                          output_folder='./tests/')
+# probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
+#                                           maturity_assessment= './tests/EminentQUestionnaire_1.0.0.ttl',
+#                                           responses= './tests/eminentresponses.ttl',
+#                                           study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
+#                                           plot_kind='maturity_avg',
+#                                           output_folder='./tests/')
 
 

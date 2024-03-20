@@ -58,3 +58,4 @@ def classify_characteristic(description = str):
     if characteristic_uri == None:
         characteristic_uri=emm_ns.nonsense  # this should never happen         
     return characteristic_uri
+

@@ -21,7 +21,7 @@ from raw_data_to_maturityscore import raw_data_to_MaturityScore
 
 
 
-def compute_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef, plot_kind = str):
+def compute_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef):
     g= Graph()
     g.parse(maturity_model)
     g.parse(maturity_assessment)
@@ -50,13 +50,6 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
     }"""
 
 
-    dimension_per_lvl1_capability_query  = """
-    SELECT DISTINCT ?capability ?prefLabel
-    WHERE {
-        ?capability rdf:type emm:Capability .
-        ?capability skos:prefLabel ?prefLabel .
-        ?capability dcterms:isPartOf ?b .
-    }"""
 
     desired_order_lvl1= [
            'Community Growth',
@@ -71,67 +64,11 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
            'Market Creation'
     ]
 
-    desired_order_community = [
-        "Community Growth process",
-        "Community Growth people and organization",
-        "Community Growth Information",
-        "Community Growth resources",
-        "Knowledge Retention process",
-        "Knowledge Retention people and organization",
-        "Knowledge Retention Information",
-        "Knowledge Retention resources",
-        "Diversity of Perspectives process",
-        "Diversity of Perspectives people and organization",
-        "Diversity of Perspectives Information",
-        "Diversity of Perspectives resources",
-        
-        ]
-
-    desired_order_agreements = [
-        "Integration Profile Establishment process",
-        "Integration Profile Establishment people and organization",
-        "Integration Profile Establishment Information",
-        "Integration Profile Establishment resources",
-        "Standardization process",
-        "Standardization people and organization",
-        "Standardization Information",
-        "Standardization resources",
-        "Compliance Testing process",
-        "Compliance Testing people and organization",
-        "Compliance Testing Information",
-        "Compliance Testing resources",        
-    ]
-
-    desired_order_implementation = [
-        "User Base Growth process",
-        "User Base Growth people and organization",
-        "User Base Growth Information",
-        "User Base Growth resources",        
-        "Operational Alignmnent process",
-        "Operational Alignmnent people and organization",
-        "Operational Alignmnent Information",
-        "Operational Alignmnent resources",
-        "Tool, Product and Reference Implementation Development process",
-        "Tool, Product and Reference Implementation Development people and organization",
-        "Tool, Product and Reference Implementation Development Information",
-        "Tool, Product and Reference Implementation Development resources",
-        "Market Creation process",
-        "Market Creation people and organization",
-        "Market Creation Information",
-        "Market Creation resources",        
-    ]
-
+ 
     # query to find all scores associated with a specific study and a specific capability and/ordimension
     collect_scores_query = """select ?result where {{ 
         ?answer sosa:hasResult/emm:maturityScore ?result .
         ?answer dcterms:isPartOf* ?study .
-        ?answer sosa:usedProcedure/ema:measures/dcterms:isPartOf* ?capabilityOrDimension .
-    }}"""
-
-    collect_scores_per_lvl_query = """select ?result where {{ 
-        ?answer sosa:hasResult/emm:maturityScore ?result .
-        ?answer dcterms:isPartOf* ?study .
-        ?answer sosa:usedProcedure/ema:measures/dcterms:isPartOf* ?capability .
         ?answer sosa:usedProcedure/ema:measures/dcterms:isPartOf* ?capabilityOrDimension .
     }}"""
 
@@ -167,12 +104,12 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
 
     # print(maturity_df)
     
-    maturity_df['capability']=pd.Categorical(maturity_df['capability'], categories=desired_order_lvl1, ordered=True)
-    maturity_df= maturity_df.sort_values(by='capability')
+    # maturity_df['capability']=pd.Categorical(maturity_df['capability'], categories=desired_order_lvl1, ordered=True)
+    # maturity_df= maturity_df.sort_values(by='capability')
 
-    plot= generic_radar_plot(maturitydf= maturity_df, plotKind=plot_kind)
+    # plot= generic_radar_plot(maturitydf= maturity_df, plotKind=plot_kind)
 
-    return plot
+    return maturity_df
         
 
 

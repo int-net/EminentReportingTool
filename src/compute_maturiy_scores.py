@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from rdflib import Graph, Namespace, URIRef, Literal, BNode
 from rdflib.namespace import FOAF, DCTERMS, DCAT, PROV, OWL, RDFS, RDF, XMLNS, SKOS, SOSA, ORG, SSN
 import pandas as pd
+pd.set_option('display.max_columns', None)
 
 
 from datetime import date, datetime, time, timedelta
@@ -16,7 +17,7 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import matplotlib
 
-from generic_radar_plot import generic_radar_plot
+# from generic_radar_plot import generic_radar_plot
 from raw_data_to_maturityscore import raw_data_to_MaturityScore
 
 
@@ -51,7 +52,7 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
 
 
 
-    desired_order_lvl1= [
+    desired_order_lvl1 = [
            'Community Growth',
            'Knowledge Retention',
            'Diversity of Perspectives',
@@ -78,7 +79,10 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
         capability=[],
         maturity_avg=[],
         maturity_median= [],
-        maturity_mode=[])
+        maturity_mode=[],
+        number_of_answers=[],
+        stddev = [],
+        number_of_unsure= [])
         )
 
     lvl2_capabilities = g.query(lvl2_capability_query)
@@ -86,7 +90,10 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
 
     for row in lvl2_capabilities:
 
-        scores= g.query(collect_scores_query, initBindings={'study': URIRef(study), 'capabilityOrDimension' : URIRef(row.capability)} )
+        scores= g.query(collect_scores_query, 
+                        initBindings={'study': URIRef(study), 
+                                      'capabilityOrDimension' : URIRef(row.capability)
+                                      } )
 
         raw_data= []
         for r in scores:
@@ -99,15 +106,19 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
         maturity_df.loc[len(maturity_df.index)] = [str(row.prefLabel), 
                                                         maturity_score.averageScore, 
                                                         maturity_score.medianScore,
-                                                        maturity_score.modeScore
+                                                        maturity_score.modeScore,
+                                                        maturity_score.totalAnswers,
+                                                        maturity_score.standardDeviation,
+                                                        maturity_score.numberOfUnsure
                                                         ] 
 
     # print(maturity_df)
     
-    # maturity_df['capability']=pd.Categorical(maturity_df['capability'], categories=desired_order_lvl1, ordered=True)
-    # maturity_df= maturity_df.sort_values(by='capability')
+    maturity_df['capability']=pd.Categorical(maturity_df['capability'], 
+                                             categories=desired_order_lvl1, 
+                                             ordered=True)
+    maturity_df= maturity_df.sort_values(by='capability')
 
-    # plot= generic_radar_plot(maturitydf= maturity_df, plotKind=plot_kind)
 
     return maturity_df
         

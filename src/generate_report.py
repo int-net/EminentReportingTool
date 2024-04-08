@@ -1,5 +1,6 @@
 import plotly.express as px
-import pandas 
+import pandas as pd
+pd.set_option('display.max_columns', None)
 import numpy as np
 # from questionnaire_data_model import Answerset, Answer, Person, Organization, Question, FocusArea, Study, MaturityScore
 # import questionnaire_processing_functions as qpf
@@ -12,14 +13,15 @@ import compute_lvl1_maturity_scores as l1cms
 import plotly.graph_objects as go
 
 
-def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.URIRef, responses = str, plot_kind= str, output_directory= str):
+def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.URIRef, 
+                    responses = str, plot_kind= str, output_directory= str):
     # compute overall maturity scores
     overall_maturity_df = cms.compute_maturity_scores(maturity_model=maturity_model, 
                         maturity_assessment=maturity_assessment,
                         responses= responses,
                         study= study,
                         )
-    
+    print(overall_maturity_df)
     # create and save plot
 
     overall_diagram = grp.generic_radar_plot(overall_maturity_df, plotKind= plotKind)
@@ -35,13 +37,8 @@ def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.
 
 
 
-
-
-
-
-
 maturity_model='./tests/imm.ttl'
-maturity_assessment = './tests/EminentQUestionnaire_1.0.0.ttl' # this will have to be passed as a variable in the function call
+maturity_assessment = './tests/EminentQUestionnaire_1.1.0.ttl' # this will have to be passed as a variable in the function call
 study = 'http://eminent.intnet.eu/maturity_assessment_results#cim-expert-group-2024'
 responses = './tests/eminentresponses.ttl'
 plotKind = 'maturity_avg' # this will have to be passed as a variable in the function call

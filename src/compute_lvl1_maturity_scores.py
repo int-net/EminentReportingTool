@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from rdflib import Graph, Namespace, URIRef, Literal, BNode
 from rdflib.namespace import FOAF, DCTERMS, DCAT, PROV, OWL, RDFS, RDF, XMLNS, SKOS, SOSA, ORG, SSN
 import pandas as pd
+pd.set_option('display.max_columns', None)
 
 
 from datetime import date, datetime, time, timedelta
@@ -16,8 +17,9 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import matplotlib
 
-from generic_radar_plot import subcapability_radar_plot
+from subcapability_radar_plot import subcapability_radar_plot
 from raw_data_to_maturityscore import raw_data_to_MaturityScore
+
 
 def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef, plot_kind = str, output_folder= str):
     g= Graph()
@@ -124,7 +126,10 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
         dimension =[],
         maturity_avg=[],
         maturity_median= [],
-        maturity_mode=[])
+        maturity_mode=[],
+        number_of_answers=[],
+        stddev = [],
+        number_of_unsure= [])
         )
 
         dim = g.query(dimension_per_lvl1_capability_query, initBindings={'study': URIRef(study), 'capability' : URIRef(row.capability)} )
@@ -135,12 +140,17 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
             for s in scores:
 
                 raw_data.append(s.result.toPython())
+            
+            # print(raw_data)
 
             maturity_score= raw_data_to_MaturityScore(raw_data=raw_data)
             maturity_df.loc[len(maturity_df.index)] = [str(d.prefLabel), 
                                                         maturity_score.averageScore, 
                                                         maturity_score.medianScore,
-                                                        maturity_score.modeScore
+                                                        maturity_score.modeScore,
+                                                        maturity_score.totalAnswers,
+                                                        maturity_score.standardDeviation,
+                                                        maturity_score.numberOfUnsure
                                                         ]
             
         if str(row.capability) == 'http://eminent.intnet.eu/maturity_model#CommunityFacilitation':
@@ -154,8 +164,8 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
         elif str(row.capability) == 'http://eminent.intnet.eu/maturity_model#Implementation':
             maturity_df['dimension']=pd.Categorical(maturity_df['dimension'], categories=desired_order_implementation, ordered=True)
             maturity_df= maturity_df.sort_values(by='dimension')
-            
-  
+        
+        print(maturity_df)
 
         plot = subcapability_radar_plot(maturitydf=maturity_df, plotKind=plot_kind, capability= row.capability) 
         filename = output_folder + str(study).split("#",1)[1]+'_' +str(row.capability).split("#",1)[1] + '.svg'
@@ -164,11 +174,11 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
 
 
 
-# probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
-#                                           maturity_assessment= './tests/EminentQUestionnaire_1.0.0.ttl',
-#                                           responses= './tests/eminentresponses.ttl',
-#                                           study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-#                                           plot_kind='maturity_avg',
-#                                           output_folder='./tests/')
+probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
+                                          maturity_assessment= './tests/EminentQUestionnaire_1.1.0.ttl',
+                                          responses= './tests/eminentresponses.ttl',
+                                          study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
+                                          plot_kind='maturity_avg',
+                                          output_folder='./tests/')
 
 

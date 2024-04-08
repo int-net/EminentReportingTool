@@ -36,6 +36,9 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
 
     AnswerSet = root.findall(".//AnswerSet")
 
+    Survey_uid = root.findall("./Survey")[0].get('uid')
+    Survey_uri = ema_ns[Survey_uid]
+
     # the following question ID's belong to questions in section 1 of the questionnaire and these 
     # are for the purpose of collecting metadata (not person identifyable) about the person who 
     # has given the response
@@ -65,10 +68,12 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
     q6a_id = whoAreYouQuestionIDs[10] 
     # for each answerset in the xml file, create the rdf resource and add the relevant tripples
     for AS in AnswerSet:
-        # if insufficient answers have been given, the response will be ignored
-        if len(AS) > 50 :
-            answerset_id = AS.get('list')
-            answerset_uri = emar_ns[answerset_id]
+        
+        answerset_id = AS.get('list')
+        answerset_uri = emar_ns[answerset_id]
+        # check if answerset has already been added to the graph
+        if (len(AS) > 50) and ((answerset_uri, RDF.type, ema_ns.AnswerSet) not in graph) :
+
 
             # innitiate the person. organization, Area of Expertise and area of operation blanknodes
             person = BNode()
@@ -78,6 +83,7 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
 
             # add tripples to graph to create basic structure for provenance information
             graph.add( (answerset_uri, PROV.wasQuotedFrom, person))
+            graph.add((answerset_uri, SOSA.usedProcedure, Survey_uri))
             graph.add((person, RDF.type, FOAF.Person ))
             graph.add((person, PROV.actedOnBehalfOf, organization))
             graph.add((person, ema_ns.areaOfExpertise, areaOfExpertise))
@@ -120,15 +126,15 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
             if alt_sector != None:
                 graph.add((organization, ema_ns.sector, Literal(alt_sector)))
 
-            doo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q7_id)
-            for i in doo:
-                domainOfOperation_uri = sgam_ns[str(i).replace(" ", "")]
-                graph.add((areaOfOperation, ema_ns.inDomain, domainOfOperation_uri))
-
-            zoo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q8_id)
-            for i in zoo : 
+            zoo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q7_id)
+            for i in zoo:
                 zoneOfOperation_uri = sgam_ns[str(i).replace(" ", "")]
-                graph.add((areaOfOperation, ema_ns.inZone , zoneOfOperation_uri))
+                graph.add((areaOfOperation, ema_ns.inZone, zoneOfOperation_uri))
+
+            doo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q8_id)
+            for i in doo : 
+                domainOfOperation_uri = sgam_ns[str(i).replace(" ", "")]
+                graph.add((areaOfOperation, ema_ns.inDomain , domainOfOperation_uri))
 
             loo = qid_to_answerValue.qid_to_answerValue(AS= AS, root=root, target_qid=q9_id)
             for i in loo :
@@ -177,7 +183,7 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
 
                     # add triples for each given answer to the graph
                         graph.add((answer_uri, SOSA.hasResult, choiceanswer_uri))
-                        graph.add((answer_uri, ema_ns.result_text, Literal(answer_value)))
+                        graph.add((answer_uri, ema_ns.resultText, Literal(answer_value)))
                         graph.add((answer_uri, RDF.type, ema_ns.Answer))
                         graph.add((answer_uri, DCTERMS.isPartOf, answerset_uri))
                     graph.add((answer_uri, SOSA.usedProcedure, question_uri))
@@ -190,4 +196,4 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
 
 
 
-answerset_to_rdf(input_xml= './tests/Content_Export_Eminent_eminentresponses.xml', output_rdf= './tests/eminentresponses.ttl')
+answerset_to_rdf(input_xml= './tests/Content_Export_Eminent_eminentresponses.xml', input_rdf= './tests/EminentResponsesOld.ttl',  output_rdf= './tests/eminentresponses.ttl')

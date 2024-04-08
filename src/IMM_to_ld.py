@@ -45,7 +45,7 @@ def imm_to_ld ( input_spreadsheet = str, namespace=str , output_rdf = str):
         
         # characteristic triples
 
-        graph.add((characteristic_uri, RDF.type, emm_ns.Characterisitic))
+        graph.add((characteristic_uri, RDF.type, emm_ns.Characteristic))
         graph.add((characteristic_uri, SKOS.definition, Literal(characteristic_description)))
         graph.add((characteristic_uri, emm_ns.maturityScore, Literal(characteristic_level)))
         graph.add((characteristic_uri, DCTERMS.isPartOf, dimension_uri))

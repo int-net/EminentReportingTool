@@ -103,7 +103,10 @@ def survey_to_rdf(input_xml = str, version_number= str, output_rdf= str, seriali
         graph.add((survey_uri, DCTERMS.identifier, Literal(survey_id)))
     # graph.add((survey_uri, DCAT.version, Literal('1.0.0')))
         graph.add((survey_uri, DCTERMS.isVersionOf, ema_ns.Eminent))
+        # would prefer to use dcat:versionInfo but rdfLib is not up to dcat v3 and doesnt support it
         graph.add((survey_uri, OWL.versionInfo, Literal(version_number)))
+
+        
 
         questions = s.findall(".//Question")
 
@@ -126,5 +129,5 @@ def survey_to_rdf(input_xml = str, version_number= str, output_rdf= str, seriali
 
     graph.serialize(destination= output_rdf, format=serialization)
 
-survey_to_rdf(input_xml="./tests/EUSurveyTestData.xml", version_number='1.0.0', serialization= 'ttl', output_rdf='./tests/EminentQUestionnaire_1.0.0.ttl')
+survey_to_rdf(input_xml="./tests/EUSurveyTestData.xml", version_number='1.1.0', serialization= 'ttl', output_rdf='./tests/EminentQUestionnaire_1.1.0.ttl')
 

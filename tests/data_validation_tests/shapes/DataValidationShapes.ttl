@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix dcterms: <http://purl.org/dc/elements/1.1/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+@prefix ema: <http://eminent.intnet.eu/maturity_assessment#> .
+@prefix emm: <http://eminent.intnet.eu/maturity_model#> .
+@prefix emar: <http://eminent.intnet.eu/maturity_assessment_results#> .
+
+
+
+emar:AnswerShape
+    a sh:NodeShape ;
+    rdfs:comment "Validation nodeshape for Answer instances"@en ;
+    sh:targetClass ema:Answer ;
+    sh:property emar:answerPartOfShape ;
+    sh:or ( emar:hasResultShape emar:UnsureShape) ;
+    sh:property emar:answerUsedProcedureShape ; 
+    .
+
+emar:answerPartOfShape
+    a sh:PropertyShape ; 
+    sh:path dcterms:isPartOf ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:class ema:AnswerSet ;
+    . 
+
+emar:hasResultShape
+    a sh:PropertyShape ; 
+    sh:path sosa:hasResult ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:class emm:Characteristic ;
+    . 
+
+ emar:UnsureShape
+    a sh:PropertyShape ;
+    sh:path sosa:hasResult ;
+    sh:in (ema:Unsure) ;
+    .
+    
+
+emar:answerUsedProcedureShape
+    a sh:PropertyShape ; 
+    sh:path sosa:usedProcedure ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:class ema:Question ;
+    . 
+
+
+
+emar:AnswerSetShape
+    a sh:NodeShape ;
+    rdfs:comment """ shapes to validate AnswerSet instances. 
+    Most of the metaadata is ignored. we are mostly 
+    interested in the number of Answers per Answerset"""@en ;
+    sh:targetClass ema:AnswerSet ;
+    sh:property emar:CorrectNumberOfAnswerShape ;
+    sh:property emar:wasQuotedFromShape ;
+    .
+
+emar:CorrectNumberOfAnswerShape
+    a sh:PropertyShape ; 
+    sh:path [
+        sh:inversePath dcterms:isPartOf
+    ] ;
+    sh:maxCount 40 ;
+    sh:minCount 40 ;
+    sh:class ema:Answer ;
+    sh:severity sh:Warning ;
+    sh:message "this answerset has less than the expected amount of responses"
+    . 
+
+emar:wasQuotedFromShape a sh:PropertyShape ;
+    sh:path dcterms:wasQuotedFrom ; 
+    sh:minCount 1;
+    sh:maxCount 1; 
+    sh:class foaf:Person ;
+    .

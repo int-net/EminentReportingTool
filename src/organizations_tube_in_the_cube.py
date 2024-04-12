@@ -108,8 +108,8 @@ def organizations_tube_in_the_cube (responses: text, study: str, output_dir : st
 
 
     # assigning the data the right axes 
-    x = keyword_counts['zone']
-    y = keyword_counts['domain']
+    y = keyword_counts['zone']
+    x = keyword_counts['domain']
     z = keyword_counts['layer']
     colo = keyword_counts['Count']
     # print(x)
@@ -129,21 +129,21 @@ def organizations_tube_in_the_cube (responses: text, study: str, output_dir : st
     color_map.set_array(colo) 
     
     # creating the heatmap 
-    img = ax.scatter(x, y, z, marker='o',  ###whats this?
-                    s=400, color='green') 
-    plt.colorbar(color_map, ax= ax, pad =0.1) 
+    img = ax.scatter(x, y, z, marker='o', c= colo, ###whats this?
+                    s=400, depthshade= False) 
+    plt.colorbar(img, ax= ax, pad =0.1) 
 
     # adding title and labels 
     ax.set_title("community distribution") 
-    ax.set_xlabel('zone') 
-    ax.xaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
-    ax.xaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
+    ax.set_ylabel('zone') 
+    ax.yaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
         ['Process', 'Field', 'Operation', 'Enterprise', 'Market']
         ))
 
-    ax.set_ylabel('domain') 
-    ax.yaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
-    ax.yaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
+    ax.set_xlabel('domain') 
+    ax.xaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
+    ax.xaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
         ['Customer', 'DER', 'Distribution', 'Transmission', 'Generation']
         ))
 
@@ -164,7 +164,7 @@ def organizations_tube_in_the_cube (responses: text, study: str, output_dir : st
 
     # displaying plot 
     plt.show()
-    figname= output_dir+ study_name+'_organizations_tube_in_the_cube.svg' 
+    figname= output_dir+ study_name+'_organizations_tube_in_the_cube.png' 
     plt.savefig(figname)
 
 

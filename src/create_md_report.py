@@ -62,7 +62,7 @@ def crete_md_report (study= str, output_dir= str, community= str) :
                          "the SGAM model. The results of the responses has been shown in the diagram below.")
     
     image_text= "Area of operation of the represented organizations"
-    path= study_name+"_organizations_tube_in_the_cube.png"
+    path= study_name+"_organizations_tube_in_the_cube.svg"
 
 
     mdFile.new_line(mdFile.new_inline_image(text=image_text, path=path))
@@ -118,10 +118,29 @@ def crete_md_report (study= str, output_dir= str, community= str) :
     mdFile.new_line(mdFile.new_inline_image(text=image_text, path=path))
 
 
+    #########################################
+    ############ Appendix A ###############
+    #########################################
+
+    mdFile.new_header(level = 1, title= "Appendix A: All results")
+
+    mdFile.new_paragraph("This appendix contains all data analysis results from the maturity assessment in tabular from."
+                         "as such, it goes beyounf the average score that has been used for the spider diagrams in"
+                         "the main report. We find that the full analysis can give aditional insight into the degree"
+                         "of consensus about the maturity of the interoperability community as reported by the respondents."
+                         "Furthremore, this section goes a little deeper into the data quality of the data "
+                         "that was used to create the report.")
+    
+    ##### descrtibing the the data
+    mdFile.new_header(level = 2, title= "Describing the data in this appendix and guidance on how to interpret it")  
+
+    mdFile.new_paragraph("This section describes the data that is presented below, what the different collumns mean, "
+                         "and gives some guidance on how to interpret the data and look for (potentially) relevant patterns.")
+
 
     mdFile.new_table_of_contents(table_title='Contents', depth=2)
     mdFile.create_md_file()
 
 
-crete_md_report(study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-                output_dir='./tests/sif/', community= 'SIF')
+crete_md_report(study='http://eminent.intnet.eu/maturity_assessment_results#cim-expert-group-2024',
+                output_dir='./tests/cim/', community= 'cim-expert-group')

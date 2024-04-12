@@ -4777,12 +4777,12 @@ emar:36072259 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Field,
                                 sgam:Market,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:DER,
+                            ema:inDomain sgam:DER,
                                 sgam:Distribution ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:FunctionLayer,
@@ -4804,9 +4804,9 @@ emar:36073714 a ema:AnswerSet ;
                         sgam:FunctionLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Operation,
+                            ema:inZone sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:Distribution,
+                            ema:inDomain sgam:Distribution,
                                 sgam:Transmission ;
                             ema:onLayer sgam:CommunicationLayer,
                                 sgam:ComponentLayer ] ;
@@ -4830,10 +4830,10 @@ emar:36089875 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Market,
+                            ema:inZone sgam:Market,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:CustomerPremises,
+                            ema:inDomain sgam:CustomerPremises,
                                 sgam:DER,
                                 sgam:Distribution ;
                             ema:onLayer sgam:CommunicationLayer,
@@ -4860,9 +4860,9 @@ emar:36142256 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Operation ;
-                            ema:inZone sgam:Distribution,
+                            ema:inDomain sgam:Distribution,
                                 sgam:Transmission ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:CommunicationLayer,
@@ -4887,8 +4887,8 @@ emar:36142273 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Operation ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inZone sgam:Operation ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:InformationLayer ] ;
                     ema:description "Energy Utility",
                         "Government" ;
@@ -4910,11 +4910,11 @@ emar:36142327 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Field,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:CommunicationLayer,
                                 sgam:FunctionLayer,
@@ -4939,10 +4939,10 @@ emar:36146621 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:DER,
+                            ema:inDomain sgam:DER,
                                 sgam:Distribution ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:CommunicationLayer,
@@ -4966,10 +4966,10 @@ emar:36146655 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Market,
                                 sgam:Operation ;
-                            ema:inZone sgam:CustomerPremises ;
+                            ema:inDomain sgam:CustomerPremises ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:CommunicationLayer,
                                 sgam:FunctionLayer,
@@ -4995,12 +4995,12 @@ emar:35237957 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Field,
                                 sgam:Market,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:CustomerPremises,
+                            ema:inDomain sgam:CustomerPremises,
                                 sgam:DER,
                                 sgam:Distribution,
                                 sgam:Generation,
@@ -5026,8 +5026,8 @@ emar:35287711 a ema:AnswerSet ;
                     ema:onLayer sgam:BusinessLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Field ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inZone sgam:Field ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:BusinessLayer ] ;
                     ema:description "Energy Market Party",
                         "Vendor" ;
@@ -5045,8 +5045,8 @@ emar:35287850 a ema:AnswerSet ;
                     ema:onLayer sgam:RegulatoryLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inZone sgam:Enterprise ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:ComponentLayer ] ;
                     ema:description "Government" ;
                     ema:organizationSize "101-500" ;
@@ -5064,8 +5064,8 @@ emar:35287935 a ema:AnswerSet ;
                         sgam:RegulatoryLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Operation ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inZone sgam:Operation ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:RegulatoryLayer ] ;
                     ema:description "Energy Market Party" ;
                     ema:organizationSize "11-100" ;
@@ -5082,8 +5082,8 @@ emar:35288584 a ema:AnswerSet ;
                     ema:onLayer sgam:FunctionLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Field ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inZone sgam:Field ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:CommunicationLayer ] ;
                     ema:description "Consultancy" ;
                     ema:organizationSize "501-1000" ;
@@ -5099,8 +5099,8 @@ emar:35625161 a ema:AnswerSet ;
                     ema:onLayer sgam:FunctionLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Operation ;
-                            ema:inZone sgam:CustomerPremises ;
+                            ema:inZone sgam:Operation ;
+                            ema:inDomain sgam:CustomerPremises ;
                             ema:onLayer sgam:FunctionLayer ] ;
                     ema:description "Energy Utility" ;
                     ema:organizationSize "1-10" ;
@@ -5117,9 +5117,9 @@ emar:35625483 a ema:AnswerSet ;
                         sgam:FunctionLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Operation,
+                            ema:inZone sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:CustomerPremises ;
+                            ema:inDomain sgam:CustomerPremises ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:FunctionLayer,
                                 sgam:InformationLayer ] ;
@@ -5140,12 +5140,12 @@ emar:35631019 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Field,
                                 sgam:Market,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:CommunicationLayer,
                                 sgam:ComponentLayer,
@@ -5167,12 +5167,12 @@ emar:35654819 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Field,
                                 sgam:Market,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:ComponentLayer ] ;
                     ema:description "Energy Utility" ;
                     ema:organizationSize "1001-5000" ;
@@ -5188,9 +5188,9 @@ emar:35675673 a ema:AnswerSet ;
                     ema:onLayer sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Operation ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:InformationLayer ] ;
                     ema:description "Government" ;
                     ema:organizationSize "1001-5000" ;
@@ -5213,11 +5213,11 @@ emar:35727526 a ema:AnswerSet ;
                         sgam:RegulatoryLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Field,
                                 sgam:Market,
                                 sgam:Operation ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:CommunicationLayer,
                                 sgam:ComponentLayer,
@@ -5243,12 +5243,12 @@ emar:35897065 a ema:AnswerSet ;
                         sgam:InformationLayer ] ;
             prov:actedOnBehalfOf [ a org:Organization ;
                     ema:areaOfOperation [ a ema:FocusArea ;
-                            ema:inDomain sgam:Enterprise,
+                            ema:inZone sgam:Enterprise,
                                 sgam:Field,
                                 sgam:Market,
                                 sgam:Operation,
                                 sgam:Process ;
-                            ema:inZone sgam:Transmission ;
+                            ema:inDomain sgam:Transmission ;
                             ema:onLayer sgam:BusinessLayer,
                                 sgam:CommunicationLayer,
                                 sgam:ComponentLayer,

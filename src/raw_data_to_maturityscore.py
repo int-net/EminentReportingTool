@@ -26,7 +26,7 @@ def raw_data_to_MaturityScore( raw_data : list):
 
     if len(numericValues) > 1 :
                     averageScore= statistics.mean(numericValues)
-                    standardDeviation= statistics.stdev(numericValues)
+                    standardDeviation= statistics.pstdev(numericValues)
                     medianScore= statistics.median(numericValues)
                     modeScore= statistics.mode(numericValues)
     elif len(numericValues) == 1 :

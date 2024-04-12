@@ -14,6 +14,8 @@ import matplotlib.pyplot as plt
 import numpy as np 
 from pylab import *
 
+import pickle
+
 
 def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str):
     ################################
@@ -66,7 +68,7 @@ def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str)
     df = pd.DataFrame(tube_df)
     # Count occurrences of each combination of keywords
     keyword_counts = df.groupby(['domain', 'zone', 'layer']).size().reset_index(name='Count')
-    # print(keyword_counts)
+    print(keyword_counts)
 
     ####################################################
     ##### preprocessing for graphic representation #####
@@ -105,8 +107,8 @@ def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str)
 
 
     # assigning the data the right axes 
-    x = keyword_counts['zone']
-    y = keyword_counts['domain']
+    y = keyword_counts['zone']
+    x = keyword_counts['domain']
     z = keyword_counts['layer']
     colo = keyword_counts['Count']
     
@@ -123,21 +125,21 @@ def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str)
     color_map.set_array(colo) 
     
     # creating the heatmap 
-    img = ax.scatter(x, y, z, marker='o',  ###whats this?
-                    s=400, color='green') 
-    plt.colorbar(color_map, ax= ax, pad =0.1) 
+    img = ax.scatter(x, y, z, marker='o', c = colo,
+                    s=400,depthshade=False ) 
+    plt.colorbar(img, ax= ax, pad =0.1) 
 
     # adding title and labels 
-    ax.set_title("community distribution") 
-    ax.set_xlabel('zone') 
-    ax.xaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
-    ax.xaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
+    ax.set_title("respondents distribution") 
+    ax.set_ylabel('zone') 
+    ax.yaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
         ['Process', 'Field', 'Operation', 'Enterprise', 'Market']
         ))
 
-    ax.set_ylabel('domain') 
-    ax.yaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
-    ax.yaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
+    ax.set_xlabel('domain') 
+    ax.xaxis.set_major_locator(matplotlib.ticker.FixedLocator([1,2,3,4,5]))
+    ax.xaxis.set_major_formatter(matplotlib.ticker.FixedFormatter(
         ['Customer', 'DER', 'Distribution', 'Transmission', 'Generation']
         ))
 
@@ -158,12 +160,20 @@ def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str)
 
     # displaying plot 
     # plt.show()
-    figname= output_dir+ study_name+'_respondents_tube_in_the_cube.svg' 
+    figname= output_dir+ study_name+'_respondents_tube_in_the_cube.png' 
     plt.savefig(figname)
+    # pickle.dump
+
+
+# respondants_tube_in_the_cube(
+#     responses = './tests/eminentresponses.ttl',
+#     study = 'http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
+#     output_dir = './tests/sif/'
+# )
 
 
 respondants_tube_in_the_cube(
     responses = './tests/eminentresponses.ttl',
-    study = 'http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-    output_dir = './tests/sif/'
+    study = 'http://eminent.intnet.eu/maturity_assessment_results#cim-expert-group-2024',
+    output_dir = './tests/cim/'
 )

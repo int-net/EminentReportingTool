@@ -152,17 +152,18 @@ def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str)
     # ax.xticks(np.arange(5), ['Process', 'Field', 'Operation', 'Enterprise', 'Market'])
 
     ax.set_xlim([1, 5])
-    ax.tick_params(axis='x', pad=2)
+    ax.tick_params(axis='x', pad=3)
     ax.set_ylim([1, 5])
-    ax.tick_params(axis='y', pad=2)
+    ax.tick_params(axis='y', pad=3)
     ax.set_zlim([1, 6])
-    ax.tick_params(axis='z', pad=2)
+    ax.tick_params(axis='z', pad=3)
 
     # displaying plot 
+    ax.view_init(elev=70, azim=45)
     # plt.show()
     figname= output_dir+ study_name+'_respondents_tube_in_the_cube.png' 
     plt.savefig(figname)
-    # pickle.dump
+
 
 
 # respondants_tube_in_the_cube(

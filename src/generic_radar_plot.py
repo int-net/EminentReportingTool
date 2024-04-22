@@ -12,8 +12,12 @@ def generic_radar_plot(maturitydf: pd.DataFrame, plotKind: str):
     ax.set_theta_offset(np.pi / 2)  # Rotate plot so that the first axis is at the top
 
     # Example data (replace with your actual data)
-    labels_outer = ['Community Facilitation', 'Technical Agreements', 'Facilitating Implementation']
-    labels_inner = maturitydf['capability'].tolist()
+    labels_outer = ['Community Facilitation', 'Technical Agreements', 'Implemen- tation']
+    labels_inner = ['Community Growth', 'Knowledge Retention', 
+                    'Diversity', 'Profile Establishment', 
+                    'Standardization', 'Testing', 'User Base Growth', 
+                    'Operational Alignment','Tool Devel- opment', 
+                    'Market Creation']
 
     if plotKind == 'maturity_median':
         data = maturitydf['maturity_median'].tolist()

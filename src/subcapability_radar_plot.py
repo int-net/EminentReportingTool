@@ -15,13 +15,23 @@ def subcapability_radar_plot(maturitydf: pd.DataFrame, plotKind: str, capability
     # Example data (replace with your actual data)
     if str(capability) == 'http://eminent.intnet.eu/maturity_model#CommunityFacilitation' :
         labels_outer = ['Growth', 'Retention', 'Diversity']
+        labels_inner = ['process', 'organization', 'information', 'resources',
+                        'process', 'organization', 'information', 'resources',
+                        'process', 'organization', 'information', 'resources']
     elif str(capability) == 'http://eminent.intnet.eu/maturity_model#TechnicalAgreements' :
         labels_outer = ['Profiles', 'Standardization', 'Testing']
+        labels_inner = ['process', 'organization', 'information', 'resources',
+                        'process', 'organization', 'information', 'resources',
+                        'process', 'organization', 'information', 'resources']
     elif str(capability) == 'http://eminent.intnet.eu/maturity_model#Implementation' :
         labels_outer = ['Users', 'Alignment', 'Development', 'Market']
+        labels_inner = ['process', 'organization', 'information', 'resources',
+                        'process', 'organization', 'information', 'resources',
+                        'process', 'organization', 'information', 'resources',
+                        'process', 'organization', 'information', 'resources']
     else: print(capability +' : '+ 'http://eminent.intnet.eu/maturity_model#CommunityFacilitation')
 
-    labels_inner = maturitydf['dimension'].tolist()
+    # labels_inner = maturitydf['dimension'].tolist()
 
     if plotKind == 'maturity_median':
         data = maturitydf['maturity_median'].tolist()

@@ -156,21 +156,25 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
         if str(row.capability) == 'http://eminent.intnet.eu/maturity_model#CommunityFacilitation':
             maturity_df['dimension']=pd.Categorical(maturity_df['dimension'], categories=desired_order_community, ordered=True)
             maturity_df= maturity_df.sort_values(by='dimension')
+            community_facilitation_df= maturity_df
             
         elif str(row.capability) == 'http://eminent.intnet.eu/maturity_model#TechnicalAgreements':
             maturity_df['dimension']=pd.Categorical(maturity_df['dimension'], categories=desired_order_agreements, ordered=True)
             maturity_df= maturity_df.sort_values(by='dimension')
+            technical_agreements_df = maturity_df
             
         elif str(row.capability) == 'http://eminent.intnet.eu/maturity_model#Implementation':
             maturity_df['dimension']=pd.Categorical(maturity_df['dimension'], categories=desired_order_implementation, ordered=True)
             maturity_df= maturity_df.sort_values(by='dimension')
+            implementation_df = maturity_df
         
-        print(maturity_df)
+        # print(maturity_df)
 
         plot = subcapability_radar_plot(maturitydf=maturity_df, plotKind=plot_kind, capability= row.capability) 
         filename = output_folder + str(study).split("#",1)[1]+'_' +str(row.capability).split("#",1)[1] + '.svg'
         plot.savefig(filename, pad_inches= 2)
-    return maturity_df
+        plot.show()
+    return community_facilitation_df , technical_agreements_df, implementation_df
 
 
 

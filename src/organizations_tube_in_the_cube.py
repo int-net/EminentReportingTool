@@ -163,7 +163,7 @@ def organizations_tube_in_the_cube (responses: text, study: str, output_dir : st
     ax.tick_params(axis='z', pad=2)
 
     # displaying plot 
-    plt.show()
+    ax.view_init(elev=70, azim=45)
     figname= output_dir+ study_name+'_organizations_tube_in_the_cube.png' 
     plt.savefig(figname)
 

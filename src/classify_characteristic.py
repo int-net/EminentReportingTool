@@ -41,7 +41,7 @@ def classify_characteristic(description = str):
 
     if description in bad_resources_0 :
         characteristic_uri = emm_ns[str(bad_resources_0[description])]
-        print(type(characteristic_uri))
+        # print(type(characteristic_uri))
 
     else:
         description=description.lower()

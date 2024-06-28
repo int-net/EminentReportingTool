@@ -40,6 +40,15 @@ def subcapability_radar_plot(maturitydf: pd.DataFrame, plotKind: str, capability
     elif plotKind == 'maturity_avg':
         data = maturitydf['maturity_avg'].tolist()
 
+    for i in range(len(data)):
+
+        # replace hardik with shardul
+        if data[i] == 'Not Enough Data':
+            data[i] = 0  
+
+    print(data)   
+    
+
     # Create evenly spaced angles
     theta = np.linspace(0, 2 * np.pi, len(labels_inner), endpoint=False)
     gamma = np.linspace(0, 2 * np.pi, len(labels_outer), endpoint=False)

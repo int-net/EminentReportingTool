@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Results create="2024-06-28_14-35-51">
+  <Survey id="729388" uid="89146514-1776-4ad0-b72b-3d5a2359134a" alias="Eminent">
+    <Elements lang="EN">
+      <Section id="fb40f37a-4576-56d5-8e55-dfb91ced27d0" type="Section">EMINENT</Section>
+      <Image id="10c8f8b8-63ef-f057-8fe8-fa2d0456eaa8" type="Image">Image</Image>
+      <Section id="ebb4fef4-87b8-534d-7a55-40bcdb9c8d7f" type="Section">This survey is a part of the Int:net project. &lt;br /&gt;&lt;br /&gt;The Interoperability Network for the Energy Transition (int:net) is an open and cross-domain community. The aim of the project is to develop, test, and deploy interoperable energy services to further pave the path for a carbon-free European society in 2050. With a comprehensive, FAIR knowledge platform and a series of attractive events, the int:net-community guides those who deal with the heterogeneous interoperability landscape of energy services.&lt;br /&gt;&lt;br /&gt;EMINENT (Evaluating the Maturity of INteroperability for the ENergy Transition) is a tool that is being developed within the Int:net project that will operate as a maturity model in the energy sector, to assess and improve their interoperability capabilities over time, ensuring that they can keep pace with the rapidly changing energy landscape. &lt;br /&gt;&lt;br /&gt;The EMINENT maturity model is subject to the following objectives:&lt;br /&gt;· Improve interoperability efforts and the own interoperability awareness within the ICT energy sector across a range of identified categories and dimensions&lt;br /&gt;· Improve capability of participants in a digital energy sector over the world&lt;br /&gt;· Providing tools to assess interoperability efforts in the digital energy sector on syntactic, semantic, business and governance level&lt;br /&gt;· Development of an User Interface (UI) for tracking interoperability efforts maturity in the digital energy sector&lt;br /&gt;· Guidance is provided to increase the maturity of interoperability&lt;br /&gt;&lt;br /&gt;The answers to this survey will be used to assess the maturity of the interoperability community that you participate in. Your responses in the survey are completely anonymous, and your privacy is our utmost priority.</Section>
+      <Section id="ac111c3e-4116-8286-ed87-cfac15a3130a" type="Section">User Profile Information</Section>
+      <Text id="7145b93c-8407-227e-000e-aad25f454dc1" type="Text">&lt;span style="text-decoration: underline; font-size: 14pt;"&gt;&lt;strong&gt;User Profile Info:&lt;/strong&gt;&lt;/span&gt;</Text>
+      <Image id="67395f82-e522-6b28-81bc-715ddee8ec08" type="Image">Image</Image>
+      <Text id="b15c3d93-a1dd-1f60-3056-7960caf10850" type="Text">Your responses in the User Profile Info section play a crucial role in allowing us to understand how diverse elements across within the Energy Transition influence perspectives. This information is handled with strict confidentiality, ensuring that your individual data remains private and contributes anonymously to our collective insights.</Text>
+      <Question id="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" type="Multiple Choice">1. Which SGAM domain(s) best describe your area of expertise?</Question>
+      <Answer id="ff5d9679-4bb1-437a-bba2-685ea9d2e13b" type="Choice Answer">Customer Premises</Answer>
+      <Answer id="bade021f-7d1b-4ae5-9336-4fbbfa11e9b6" type="Choice Answer">DER</Answer>
+      <Answer id="08ff49b7-24f5-48f2-b95c-77826d901225" type="Choice Answer">Distribution</Answer>
+      <Answer id="8809f596-5c19-4bae-8f8e-3054c158b7af" type="Choice Answer">Transmission</Answer>
+      <Answer id="6ab2e5f6-d1b9-40d3-8b9f-2fb699a80b99" type="Choice Answer">Generation</Answer>
+      <Question id="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" type="Multiple Choice">2. Which SGAM zone(s) best describe your area of expertise?&lt;br /&gt;(SGAM- Smart energy Grid Architecture Model)</Question>
+      <Answer id="84fa36e5-205e-4f10-b1d1-317e387dd32e" type="Choice Answer">Process</Answer>
+      <Answer id="b1aa2d06-7244-47ea-8b01-303dcd6eb5b8" type="Choice Answer">Field</Answer>
+      <Answer id="eabe9621-aa2b-45a3-9813-690fe41de425" type="Choice Answer">Operation</Answer>
+      <Answer id="cf37c4f7-9980-43d3-ac49-0e0c642180c7" type="Choice Answer">Enterprise</Answer>
+      <Answer id="30187abc-f084-446f-b207-94ee68edf0cc" type="Choice Answer">Market</Answer>
+      <Question id="51194433-574f-111a-7b94-7f048ef4dd79" type="Multiple Choice">3. Which SGAM interoperability layer(s) best describe your area of expertise?</Question>
+      <Answer id="e54d742e-7780-4ae5-9320-4e2c0116119b" type="Choice Answer">Component Layer</Answer>
+      <Answer id="3e4bb51e-94b0-401b-9513-1f7f306e4907" type="Choice Answer">Communication Layer</Answer>
+      <Answer id="17b97ee3-848a-42de-8aa5-ef01378c1684" type="Choice Answer">Information Layer</Answer>
+      <Answer id="65ff0640-6cf0-486e-98f7-b70d473c7607" type="Choice Answer">Function Layer</Answer>
+      <Answer id="e2e25ef9-c520-444e-960d-459120bd7de2" type="Choice Answer">Business Layer</Answer>
+      <Answer id="d953f7fe-4a56-424d-ae36-e18a1db30b40" type="Choice Answer">Regulatory Layer</Answer>
+      <Question id="0de32b34-c527-19d4-f6ca-76af0cd7b88b" type="Multiple Choice">4. Which description best fits the organization you represent?</Question>
+      <Answer id="bea16226-eae9-4588-9c0b-e7a6e76e162f" type="Choice Answer">Energy Utility</Answer>
+      <Answer id="81240831-82e5-482b-a110-045aaff81a26" type="Choice Answer">Energy Market Party</Answer>
+      <Answer id="575dd9ff-2dd0-409b-8c97-e167dc714389" type="Choice Answer">Government</Answer>
+      <Answer id="027378c5-b589-422f-9e79-4a3b4d80ff84" type="Choice Answer">Vendor</Answer>
+      <Answer id="6927e76b-633b-45d6-b738-b64683298610" type="Choice Answer">Consultancy</Answer>
+      <Answer id="9e80d470-c3fe-4770-a5e1-622feb715b8a" type="Choice Answer">Research</Answer>
+      <Question id="91cc8bfe-ee6e-c7e9-3462-b49021778bdc" type="Multiple Choice">5. How large is the organisation you represent?</Question>
+      <Answer id="915baa03-922f-4090-9333-a9c55f4f8e46" type="Choice Answer">1-10</Answer>
+      <Answer id="7e644d71-ece5-4bad-b9b3-d841e144951a" type="Choice Answer">11-100</Answer>
+      <Answer id="879866c3-ebc3-465b-9760-6f931b5c9db1" type="Choice Answer">101-500</Answer>
+      <Answer id="5b8e6b54-22b8-4a92-999d-d9fb287cc9f7" type="Choice Answer">501-1000</Answer>
+      <Answer id="7048bc2e-d300-407a-831a-fa6b7a406e60" type="Choice Answer">1001-5000</Answer>
+      <Answer id="d9f5890a-44c4-47e5-9b76-382c8efaef07" type="Choice Answer">more than 5000</Answer>
+      <Question id="17d78fb6-586e-21f1-a958-93af40ed9c88" type="Multiple Choice">6. In what energy sector does the organisation you represent operate?</Question>
+      <Answer id="7709f4a9-032d-421d-b6df-561a5541190f" type="Choice Answer">Electricity</Answer>
+      <Answer id="30712159-07aa-4a27-9e76-7ca534e449b7" type="Choice Answer">Natural Gas</Answer>
+      <Answer id="d2578dc7-13fd-4985-b143-19e3f05000d4" type="Choice Answer">Heat</Answer>
+      <Answer id="da363ff5-fe33-4202-b3f1-67c232318572" type="Choice Answer">Hydrogen</Answer>
+      <Answer id="380de4ce-8e05-4d41-aca7-99c811ee5b81" type="Choice Answer">Other</Answer>
+      <Question id="384d5d53-9820-c0d1-a1cb-e6960e158527" type="Free Text">Please specify if other</Question>
+      <Question id="9666d660-00fd-1a81-d1f7-717d39c6f5d7" type="Multiple Choice">7. Which SGAM zone(s) best describe the organizations area of operation?</Question>
+      <Answer id="d86a00f6-d3ae-4e69-b986-1b876982a4b3" type="Choice Answer">Process</Answer>
+      <Answer id="5e3e2d94-995a-41ca-ba84-0252adc58723" type="Choice Answer">Field</Answer>
+      <Answer id="69ce7619-25e4-4d57-a726-b1d1fa399294" type="Choice Answer">Operation</Answer>
+      <Answer id="7f00f24d-8cfa-4422-a7e0-7cf29ed787da" type="Choice Answer">Enterprise</Answer>
+      <Answer id="f256041e-87a3-4b91-8091-3197d6d72630" type="Choice Answer">Market</Answer>
+      <Question id="6d4606c8-31b7-5c8f-4463-5be353ea4f64" type="Multiple Choice">8. Which SGAM domain(s) best describe the organizations area of operation?</Question>
+      <Answer id="91782481-52e9-4278-8396-f6df00411384" type="Choice Answer">Customer Premises</Answer>
+      <Answer id="b5bf0bce-069e-4579-bf25-bdf947dc585c" type="Choice Answer">DER</Answer>
+      <Answer id="59509e6b-a925-42f4-b5f4-0a6fc8ba898e" type="Choice Answer">Distribution</Answer>
+      <Answer id="b23bcf1f-eaf9-467d-95d7-688dd1bb09e2" type="Choice Answer">Transmission</Answer>
+      <Answer id="44f9511c-4a75-4c93-af53-7ac1ae34c88a" type="Choice Answer">Generation</Answer>
+      <Question id="b1acefb8-c977-c91a-b82c-6bee6a82a34d" type="Multiple Choice">9. Which SGAM interoperability layer(s) best describe the organizations area of operation?</Question>
+      <Answer id="fede0608-6e61-4866-9697-14ebf9dce485" type="Choice Answer">Component Layer</Answer>
+      <Answer id="fe44310f-a38f-4b20-ad9a-da23763d8c5c" type="Choice Answer">Communication Layer</Answer>
+      <Answer id="565bf524-e86d-43d3-b1d2-730e76af5af4" type="Choice Answer">Information Layer</Answer>
+      <Answer id="58ae5178-139f-465b-8206-81293fcd5f87" type="Choice Answer">Function Layer</Answer>
+      <Answer id="b7daa1ed-3168-4ad7-bc1a-af456fadfcef" type="Choice Answer">Business Layer</Answer>
+      <Answer id="072b975d-8fc6-4d6c-a575-0a41346f6903" type="Choice Answer">Regulatory Layer</Answer>
+      <Question id="32457cf6-2f78-5a25-7691-cad210b83222" type="Free Text">10. Provide the code provided to you prior to the questionnaire:</Question>
+      <Section id="0142ba5c-eee5-60ab-3667-1fa394f910b8" type="Section">Section 1: Community Facilitation</Section>
+      <Image id="d0a778b6-eee5-4e3d-5026-f3d3f2cfce5b" type="Image">Image</Image>
+      <Text id="1c2fc152-9feb-d93c-9649-11f8ce61ab7f" type="Text">&lt;p&gt;Community facilitation in the context of interoperability typically refers to the process of fostering collaboration and communication among different communities or groups to achieve seamless interaction and compatibility. It involves creating a supportive environment where stakeholders from various backgrounds can come together, share their perspectives, and work towards common goals, especially in the context of technology, standards, or data exchange.&lt;/p&gt;
+&lt;p&gt;Facilitators play a key role in guiding discussions, resolving conflicts, and ensuring that all voices are heard. In the realm of interoperability, community facilitation may include activities such as organizing forums, workshops, or working groups where representatives from different communities can discuss and align their approaches to enhance compatibility and integration.&lt;/p&gt;
+&lt;p&gt;Ultimately, the goal of community facilitation in interoperability is to build bridges between diverse groups, fostering understanding, and facilitating the development of solutions that enable seamless interaction and data exchange across various systems or platforms.&lt;/p&gt;</Text>
+      <Question id="fc61cf27-8391-c4a0-5c8e-ada29c0155d2" type="Line">Ruler</Question>
+      <Text id="4fcb6bb2-6cda-668c-132e-8ff7c8b62922" type="Text">&lt;strong&gt;1.1 Community growth&lt;/strong&gt; in the context of interoperability refers to the expansion, collaboration, and maturation of a community of entities or stakeholders involved in creating, adopting, and advancing interoperable systems and standards. It involves the collective progress and development of a group of organizations, developers, and individuals who share common interests in achieving seamless connectivity and integration between diverse systems.</Text>
+      <Image id="f14223f9-bbb9-2581-58aa-f943bd142847" type="Image">Image</Image>
+      <Question id="619d9713-706e-c382-3ba7-6fa142ec136c" type="Multiple Choice">1.1.p: Considering the &lt;span style="text-decoration: underline;"&gt;processes&lt;/span&gt; dimension of &lt;strong&gt;Community Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes for community growth can be: &lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Processes for outreach to potential new participants&lt;/li&gt;
+&lt;li&gt;There is a social media outreach plan&lt;/li&gt;
+&lt;li&gt;Processes to onboard new participants and help them get started.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="0eddaf10-c972-410b-8211-b48dacd82ac1" type="Choice Answer">There are no processes for Community Growth.</Answer>
+      <Answer id="d8c6bbcb-1ed1-4611-bee0-1c6ae0c0196a" type="Choice Answer">Key processes for Community Growth are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="cce3f117-a189-41d7-ad31-46e3f0018067" type="Choice Answer">Key processes for Community Growth are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="57b974e0-863b-4769-847c-313ff0ae07a8" type="Choice Answer">Processes for Community Growth are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="868afa68-29d6-47c0-9a82-b7432a5096d8" type="Choice Answer">Processes for Community Growth are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="cbd8c662-4087-4ebe-81e9-a28bf6af373a" type="Choice Answer">Unsure</Answer>
+      <Answer id="ab55c1cc-ea4e-498e-8409-651877195032" type="Choice Answer">There is little to no process documentation, -governance, or -ownership for Community Growth. Progress on Community Growth is based on individual’s knowledge, manual interventions and with unpredictable results</Answer>
+      <Question id="003b79cb-f328-eb1b-b862-90a00c21a602" type="Multiple Choice">1.1.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization&lt;/span&gt; dimension of &lt;strong&gt;Community Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples for organization for community growth are:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Individuals or teams/working groups are tasked with growing the community.&lt;/li&gt;
+&lt;li&gt;There is interaction between this group and the rest of the community to discuss where extra contribution is needed.&lt;/li&gt;
+&lt;li&gt;Trainings are available for how to reach out to potential new members.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="3ce4765b-09c2-4d56-b138-0a516ea5e959" type="Choice Answer">There is no organization for Community Growth.</Answer>
+      <Answer id="0e717ac3-1781-494c-9016-16cf8772259a" type="Choice Answer">Community members have a weak understanding of how for Community Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Community Growth.</Answer>
+      <Answer id="55ef61d1-bafd-499e-8c94-6fa01d9045df" type="Choice Answer">Community members have some skills for Community Growth but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="71920e57-d179-4890-9c66-fb8ace1660f9" type="Choice Answer">Community members have good skills, experience and available training is in place to help Community Growth. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="e41a64e2-5ae4-4995-823d-48cb2abfa7d5" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Community Growth . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="0b426587-526c-466f-9232-90460a626a95" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Community Growth and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="3402d4d6-4ef3-41b9-a56a-ef5ca689d038" type="Choice Answer">Unsure</Answer>
+      <Question id="e4b0274b-8669-ec21-6cb0-5c6be1547cfa" type="Multiple Choice">1.1.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of &lt;strong&gt;Community Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information to support community growth are:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Mailing lists for potential new members&lt;/li&gt;
+&lt;li&gt;Promotional materials, slide decks&lt;/li&gt;
+&lt;li&gt;List(s) of (potential) community engagements&lt;/li&gt;
+&lt;li&gt;Records of previous engagements with potential future members&lt;/li&gt;
+&lt;li&gt;Org-chart of the existing community&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="e25871a3-3288-412f-9b97-736de05b6cdc" type="Choice Answer">Data/information to support Community Growth does not exist.</Answer>
+      <Answer id="055c594d-461f-4714-b838-65d318d9baf1" type="Choice Answer">Information to support Community Growth is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="f973e543-5018-4530-9a73-b01ee741d15a" type="Choice Answer">Information to support Community Growth is available in silos, hard to locate for others.</Answer>
+      <Answer id="1c92dfda-115e-4823-8b2e-87fef9e5f8d4" type="Choice Answer">Information governance defines how information for Community Growth is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="5cec2330-1004-415b-a364-e4a677d9bf9f" type="Choice Answer">Information for Community Growth is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="8f86439d-61a2-45fc-a1c0-15754f8fc3a9" type="Choice Answer">New information for Community Growth is continuously identified and benchmarked.</Answer>
+      <Answer id="81bd2dcc-2c0f-4f84-9607-1ce9ec1771fc" type="Choice Answer">Unsure</Answer>
+      <Question id="9fdbb80d-2c0a-32df-3691-3c60b23a460b" type="Multiple Choice">1.1.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Community Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources to support community growth include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Budget for community growth activities, such as out reach, conference participation etcetera&lt;/li&gt;
+&lt;li&gt;Applications that allow for managing information related to community growth&lt;/li&gt;
+&lt;li&gt;Marketing materials/branding.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="6b25c3c5-a127-4078-854c-5b9b3c7627da" type="Choice Answer">There are no resources available for Community Growth . Individuals who do participate in Community Growth do so voluntarily in their own time.</Answer>
+      <Answer id="dc8d8c7c-09fd-4435-8a44-83dd40e11e2d" type="Choice Answer">Few, if any, resources, including budget, are assigned for Community Growth. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="4833ac98-6afb-46d7-8923-85512b23ac48" type="Choice Answer">Some resources are identified for Community Growth, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="cb0eb73f-db4b-43c7-ab4d-496b5ea9d0ef" type="Choice Answer">Community Growth's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Community Growth are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="04343c7e-b9ec-4dc6-beb1-84c7f8df2677" type="Choice Answer">New resources are made available to increase the maturity of Community Growth. Most work done for Community Growth is compensated.</Answer>
+      <Answer id="6064d217-09b5-4ab8-adfa-a062e8ab5b99" type="Choice Answer">New resources and other innovations that can improve Community Growth are investigated, benchmarked, proven, and deployed. All work done towards Community Growth is compensated.</Answer>
+      <Answer id="ad6ab2d3-b377-4a1f-a091-851dfe048671" type="Choice Answer">Unsure</Answer>
+      <Question id="08cbbcae-bb43-d32e-5f2a-a33b4c9661d0" type="Line">Ruler</Question>
+      <Text id="bf36f449-691d-3c88-16b2-1a18f8e5c679" type="Text">&lt;strong&gt;1.2 Knowledge retention&lt;/strong&gt; in the context of interoperability refers to the intentional preservation and accessibility of critical information, expertise, and insights related to the seamless integration and connectivity of diverse systems and technologies. It involves capturing, storing, and making available the knowledge gained from experiences, best practices, challenges, and solutions associated with interoperability efforts.</Text>
+      <Image id="ef2c9b6a-0212-8333-f086-1c413246706d" type="Image">Image</Image>
+      <Question id="0f6dfb1f-3f40-b12e-be9b-bc39f709785a" type="Multiple Choice">1.2.p: Considering the&lt;span style="text-decoration: underline;"&gt; process dimension&lt;/span&gt; of &lt;strong&gt;Knowledge Retention&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes for knowledge retention include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Onboarding and debriefing/exit processes.&lt;/li&gt;
+&lt;li&gt;Processes for education and training of the problems/technologies/solutions the community aims to address.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="122bb8dc-471f-4b99-9f20-ae53ae471a6e" type="Choice Answer">There are no processes for Knowledge Retention.</Answer>
+      <Answer id="e8ba9013-c89a-42cb-8f82-3130d86b5fa7" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Knowledge Retention. Progress on Knowledge Retention is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="26d570ec-d25f-43f4-bf72-f8512e61915b" type="Choice Answer">Key processes for Knowledge Retention are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="5d449d90-ab87-4054-ba03-fa7a78e5f608" type="Choice Answer">Key processes for Knowledge Retention are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="9ae9567c-8af3-492b-a125-66a58912d56b" type="Choice Answer">Processes for Knowledge Retention are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="831e6e76-e7bc-4d4a-b967-12fd2a07b720" type="Choice Answer">Processes for Knowledge Retention are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="26a9100e-597a-42c1-ab6a-9960d0d5bc2e" type="Choice Answer">Unsure</Answer>
+      <Question id="e331722f-5bd4-4b43-2415-08fe691fdcaa" type="Multiple Choice">1.2.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;Knowledge Retention&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of people and organization for knowledge retention include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Individuals or teams/working groups are tasked with the efforts related to knowledge retention like training/education of the community.&lt;/li&gt;
+&lt;li&gt;The community has a culture of sharing information and insights through (regular) meetings or mentorship programs.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="31a2d97b-644e-4b44-a8be-1866bd94888a" type="Choice Answer">There is no organization for Knowledge Retention.</Answer>
+      <Answer id="44888405-cd41-415c-8555-8727c96404e3" type="Choice Answer">Community members have a weak understanding of how for Knowledge Retention with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Knowledge Retention.</Answer>
+      <Answer id="b2170f29-d789-4366-b9e3-3ff9888401cb" type="Choice Answer">Community members have some skills for Knowledge Retention but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="3f09add0-6590-4e23-a108-067965571efd" type="Choice Answer">Community members have good skills, experience and available training is in place to help Knowledge Retention. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="0397c288-d671-4e15-b391-043ac354a837" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Knowledge Retention . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="22cab17f-9772-4873-aed3-81ff8d8ab576" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Knowledge Retention and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="438ce97e-e4c0-4f45-a8be-63601c331703" type="Choice Answer">Unsure</Answer>
+      <Question id="707474ba-460b-b3f0-2e7f-f91542b5ad84" type="Multiple Choice">1.2.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of &lt;strong&gt;Knowledge Retention&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information for knowledge retention include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Documents related to the subject of the community are organized in a catalog/library for easy access and findability.&lt;/li&gt;
+&lt;li&gt;Documented succession plans.&lt;/li&gt;
+&lt;li&gt;Documented (historical) design decisions.&lt;/li&gt;
+&lt;li&gt;Documented strategies and roadmaps.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="135aa741-ad1d-4d56-9f8b-f36400658090" type="Choice Answer">Data/information to support Knowledge Retention does not exist.</Answer>
+      <Answer id="93c40e34-16b7-4d71-af1d-8a704ec0562d" type="Choice Answer">Information to support Knowledge Retention is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="187a85ff-8e6f-4f92-991b-8fe975f6a37b" type="Choice Answer">Information to support Knowledge Retention is available in silos, hard to locate for others.</Answer>
+      <Answer id="b3c52cb8-6bcf-4bc5-abf2-c89e9f06cbda" type="Choice Answer">Information governance defines how information for Knowledge Retention is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="33e44ec8-edf7-4b2f-bdd3-527d5e285fe3" type="Choice Answer">Information for Knowledge Retention is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="6b5cffed-6331-4996-a626-e61954954db5" type="Choice Answer">New information for Knowledge Retention is continuously identified and benchmarked.</Answer>
+      <Answer id="d35a24b1-13ac-4091-8f56-fee816494398" type="Choice Answer">Unsure</Answer>
+      <Question id="b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36" type="Multiple Choice">1.2.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Knowledge Retention&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources for knowledge retention include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Available budget for knowledge transfer.&lt;/li&gt;
+&lt;li&gt;Applications/infrastructure for file sharing.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="13a39c0a-53e8-4bf4-9e17-8f4ce107b032" type="Choice Answer">There are no resources available for Knowledge Retention . Individuals who do participate in Knowledge Retention do so voluntarily in their own time.</Answer>
+      <Answer id="ebd18549-2c39-4536-bb40-650dd1944352" type="Choice Answer">Few, if any, resources, including budget, are assigned for Knowledge Retention. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="0bfc10c7-16d3-4f7a-a87c-8f07b3ff4977" type="Choice Answer">Some resources are identified for Knowledge Retention, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="5e26ac50-f68e-4383-b219-00bc724cee2f" type="Choice Answer">Knowledge Retention's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Knowledge Retention are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="f5ca0bdf-0a5c-4657-ad1c-4991411f61b3" type="Choice Answer">New resources are made available to increase the maturity of Knowledge Retention. Most work done for Knowledge Retention is compensated.</Answer>
+      <Answer id="185d4289-0921-41bb-990d-6a3db0fdf0d3" type="Choice Answer">New resources and other innovations that can improve Knowledge Retention are investigated, benchmarked, proven, and deployed. All work done towards Knowledge Retention is compensated.</Answer>
+      <Answer id="60ec5764-7d58-4c78-a61a-88032dfa5a34" type="Choice Answer">Unsure</Answer>
+      <Question id="be0c94dc-3100-6bbd-cfb3-48e36512fe63" type="Line">Ruler</Question>
+      <Text id="5046c1ff-7b06-6b11-fb42-34d9d15009c8" type="Text">&lt;strong&gt;1.3 Diversity of perspectives&lt;/strong&gt; in the context of interoperability refers to the inclusion and consideration of a wide range of viewpoints, experiences, and insights from various stakeholders, domains, and disciplines involved in the design, implementation, and governance of interoperable systems. It recognizes that achieving seamless connectivity between diverse systems requires input and understanding from individuals with different backgrounds, expertise, and roles within the ecosystem.</Text>
+      <Image id="f4b09baf-5c9f-e93f-35ff-4d14dbbf4eed" type="Image">Image</Image>
+      <Question id="18a59f86-f8c9-05c4-b63f-f2b858739f70" type="Multiple Choice">1.3.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;Diversity of Perspectives&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes for diversity of perspectives include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Regular evaluation whether the active community properly represents the stakeholders and related activities to correct if necessary.&lt;/li&gt;
+&lt;li&gt;Regular evaluation if the active community is appropriately diverse regarding relevant expertise (covering the SGAM framework for instance) and related activities to correct if necessary.&lt;/li&gt;
+&lt;li&gt;Regular evaluation if the active community is appropriately diverse regarding age, gender, ethnicity etcetera. and related activities to correct if necessary.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="99958014-0eac-4eb8-8132-170a153c6211" type="Choice Answer">There are no processes for Diversity of Perspectives.</Answer>
+      <Answer id="0ab47684-03c5-4774-878e-a5889142df4a" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Diversity of Perspectives. Progress on Diversity of Perspectives is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="2eb1a6dd-28e4-4fc4-b829-8c38a2b4098b" type="Choice Answer">Key processes for Diversity of Perspectives are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="cff03227-dd57-4beb-a840-6e4f26f9f906" type="Choice Answer">Key processes for Diversity of Perspectives are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="43ea0005-cff8-404c-bd0b-7c11c93c2ec8" type="Choice Answer">Processes for Diversity of Perspectives are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="68d71531-2a35-470f-a00b-47e13f15c789" type="Choice Answer">Processes for Diversity of Perspectives are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="5064deb2-9c5a-432e-bc61-0d14faa8d7df" type="Choice Answer">Unsure</Answer>
+      <Question id="1d856148-30ae-c626-57a7-2ec96b48e5dc" type="Multiple Choice">1.3.o: Considering the&lt;span style="text-decoration: underline;"&gt; people and organization dimension&lt;/span&gt; of &lt;strong&gt;Diversity of Perspectives&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples for people and organization to support a diversity of perspectives include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;The community has a culture where it (as a community) and its members evaluate themselves on the match of their perspective and skillset to the challenges the community aims to address.&lt;/li&gt;
+&lt;li&gt;The community has a culture where outside perspective is welcomed or even sought.&lt;/li&gt;
+&lt;li&gt;The community has a culture of openness and acceptance towards new ideas.&lt;/li&gt;
+&lt;li&gt;Community leadership understands the importance of a diversity of perspectives and takes this into consideration in its strategy and decision making.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="fe0f1f07-5f96-476a-a29d-7e8d5633bfc9" type="Choice Answer">There is no organization for Diversity of Perspectives.</Answer>
+      <Answer id="42c8e4cc-b98f-4b63-a5e6-5e4194921bc2" type="Choice Answer">Community members have a weak understanding of how for Diversity of Perspectives with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Diversity of Perspectives.</Answer>
+      <Answer id="18d9e790-8c07-42b7-b2ca-1c9e066e0c3b" type="Choice Answer">Community members have some skills for Diversity of Perspectives but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="454f94eb-a97f-466c-b215-7d032dc40ada" type="Choice Answer">Community members have good skills, experience and available training is in place to help Diversity of Perspectives. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="9a2fab1b-b9ef-4bdb-912c-448c1f2eb281" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Diversity of Perspectives . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="f9a55a74-0c27-49a7-aee2-59edfbfe35a5" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Diversity of Perspectives and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="ba9b6d33-e546-4078-bc57-081897bc574f" type="Choice Answer">Unsure</Answer>
+      <Question id="ccbc2961-4fa5-12fd-5f7b-85079c2cd008" type="Multiple Choice">1.3.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of &lt;strong&gt;Diversity of Perspectives&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information that supports a diversity of perspectives include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Overview of the desired composition of the community (in terms of perspective, skillset etc.).&lt;/li&gt;
+&lt;li&gt;Overview of the composition of the existing community (in terms of perspective, skillset etc.).&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="b5e50703-c75a-4679-aef9-dc7d999fff41" type="Choice Answer">There is no organization for Diversity of Perspectives.</Answer>
+      <Answer id="6a186392-84c5-4784-890d-4ad8b34cf115" type="Choice Answer">Community members have a weak understanding of how for Diversity of Perspectives with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Diversity of Perspectives.</Answer>
+      <Answer id="2abc248b-0381-45b3-aef9-8a93d9f6df91" type="Choice Answer">Community members have some skills for Diversity of Perspectives but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="2891a6d8-d16b-4253-bd92-96e4c2c044ad" type="Choice Answer">Community members have good skills, experience and available training is in place to help Diversity of Perspectives. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="4856f497-f9cd-4e96-8c2d-566259ee4ef4" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Diversity of Perspectives . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="4b9a7d4d-9927-47e8-b70d-1ca080992ad5" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Diversity of Perspectives and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="c26c20ea-7908-4311-b629-4965984dd36d" type="Choice Answer">Unsure</Answer>
+      <Question id="5005a479-40ce-dbb8-c906-b2ea4c96624c" type="Multiple Choice">1.3.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Diversity of Perspectives&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources for diversity of perspectives include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Budget to bring in underrepresented perspectives.&lt;/li&gt;
+&lt;li&gt;Budget for members of the community to work on this matter.&lt;/li&gt;
+&lt;li&gt;Budget for outside consulting on this subject.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="669057bd-9809-40af-8538-3ea385571c57" type="Choice Answer">There are no resources available for Diversity of Perspectives . Individuals who do participate in Diversity of Perspectives do so voluntarily in their own time.</Answer>
+      <Answer id="1a3a4bbe-3039-45f9-a2f9-66cf933d98ae" type="Choice Answer">Few, if any, resources, including budget, are assigned for Diversity of Perspectives. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="69f5eb9b-07ea-4413-bf73-54359b4fd5ed" type="Choice Answer">Some resources are identified for Diversity of Perspectives, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="280d7f0d-d3da-4556-ae2c-ce1e3ca536c1" type="Choice Answer">Diversity of Perspectives' relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Diversity of Perspectives are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="872ab9b5-5c30-4da7-9967-3e0d266989b1" type="Choice Answer">New resources are made available to increase the maturity of Diversity of Perspectives. Most work done for Diversity of Perspectives is compensated.</Answer>
+      <Answer id="5bfafd4b-07c8-47b1-9fcc-45e0dbd34d5d" type="Choice Answer">New resources and other innovations that can improve Diversity of Perspectives are investigated, benchmarked, proven, and deployed. All work done towards Diversity of Perspectives is compensated.</Answer>
+      <Answer id="816ee0f9-721c-42e0-955b-e4ba5463b29a" type="Choice Answer">Unsure</Answer>
+      <Section id="40b80509-51d7-1fb7-3e13-86b5c0d05058" type="Section">Section 2: Technical Agreements</Section>
+      <Image id="8c84bf85-eebc-8903-f532-7ffe7ed8a362" type="Image">Image</Image>
+      <Text id="ce482123-2d99-3ef8-1c79-14b499e2277b" type="Text">&lt;p&gt;Technical agreements in the context of interoperability refer to formalized agreements or specifications that define how different technologies, systems, or components will interact and work together. These agreements are crucial for ensuring that diverse systems can seamlessly exchange information, communicate, and function cohesively.&lt;/p&gt;
+&lt;p&gt;These agreements may include detailed specifications, standards, or protocols that outline the rules, formats, and procedures for data exchange or integration. They serve as a common language or set of guidelines that various parties can adhere to, promoting consistency and compatibility.&lt;/p&gt;
+&lt;p&gt;In the world of technology, especially in fields like software development, networking, and data exchange, technical agreements play a vital role in enabling interoperability. Examples of technical agreements could include standardized communication protocols, data formats, or application programming interfaces (APIs) that allow different systems to understand and interact with each other effectively.&lt;/p&gt;
+&lt;p&gt;Overall, technical agreements provide a foundation for interoperability by establishing a shared framework that facilitates collaboration and connectivity among diverse technological components or systems.&lt;/p&gt;</Text>
+      <Question id="322f4d63-6354-1703-0135-28e9ae0b11c6" type="Line">Ruler</Question>
+      <Text id="392a23d5-8537-611c-b2e6-3962fd908ed8" type="Text">&lt;strong&gt;2.1&amp;#xa0;Integration profile establishment&lt;/strong&gt; in the context of interoperability refers to the process of defining a set of requirements that outline how different systems or components should interact and exchange information to achieve seamless integration. An integration profile serves as a detailed overview that defines the scope of the problem that is to be solved.</Text>
+      <Image id="b356c70d-9c6f-533c-0e65-9b2fcb2c7b50" type="Image">Image</Image>
+      <Question id="40bd6f27-e8f5-6dde-7426-4042eb8719b7" type="Multiple Choice">2.1.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;Integration Profile Establishment&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes for integration profile establishment include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Backlog and prioritization processes.&lt;/li&gt;
+&lt;li&gt;Escalation processes to resolve disagreements.&lt;/li&gt;
+&lt;li&gt;Processes to define deliverables.&lt;/li&gt;
+&lt;li&gt;Review processes.&lt;/li&gt;
+&lt;li&gt;External feedback processes.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="bbc1019f-475f-4d5b-ae37-eeb5d824cb42" type="Choice Answer">There are no processes for Integration Profile Establishment.</Answer>
+      <Answer id="93e841f7-ef89-469e-a804-5722a6d4da6a" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Integration Profile Establishment. Progress on Integration Profile Establishment is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="b136486d-6af9-447d-8f0c-8ff7553fa91f" type="Choice Answer">Key processes for Integration Profile Establishment are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="b1949ecc-0394-4108-a9cc-66eaea626d49" type="Choice Answer">Key processes for Integration Profile Establishment are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="1e1d28fd-1ba3-42fc-8045-9df301ea9e7d" type="Choice Answer">Processes for Integration Profile Establishment are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="081f3762-24cf-408b-899b-6cd6a3167e89" type="Choice Answer">Processes for Integration Profile Establishment are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="698b42cb-9565-42e2-9c09-c26cfe3e03fa" type="Choice Answer">Unsure</Answer>
+      <Question id="c1ab4933-5dc6-7701-6351-29d6822d9f11" type="Multiple Choice">2.1.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;Integration Profile Establishment&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of People and organization to support profile establishment include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Domain experts.&lt;/li&gt;
+&lt;li&gt;Project management support.&lt;/li&gt;
+&lt;li&gt;Education/training programs to educate participants in how to properly form an integration profile.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="e1c594c8-35fc-475b-bb8d-332bc89e82cd" type="Choice Answer">There is no organization for Integration Profile Establishment.</Answer>
+      <Answer id="10748d31-8be9-422e-a936-0da93aa74d0a" type="Choice Answer">Community members have a weak understanding of how for Integration Profile Establishment with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Integration Profile Establishment.</Answer>
+      <Answer id="6c307916-6d18-4501-bedd-9c6092127238" type="Choice Answer">Community members have some skills for Integration Profile Establishment but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="d137f228-e513-4928-9ca5-4dc49f9b45a3" type="Choice Answer">Community members have good skills, experience and available training is in place to help Integration Profile Establishment. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="222afcc2-c5e3-4731-9ce0-0795a6fabe85" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Integration Profile Establishment . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="51994727-d1f8-4d02-a40b-27fbacfe1b84" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Integration Profile Establishment and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="4daeb9a0-807e-42de-9dcf-13e133255522" type="Choice Answer">Unsure.</Answer>
+      <Question id="b58df7f7-e4da-cab6-c0b5-b2d870a2c870" type="Multiple Choice">2.1.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of&lt;strong&gt; Integration Profile Establishment,&lt;/strong&gt; which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information that supports integration profile establishment include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Backlog.&lt;/li&gt;
+&lt;li&gt;Library of finished deliverables.&lt;/li&gt;
+&lt;li&gt;Architectural models of the problem space.&lt;/li&gt;
+&lt;li&gt;Earlier versions the integration profiles.&lt;/li&gt;
+&lt;li&gt;Use-case and problem descriptions.&lt;/li&gt;
+&lt;li&gt;Information on the regulatory and market contexts.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="87ca4fd3-7a2e-44ba-971b-0967edece0e6" type="Choice Answer">Data/information to support Integration Profile Establishment does not exist.</Answer>
+      <Answer id="edc449bf-7def-48e2-b838-e605b8c0324e" type="Choice Answer">Information to support Integration Profile Establishment is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="6de23bb0-1bc4-4104-b1d7-9728a08f2970" type="Choice Answer">Information to support Integration Profile Establishment is available in silos, hard to locate for others.</Answer>
+      <Answer id="422f8ae7-14f2-427a-ab93-fb78fb0b2b9b" type="Choice Answer">Information governance defines how information for Integration Profile Establishment is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="f2c80fe3-8126-40c8-b6ff-92e525069673" type="Choice Answer">Information for Integration Profile Establishment is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="62d46fe5-576f-47b1-9eb5-02c77b4ba8ec" type="Choice Answer">New information for Integration Profile Establishment is continuously identified and benchmarked.</Answer>
+      <Answer id="57ca4d77-ab09-470d-a2f5-895e6a01f1fc" type="Choice Answer">Unsure</Answer>
+      <Question id="c89aef48-8a2a-7570-b080-a72fbf28c3f7" type="Multiple Choice">2.1.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Integration Profile Establishment&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources for integration profile establishment include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Budget to create profiles.&lt;/li&gt;
+&lt;li&gt;File sharing environments.&lt;/li&gt;
+&lt;li&gt;Version control systems.&lt;/li&gt;
+&lt;li&gt;Publication platforms.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="702d04b0-aed5-433f-bf81-4d2a99bc6a10" type="Choice Answer">There are no resources available for Integration Profile Establishment . Individuals who do participate in Integration Profile Establishment do so voluntarily in their own time.</Answer>
+      <Answer id="a03a1140-adfe-402d-b23b-286392f1c1a6" type="Choice Answer">Few, if any, resources, including budget, are assigned for Integration Profile Establishment. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="c817a975-e4a2-48f5-bc0f-4e89193dd54e" type="Choice Answer">Some resources are identified for Integration Profile Establishment, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="971ba52f-d9cb-4870-880d-801484e88764" type="Choice Answer">Integration Profile Establishment's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Integration Profile Establishment are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="47e06eec-f852-438f-ac5a-8c4cd3ff1433" type="Choice Answer">New resources are made available to increase the maturity of Integration Profile Establishment. Most work done for Integration Profile Establishment is compensated.</Answer>
+      <Answer id="28d498c4-9717-44cd-90e0-d8d05f6701da" type="Choice Answer">New resources and other innovations that can improve Integration Profile Establishment are investigated, benchmarked, proven, and deployed. All work done towards Integration Profile Establishment is compensated.</Answer>
+      <Answer id="e80aeba6-4ad5-4470-b9f1-bb4aa996c273" type="Choice Answer">Unsure</Answer>
+      <Question id="665140f3-86ee-a3ec-12c6-2e4af92c27db" type="Line">Ruler</Question>
+      <Text id="3320f730-6dc5-9b79-9e5e-f4f8e53932bf" type="Text">&lt;strong&gt;2.2&lt;/strong&gt;&amp;#xa0;The capability of &lt;strong&gt;Standardization&lt;/strong&gt; in the context of interoperability refers to the process of establishing a set of agreed-upon norms, specifications, and protocols that solve the problem stated in the Integration Profile. Standardization plays a crucial role in fostering interoperability by providing a common framework that ensures compatibility, consistency, and predictability in the exchange of data and functionality.</Text>
+      <Image id="3feff91e-67e7-969c-b98b-910377438c5e" type="Image">Image</Image>
+      <Question id="b4c46c0b-6081-d15f-c3b4-1f168101dc7d" type="Multiple Choice">2.2.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;Standardization&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes for standardization include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Backlog and prioritization processes.&lt;/li&gt;
+&lt;li&gt;Escalation processes to resolve disagreements.&lt;/li&gt;
+&lt;li&gt;Processes to define deliverables.&lt;/li&gt;
+&lt;li&gt;Review processes.&lt;/li&gt;
+&lt;li&gt;External feedback processes.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="467f2387-91f0-4733-9743-58011fd9c920" type="Choice Answer">There are no processes for Standardization.</Answer>
+      <Answer id="d38e5564-e402-41a5-bd51-f1e700d3b7fd" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Standardization. Progress on Standardization is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="c04436dc-67dd-487a-b6a8-10f9058b03a3" type="Choice Answer">Key processes for Standardization are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="fc12f3f0-92d7-445b-bc58-7c8fad296a58" type="Choice Answer">Key processes for Standardization are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="f4b3a918-c0ab-49a3-a966-6590e7b8ec89" type="Choice Answer">Processes for Standardization are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="ba6c2501-da08-411c-a34d-6f1caff93f22" type="Choice Answer">Processes for Standardization are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="db3b1f50-6c9c-4c58-b229-fe5b34a616f2" type="Choice Answer">Unsure</Answer>
+      <Question id="db98bace-e849-2709-6d08-39c36791a0e6" type="Multiple Choice">2.2.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;Standardization&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of people and organization to support standardization include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Domain experts.&lt;/li&gt;
+&lt;li&gt;Project management support.&lt;/li&gt;
+&lt;li&gt;Education/training programs to educate participants in how to properly produce standards.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="b7962a85-524c-48f3-a4ce-ce187b6cce5e" type="Choice Answer">There is no organization for Standardization.</Answer>
+      <Answer id="d8b41df6-be15-463b-8383-416d2e1b84dd" type="Choice Answer">Community members have a weak understanding of how for Standardization with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Standardization.</Answer>
+      <Answer id="5edebccf-4df1-4c6f-b8e4-3ffe955b637d" type="Choice Answer">Community members have some skills for Standardization but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="c42cbd2c-b72e-4ad7-9826-2185dc053c96" type="Choice Answer">Community members have good skills, experience and available training is in place to help Standardization. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="e15ae9b6-f44c-4bc1-b858-b86a996255d3" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Standardization . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="c3a47e16-6a88-4379-afd1-c52a24d2d566" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Standardization and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="f928f127-cf05-4869-9797-cf3fac270acb" type="Choice Answer">Unsure</Answer>
+      <Question id="7f5068ec-bce4-025f-1529-c6bb4c689782" type="Multiple Choice">2.2.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of &lt;strong&gt;Standardization&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information that supports standardization include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Backlog.&lt;/li&gt;
+&lt;li&gt;Library of finished deliverables.&lt;/li&gt;
+&lt;li&gt;Integration profiles.&lt;/li&gt;
+&lt;li&gt;Architectural models of the problem space.&lt;/li&gt;
+&lt;li&gt;Earlier versions of the standards.&lt;/li&gt;
+&lt;li&gt;Use-case and problem descriptions.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="7dba716b-9dff-4987-9bff-5ed189ccaadf" type="Choice Answer">Data/information to support Standardization does not exist.</Answer>
+      <Answer id="ec36e715-4650-45b1-a059-0141aeb22f90" type="Choice Answer">Information to support Standardization is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="0e18f4de-7e89-4302-99cf-f835752e0e5d" type="Choice Answer">Information to support Standardization is available in silos, hard to locate for others.</Answer>
+      <Answer id="ef3c637e-0b75-4948-87f2-d7dbcbfca779" type="Choice Answer">Information governance defines how information for Standardization is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="68d58fca-5549-48da-be46-4eed7b98d33e" type="Choice Answer">Information for Standardization is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="e9ea8690-dc31-4d97-adfa-da7b3875324c" type="Choice Answer">New information for Standardization is continuously identified and benchmarked.</Answer>
+      <Answer id="29a34d86-b1fa-4981-a69c-39b7d4646d69" type="Choice Answer">Unsure</Answer>
+      <Question id="575511d2-f0cf-6885-1218-d7064dc25b31" type="Multiple Choice">2.2.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Standardization&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources for standardization include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Budget to create standards.&lt;/li&gt;
+&lt;li&gt;File sharing environments.&lt;/li&gt;
+&lt;li&gt;Version control systems.&lt;/li&gt;
+&lt;li&gt;Issue management systems.&lt;/li&gt;
+&lt;li&gt;Publication platforms.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="dbe21db8-d895-4d06-86d9-93ea7b79ae32" type="Choice Answer">There are no resources available for Standardization . Individuals who do participate in Standardization do so voluntarily in their own time.</Answer>
+      <Answer id="1407b3e1-eb8e-435a-bd28-23264982ec27" type="Choice Answer">Few, if any, resources, including budget, are assigned for Standardization. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="f8a52cda-90c3-4aa6-8423-ba1b22d2efe5" type="Choice Answer">Some resources are identified for Standardization, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="e7ff5deb-33a0-49b4-8fdf-406e2d191886" type="Choice Answer">Standardization's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Standardization are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="0205c4a4-07ca-4288-baf7-94bda530cb11" type="Choice Answer">New resources are made available to increase the maturity of Standardization. Most work done for Standardization is compensated.</Answer>
+      <Answer id="416e7776-c61d-4968-b11f-6ff63545053e" type="Choice Answer">New resources and other innovations that can improve Standardization are investigated, benchmarked, proven, and deployed. All work done towards Standardization is compensated.</Answer>
+      <Answer id="44ac9c94-4a2a-41d4-9e0d-1a3cdec60325" type="Choice Answer">Unsure</Answer>
+      <Question id="126b872d-8426-6686-00bb-357c3d87eae3" type="Line">Ruler</Question>
+      <Text id="5343964f-d4f1-df85-d284-7ce8ef50e6a0" type="Text">&lt;strong&gt;2.3&lt;/strong&gt; The capability of &lt;strong&gt;Compliance Testing&lt;/strong&gt; in the context of interoperability refers to the systematic evaluation and verification processes designed to ensure that interconnected systems, components, or solutions adhere to established standards, specifications, and protocols. Compliance testing is instrumental in validating that interoperable systems meet the required criteria, fostering consistency, reliability, and adherence to industry or organizational norms.</Text>
+      <Image id="0ad8ba18-7e9e-aef4-03dc-ba009fb11763" type="Image">Image</Image>
+      <Question id="366c6cd4-04e6-fb06-16f5-6310cd47a59b" type="Multiple Choice">2.3.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;Compliance Testing&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes for compliance testing include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Testing procedures.&lt;/li&gt;
+&lt;li&gt;Quality control processes of the testing procedures.&lt;/li&gt;
+&lt;li&gt;Processes for communicating results.&lt;/li&gt;
+&lt;li&gt;Processes for handling objections/disagreements.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="16231e6b-c94f-42a6-a4a1-f7284adcddea" type="Choice Answer">There are no processes for Compliance Testing.</Answer>
+      <Answer id="17b69c9a-a858-41a7-9bb3-8554e80af263" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Compliance Testing. Progress on Compliance Testing is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="6b3331f1-543f-4c06-80b7-d6fa019edc38" type="Choice Answer">Key processes for Compliance Testing are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="ae755a72-010a-4532-ae80-50c978ac43de" type="Choice Answer">Key processes for Compliance Testing are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="9d0fd37d-0a99-48f7-a541-58d2d257d478" type="Choice Answer">Processes for Compliance Testing are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="d7fe047e-ce3e-4f1d-9325-3dbf2ac5e539" type="Choice Answer">Processes for Compliance Testing are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="0a8ca0fc-d688-4e05-b68e-8b6d7ce6cc8b" type="Choice Answer">Unsure</Answer>
+      <Question id="7f0862ca-5dd4-a107-d6ba-3c17b26de347" type="Multiple Choice">2.3.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;Compliance Testing&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of people and organization to support compliance testing include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Testing facilities (businesses/organizations) are part of the community.&lt;/li&gt;
+&lt;li&gt;Training/education on testing is available.&lt;/li&gt;
+&lt;li&gt;Interoperability testing/connectathon events are regularly held.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="d66ec0ea-7b98-48ff-90e9-e2cb206ed04e" type="Choice Answer">There is no organization for Compliance Testing.</Answer>
+      <Answer id="61b993ef-06d9-4621-aeed-f495c265b74c" type="Choice Answer">Community members have a weak understanding of how for Compliance Testing with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Compliance Testing.</Answer>
+      <Answer id="7cd85443-4c6e-4c80-95f2-87ccd17225d7" type="Choice Answer">Community members have some skills for Compliance Testing but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="1980ac9e-51ad-4a90-874c-6f780edf733d" type="Choice Answer">Community members have good skills, experience and available training is in place to help Compliance Testing. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="2e818162-8254-4e48-98ad-090fdc90676d" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Compliance Testing . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="9ee6f971-164c-45b6-bfe7-3169a1b2ea2f" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Compliance Testing and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="8f3650b1-7440-4299-8c3a-ff399933d73c" type="Choice Answer">Unsure</Answer>
+      <Question id="3ba5ecb8-71e1-91ab-59f2-ce294eee61dc" type="Multiple Choice">2.3.i: Considering the&lt;span style="text-decoration: underline;"&gt; Information dimension&lt;/span&gt; of &lt;strong&gt;Compliance Testing,&lt;/strong&gt; which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information to support compliance testing includes:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Documented testing procedures.&lt;/li&gt;
+&lt;li&gt;(historical) Testing data and results.&lt;/li&gt;
+&lt;li&gt;Registry of certified testing facilities.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="b59afe28-83bf-4fd0-9e0a-eaa9de7bf20b" type="Choice Answer">Data/information to support Compliance Testing does not exist.</Answer>
+      <Answer id="99769ee0-a3af-4431-8931-27deb2c761ef" type="Choice Answer">Information to support Compliance Testing is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="97c11670-3e81-44d4-9c95-5287cdc5b3ef" type="Choice Answer">Information to support Compliance Testing is available in silos, hard to locate for others.</Answer>
+      <Answer id="f46711dc-f39a-4a2b-8e5f-7a6a4b026273" type="Choice Answer">Information governance defines how information for Compliance Testing is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="7ec48eda-7f91-4199-85ff-e8429d81abf0" type="Choice Answer">Information for Compliance Testing is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="c99fc570-bea9-4712-84b8-333f68cd9841" type="Choice Answer">New information for Compliance Testing is continuously identified and benchmarked.</Answer>
+      <Answer id="393f2537-2e48-4e08-8292-83fd14f66df9" type="Choice Answer">Unsure</Answer>
+      <Question id="433856bb-a58b-3a1e-0fe9-4a3b54a1076b" type="Multiple Choice">2.3.r: Considering the&lt;span style="text-decoration: underline;"&gt; resources dimension&lt;/span&gt; of &lt;strong&gt;Compliance Testing&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources that support compliance testing:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Available investments for testing.&lt;/li&gt;
+&lt;li&gt;Available testing labs (physical and/or digital).&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="e80edd96-7943-4742-8307-bfdc20548ac5" type="Choice Answer">There are no resources available for Compliance Testing . Individuals who do participate in Compliance Testing do so voluntarily in their own time.</Answer>
+      <Answer id="6c49d04f-a9e5-478b-8109-d368c3f462b3" type="Choice Answer">Few, if any, resources, including budget, are assigned for Compliance Testing. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="24a35330-50c7-4669-95ab-2e98c38e55a4" type="Choice Answer">Some resources are identified for Compliance Testing, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="8b73e12b-0c9f-4425-8723-5b852bcb5972" type="Choice Answer">Compliance Testing's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Compliance Testing are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="262b2371-3a3a-42f1-b0bd-6b415b2b3c7b" type="Choice Answer">New resources are made available to increase the maturity of Compliance Testing. Most work done for Compliance Testing is compensated.</Answer>
+      <Answer id="6bed435a-bc77-477a-9d65-007e274742b1" type="Choice Answer">New resources and other innovations that can improve Compliance Testing are investigated, benchmarked, proven, and deployed. All work done towards Compliance Testing is compensated.</Answer>
+      <Answer id="5c157ce1-5d41-4104-8e51-1951a97f5535" type="Choice Answer">Unsure</Answer>
+      <Section id="5e2a650d-286f-54c7-1e91-8b07b297feec" type="Section">Section 3: Facilitating Implementation</Section>
+      <Image id="292738b1-963b-c7a3-7d32-00cacc6c1973" type="Image">Image</Image>
+      <Text id="916fde07-95b8-0964-2805-0ac3f474e1bb" type="Text">&lt;p&gt;Facilitation implementation in the context of interoperability involves putting into action the strategies and processes designed to facilitate collaboration and interaction among different entities or systems. It's about turning the plans and agreements into practical steps that ensure seamless integration and compatibility.&lt;/p&gt;
+&lt;p&gt;This can include:&lt;/p&gt;
+&lt;p&gt;Organizing Workshops and Meetings: Actively coordinating and hosting workshops, meetings, or conferences where stakeholders can come together to discuss and implement interoperability solutions.&lt;/p&gt;
+&lt;p&gt;Guiding Discussions: Facilitators play a crucial role in guiding discussions among diverse groups, ensuring that all parties understand the technical agreements and are on the same page regarding the implementation process.&lt;/p&gt;
+&lt;p&gt;Resolving Issues: Addressing and resolving any challenges or conflicts that may arise during the implementation phase. This could involve technical issues, disagreements on specifications, or other hurdles.&lt;/p&gt;
+&lt;p&gt;Monitoring Progress: Keeping track of the progress of the interoperability implementation and making adjustments as needed. This may involve regular check-ins, progress reports, and performance evaluations.&lt;/p&gt;
+&lt;p&gt;Training and Support: Providing training and support to stakeholders involved in the interoperability implementation to ensure that they have the necessary skills and resources to carry out their roles effectively.&lt;/p&gt;
+&lt;p&gt;In essence, facilitation implementation is the practical execution of plans and agreements, with the goal of making interoperability a reality. It involves active engagement, communication, and problem-solving to overcome challenges and ensure that the systems or entities involved can work together seamlessly.&lt;/p&gt;</Text>
+      <Question id="57673630-1493-cff1-e03e-a4b0e86a240c" type="Line">Ruler</Question>
+      <Text id="5a7cb6c7-71ad-947c-8f35-507c775ea791" type="Text">&lt;strong&gt;3.1&lt;/strong&gt; The capability of &lt;strong&gt;User Base Growth&lt;/strong&gt; in the context of interoperability refers to the expansion and diversification of the community or user ecosystem that actively engages with and benefits from interoperable systems. This dimension recognizes the importance of not only increasing the number of users but also ensuring that a broad range of stakeholders, including individuals, organizations, and sectors, can effectively participate in and leverage interoperable solutions.</Text>
+      <Image id="4a98550f-793c-78e7-957d-31f48c987dd7" type="Image">Image</Image>
+      <Question id="1ecc4b9e-0476-9d94-c518-5f15f896e0d4" type="Multiple Choice">3.1.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;User Base Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes for user base growth include:&lt;br /&gt; Processes for outreach. Processes for demo-ing.</Question>
+      <Answer id="fbba7b71-5813-4834-b3a3-1f1f6a6e033d" type="Choice Answer">There are no processes for User Base Growth.</Answer>
+      <Answer id="e65d3568-7880-4ebc-84c6-b94e04772cb6" type="Choice Answer">Little to no process documentation, -governance, or -ownership for User Base Growth. Progress on&amp;#xa0;User Base Growth. is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="b194fef4-909a-4da3-8b25-60a71f3b9fee" type="Choice Answer">Key processes for User Base Growth. are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="14cbb521-8f2c-4bc7-b5b8-a31181b00e5c" type="Choice Answer">Key processes for User Base Growth. are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="e11f47e3-0b0e-44a7-8ef2-a4955f9fbd53" type="Choice Answer">Processes for User Base Growth. are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="7a3cfda4-7e49-41c0-b2e3-417a5e933127" type="Choice Answer">Processes for User Base Growth. are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="6cd4d27e-e5a5-4f53-8f65-d4db163e76ec" type="Choice Answer">Unsure</Answer>
+      <Question id="0a0bc334-bed1-d2ab-934d-cdfcd5c54c50" type="Multiple Choice">3.1.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;User Base Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of people and organization to support user base growth:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Consultants and vendors are part of the community.&lt;/li&gt;
+&lt;li&gt;The community has a culture where all kinds of members advocate for both the standards as well as the different solutions that have been developed.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="aebc3bb3-e838-438d-86de-74adb3e24c6f" type="Choice Answer">There is no organization for User Base Growth.</Answer>
+      <Answer id="cab232f4-2cac-485a-9813-21e5ad642d10" type="Choice Answer">Community members have a weak understanding of how for User Base Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for User Base Growth.</Answer>
+      <Answer id="07d84965-3abe-4a58-b56b-5caf1e0e076d" type="Choice Answer">Community members have some skills for User Base Growth but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="b099e6aa-5cad-4a9a-894b-5fae85ced813" type="Choice Answer">Community members have good skills, experience and available training is in place to help User Base Growth. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="3db860ab-e571-43b2-a37d-1f12ea6a3593" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for User Base Growth . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="a79a3f11-6d9f-440e-a592-23349a5cb302" type="Choice Answer">Community members have an expert and deeply contextualized understanding of User Base Growth and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="ed2fcfbe-a2b4-40e2-a300-fa570973cdc0" type="Choice Answer">Unsure</Answer>
+      <Question id="dcdbb4c8-6a98-3932-13c4-7459d982c940" type="Multiple Choice">3.1.i: Considering the&lt;span style="text-decoration: underline;"&gt; Information dimension&lt;/span&gt; of &lt;strong&gt;User Base Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information to support user base growth:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Documented successful implementations or other success stories.&lt;/li&gt;
+&lt;li&gt;Overview of organizations that have adopted the standards or products/solutions that are based on the standard.&lt;/li&gt;
+&lt;li&gt;Overview of organizations/businesses/people who might be interested in adopting the standards or solutions that rely on it.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="b73e295c-9511-4ec3-99d6-2d422f1509d1" type="Choice Answer">Data/information to support User Base Growth does not exist.</Answer>
+      <Answer id="75496e51-567d-46a4-96df-fa81faea8c73" type="Choice Answer">Information to support User Base Growth is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="9607bb89-3c8d-4cbb-ab80-db1e68abbc35" type="Choice Answer">Information to support User Base Growth is available in silos, hard to locate for others.</Answer>
+      <Answer id="2ddfbc37-8f1b-4ade-94d9-81eb827ef942" type="Choice Answer">Information governance defines how information for User Base Growth is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="7db4a8b0-cda6-4cd8-9867-bd46a25c782f" type="Choice Answer">Information for User Base Growth is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="67b5de7e-d67d-4b6e-aeef-00885cc94775" type="Choice Answer">New information for User Base Growth is continuously identified and benchmarked.</Answer>
+      <Answer id="f42e0c68-dac1-49ec-b4d2-eb32c01ab8af" type="Choice Answer">Unsure</Answer>
+      <Question id="e33dceb9-9f08-4178-43d4-05f48083c73c" type="Multiple Choice">3.1.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;User Base Growth&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources that support user base growth include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Marketing materials/branding.&lt;/li&gt;
+&lt;li&gt;Budget for community user base growth activities, such as out reach, conference participation, on-site demo's etcetera.&lt;/li&gt;
+&lt;li&gt;Applications that allow for managing information related to community growth.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="e7c92829-63d6-4a9a-9e6d-07081c17c00d" type="Choice Answer">There are no resources available for User Base Growth . Individuals who do participate in User Base Growth do so voluntarily in their own time.</Answer>
+      <Answer id="a5512e3a-17e4-43d8-a2f4-1c722a047371" type="Choice Answer">Few, if any, resources, including budget, are assigned for User Base Growth. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="22285c5f-2af8-4bbf-90ed-ca974d07f5f2" type="Choice Answer">Some resources are identified for User Base Growth, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="a324ab03-2387-4ec8-8f2f-68df10fc2534" type="Choice Answer">User Base Growth's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for User Base Growth are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="f38344b1-dc68-4f65-a9f3-d6549528a369" type="Choice Answer">New resources are made available to increase the maturity of User Base Growth. Most work done for User Base Growth is compensated.</Answer>
+      <Answer id="efa11871-57a8-4c87-8d11-323166ee6710" type="Choice Answer">New resources and other innovations that can improve User Base Growth are investigated, benchmarked, proven, and deployed. All work done towards User Base Growth is compensated.</Answer>
+      <Answer id="c25493e5-1c0b-4402-899b-b74177655051" type="Choice Answer">Unsure</Answer>
+      <Question id="20b8b112-a605-9efd-5dac-6a876e0c6c8b" type="Line">Ruler</Question>
+      <Text id="043fe0a7-f964-49d6-e10f-f867389deec9" type="Text">&lt;strong&gt;3.2&lt;/strong&gt; The capability of the &lt;strong&gt;operational alignment process&lt;/strong&gt; in the context of interoperability places a significant emphasis on the ways in which systematic and strategic procedures are created and then undertaken to intricately synchronize the day-to-day processes, workflows, and activities of interconnected systems, components, or organizations. It underscores the critical importance of ensuring that operational processes are not merely technically integrated but are intricately and purposefully aligned to achieve a seamless and effective interoperability.</Text>
+      <Image id="4e15df69-f9d4-5457-f809-164ab2432e67" type="Image">Image</Image>
+      <Question id="7d52c284-2657-0b82-492b-e661688f42e1" type="Multiple Choice">3.2.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;Operational Alignment&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes that support operational alignment include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Processes to establish agreements.&lt;/li&gt;
+&lt;li&gt;Processes to update/modify agreements.&lt;/li&gt;
+&lt;li&gt;Processes to audit compliance to the agreements.&lt;/li&gt;
+&lt;li&gt;Processes to resolve failure of compliance to the agreements.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="3cb6b680-42db-44b5-a934-d46b3ea6cb34" type="Choice Answer">There are no processes for Operational Alignment</Answer>
+      <Answer id="3731523e-a45d-4e16-8f36-241ff9767f3e" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Operational Alignment. Progress on Operational Alignment is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="3870c3d4-bb9f-491d-9f5d-18febe71bc19" type="Choice Answer">Key processes for Operational Alignment are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="f4a3ae5d-52b3-41d0-b430-0a67ce961875" type="Choice Answer">Key processes for Operational Alignment are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="4e57b26b-33ec-4a58-ab5a-136cefdf8189" type="Choice Answer">Processes for Operational Alignment are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="03624d77-13a1-41cf-bd40-4e3cf950a2d1" type="Choice Answer">Processes for Operational Alignment are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="5c861410-8e73-406f-bc7b-2059d9611096" type="Choice Answer">Unsure</Answer>
+      <Question id="d88ec0c6-85f0-239e-e5fa-1abcf3da400a" type="Multiple Choice">3.2.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;Operational Alignment&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of people and organization to support organizational alignment include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Policy and compliance experts.&lt;/li&gt;
+&lt;li&gt;Coordination bodies to create and evaluate agreements.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="4759b273-b98e-4155-a760-477fc6f8f829" type="Choice Answer">There is no organization for Operational Alignment.</Answer>
+      <Answer id="73ccdfa0-d4e9-4226-afef-b0905bb06a49" type="Choice Answer">Community members have a weak understanding of how for Operational Alignment with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Operational Alignment.</Answer>
+      <Answer id="49d6dcc9-7241-41b4-af34-ab8bfc8ae5a8" type="Choice Answer">Community members have some skills for Operational Alignment but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="91962614-40b3-4e8a-a77c-71610140295d" type="Choice Answer">Community members have good skills, experience and available training is in place to help Operational Alignment. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="9c393458-c373-4714-8790-97e5b9d0102a" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Operational Alignment . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="6480f210-fb96-40a4-b8b7-f511f18a6b9d" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Operational Alignment and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="a1fcfdde-6094-425a-8711-f565a9caa469" type="Choice Answer">Unsure</Answer>
+      <Question id="aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8" type="Multiple Choice">3.2.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of &lt;strong&gt;Operational Alignment,&lt;/strong&gt; which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information that supports operational alignment includes: &lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Documentation of agreements (policies).&lt;/li&gt;
+&lt;li&gt;Documentation of roles and responsibilities.&lt;/li&gt;
+&lt;li&gt;Documentation of processes.&lt;/li&gt;
+&lt;li&gt;Compliance audit records.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="456a56db-5147-4dc9-8e4b-a81de9179461" type="Choice Answer">Data/information to support Operational Alignment does not exist.</Answer>
+      <Answer id="d1fa2bb8-77da-4253-8950-fc8e946d4ad0" type="Choice Answer">Information to support Operational Alignment is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="efdb7f72-6c44-4051-928d-e5b8384c8431" type="Choice Answer">Information to support Operational Alignment is available in silos, hard to locate for others.</Answer>
+      <Answer id="c7c0fa88-1f91-4ff2-a4c8-f588128c5f09" type="Choice Answer">Information governance defines how information for Operational Alignment is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="68a39417-23a4-4f25-8ee0-b4976cb99ad2" type="Choice Answer">Information for Operational Alignment is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="2297bea5-ee41-48d5-98e3-0b802ce9f9a3" type="Choice Answer">New information for Operational Alignment is continuously identified and benchmarked.</Answer>
+      <Answer id="43a04124-7f4e-4f2e-8214-282f2d0b8422" type="Choice Answer">Unsure</Answer>
+      <Question id="5d8279ed-c94d-5118-20c0-9ca39717d60a" type="Multiple Choice">3.2.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Operational Alignment&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources to support operational alignment include: &lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Resources/funding to create agreements among parties.&lt;/li&gt;
+&lt;li&gt;Resources/funding to audit compliance.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="94b642d7-96f4-4e5d-93eb-5385e185427f" type="Choice Answer">There are no resources available for Operational Alignment . Individuals who do participate in Operational Alignment do so voluntarily in their own time.</Answer>
+      <Answer id="095a9847-a1bf-4d47-92d1-d774363cc864" type="Choice Answer">Few, if any, resources, including budget, are assigned for Operational Alignment. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="835380f4-7128-4bd6-b02e-1ff726e9d358" type="Choice Answer">Some resources are identified for Operational Alignment, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="5dbf7439-c2dc-484e-8248-f68bf18e8191" type="Choice Answer">Operational Alignment's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Operational Alignment are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="667f3236-46f5-42fa-8cd7-f9b26acbdb06" type="Choice Answer">New resources are made available to increase the maturity of Operational Alignment. Most work done for Operational Alignment is compensated.</Answer>
+      <Answer id="ea8cb27e-22f9-482b-a931-65064402a8dc" type="Choice Answer">New resources and other innovations that can improve Operational Alignment are investigated, benchmarked, proven, and deployed. All work done towards Operational Alignment is compensated.</Answer>
+      <Answer id="90f0ac03-3e9b-42b7-89ea-850013c5cae5" type="Choice Answer">Unsure</Answer>
+      <Text id="bb8baa63-fa81-a888-abe0-c4ed8a765e7a" type="Text">&lt;strong&gt;3.3&lt;/strong&gt; The dimension of &lt;strong&gt;tool, product, and reference implementation development&lt;/strong&gt; in the context of interoperability refers to the creation and enhancement of software tools, products, and reference implementations that facilitate and exemplify the seamless integration of diverse systems. This dimension acknowledges the significance of developing practical solutions, frameworks, and exemplars that showcase effective interoperability practices, guiding stakeholders in the implementation of interconnected systems.</Text>
+      <Image id="42288310-f64c-4e6a-87fe-58418b2da05b" type="Image">Image</Image>
+      <Question id="52ac82ad-2b2e-5453-cc5d-607a5de21846" type="Multiple Choice">3.3.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;Tool, Product and Reference Implementation Development&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes that support Tool, Product and Reference implementation development include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Software/product development processes&lt;/li&gt;
+&lt;li&gt;Interoperability testing processes&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="38920f1f-a9e9-468d-b3d3-410cb2c17a5d" type="Choice Answer">There are no processes for Tool, Product and Reference Implementation Development.</Answer>
+      <Answer id="a9d8391f-5c81-409d-82ef-78cd53ae49e3" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Tool, Product and Reference Implementation Development. Progress on Tool, Product and Reference Implementation Development is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="a5c94f9b-4a6d-4f5a-8ad8-283e425b199d" type="Choice Answer">Key processes for Tool, Product and Reference Implementation Development are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="cba874da-8926-4cee-aebc-55238570980c" type="Choice Answer">Key processes for Tool, Product and Reference Implementation Development are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="767ea86b-7335-4002-ad4b-b246b3cec56f" type="Choice Answer">Processes for Tool, Product and Reference Implementation Development are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="d86d8c86-178c-4159-9533-9ac7e27260fb" type="Choice Answer">Processes for Tool, Product and Reference Implementation Development are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="f21be6ec-00e8-4d10-9ca5-5cabd5550a1b" type="Choice Answer">Unsure</Answer>
+      <Question id="a53fdbd5-e05a-c784-4244-f82f705b5444" type="Multiple Choice">3.3.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;Tool, Product and Reference Implementation Development&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of people and organization that support tool. product and reference implementation development include :&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Members of the community that specialize in tool development (vendors, consultants)&lt;/li&gt;
+&lt;li&gt;Domain experts including software developers, manufacturing experts, architects/lead designers&lt;/li&gt;
+&lt;li&gt;Project management support&lt;/li&gt;
+&lt;li&gt;Education/training programs to educate participants in how to contribute to development&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="ee81d5f1-7cc1-45ec-8628-eb0a5efde4b9" type="Choice Answer">There is no organization for Tool, Product and Reference Implementation Development.</Answer>
+      <Answer id="0129eaa3-d01a-44ed-8bfb-2d3ab9541537" type="Choice Answer">Community members have a weak understanding of how for Tool, Product and Reference Implementation Development with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Tool, Product and Reference Implementation Development.</Answer>
+      <Answer id="b8dbfd46-3b06-418f-b4e0-5882d79a30b3" type="Choice Answer">Community members have some skills for Tool, Product and Reference Implementation Development but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="94a32940-5889-44c5-8416-7701b9259bd9" type="Choice Answer">Community members have good skills, experience and available training is in place to help Tool, Product and Reference Implementation Development. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="74e446c6-4993-4191-81dd-eb4eea538bf6" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Tool, Product and Reference Implementation Development . Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="c5a17d59-32b0-410d-9a13-360fb53da8bc" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Tool, Product and Reference Implementation Development and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="80d18a2e-c7aa-45cc-8dba-c44889f3533e" type="Choice Answer">Unsure</Answer>
+      <Question id="6bd66ecf-755c-6e1b-f6cb-8f01d5564032" type="Multiple Choice">3.3.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of &lt;strong&gt;Tool, Product and Reference Implementation Developmen&lt;/strong&gt;t, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Information to support Tool, Product and Reference Implementation Development include (note, that some of this may be proprietary/only available within community member organizations):&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Standard documents&lt;/li&gt;
+&lt;li&gt;(reference) Architectures&lt;/li&gt;
+&lt;li&gt;Existing designs/blueprints/code bases&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="2381a339-878d-4c73-a02c-8b21f6e5965d" type="Choice Answer">Data/information to support Tool, Product and Reference Implementation Development does not exist.</Answer>
+      <Answer id="10914abf-a450-4c82-a942-3917ac1607f2" type="Choice Answer">Information to support Tool, Product and Reference Implementation Development is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="f57478b4-f8f0-43f6-95c9-04202cf2c566" type="Choice Answer">Information to support Tool, Product and Reference Implementation Development is available in silos, hard to locate for others.</Answer>
+      <Answer id="64705724-59d6-4e25-8531-2cff5dcb01a6" type="Choice Answer">Information governance defines how information for Tool, Product and Reference Implementation Development is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="439c207d-7134-4a66-9ffe-00ebe60d41c4" type="Choice Answer">Information for Tool, Product and Reference Implementation Development is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="5732f699-afdc-4e9a-b314-5a78a32c5572" type="Choice Answer">New information for Tool, Product and Reference Implementation Development is continuously identified and benchmarked.</Answer>
+      <Answer id="d9004bfd-3410-4982-94d3-11fc5b22a1c6" type="Choice Answer">Unsure</Answer>
+      <Question id="b2f65531-8d1c-947e-4499-bf6882f51066" type="Multiple Choice">3.3.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Tool, Product and Reference Implementation Development&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources that support Tool, Product and Reference Implementation Development include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Investments made by customers into new product development.&lt;/li&gt;
+&lt;li&gt;Investments made by vendors into new product development&lt;/li&gt;
+&lt;li&gt;Subsidies for new product development&lt;/li&gt;
+&lt;li&gt;Software development environments/manufacturing workshops&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="732b2326-159e-4cca-a0d4-e7500cdf757a" type="Choice Answer">There are no resources available for Tool, Product and Reference Implementation Development . Individuals who do participate in Tool, Product and Reference Implementation Development do so voluntarily in their own time.</Answer>
+      <Answer id="9ba55fb2-d0bd-4893-842c-7967a8d0d924" type="Choice Answer">Few, if any, resources, including budget, are assigned for Tool, Product and Reference Implementation Development. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="06afd814-f911-4167-a4ac-37f43721278e" type="Choice Answer">Some resources are identified for Tool, Product and Reference Implementation Development, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="eeef78bb-1ffb-442e-9cc9-f3e85e6b1dd5" type="Choice Answer">Tool, Product and Reference Implementation Development's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Tool, Product and Reference Implementation Development are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="88c58377-4305-48ad-a596-dc9146dd878d" type="Choice Answer">New resources are made available to increase the maturity of Tool, Product and Reference Implementation Development. Most work done for Tool, Product and Reference Implementation Development is compensated.</Answer>
+      <Answer id="78feb164-0ef0-4f21-b33a-337f5cb47dd1" type="Choice Answer">New resources and other innovations that can improve Tool, Product and Reference Implementation Development are investigated, benchmarked, proven, and deployed. All work done towards Tool, Product and Reference Implementation Development is compensated.</Answer>
+      <Answer id="990bf883-a325-4833-8714-a4707f9c0d60" type="Choice Answer">Unsure</Answer>
+      <Question id="26c3de56-a470-3310-7dc9-889309fba014" type="Line">Ruler</Question>
+      <Text id="46a10087-49ec-f808-ba0f-5ed26332acb9" type="Text">&lt;strong&gt;3.4&lt;/strong&gt; The dimension of &lt;strong&gt;market creation&lt;/strong&gt; in the context of interoperability refers to the strategic efforts and activities aimed at establishing a viable and dynamic market for products, services, and solutions that facilitate seamless connectivity between diverse systems. This dimension recognizes that the successful adoption and growth of interoperability solutions often depend on creating a market ecosystem that fosters innovation, competition, and widespread adoption.</Text>
+      <Image id="d50dd466-38b3-f177-e528-1fa8165952db" type="Image">Image</Image>
+      <Question id="71f6067e-3c57-8729-89dc-7e9324671021" type="Multiple Choice">3.4.p: Considering the &lt;span style="text-decoration: underline;"&gt;process dimension&lt;/span&gt; of &lt;strong&gt;Market Creation&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of processes to support market creation involve:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Lobbying efforts to secure subsidies&lt;/li&gt;
+&lt;li&gt;Activities to bring vendors and/or consultants into the community&lt;/li&gt;
+&lt;li&gt;Outreach efforts that focus on how to make a viable business case the problem space that is addressed by the interoperability efforts.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="6510a28f-fee6-444c-90d7-916ea3897517" type="Choice Answer">There are no processes for Market Creation.</Answer>
+      <Answer id="bf2a1e9b-1355-4af2-a739-445b5bb2f7b9" type="Choice Answer">Little to no process documentation, -governance, or -ownership for Market Creation. Progress on Market Creation is based on individual’s knowledge, manual interventions and with unpredictable results.</Answer>
+      <Answer id="7b8ffb1f-84ef-456f-8523-1b7ca31ddd4d" type="Choice Answer">Key processes for Market Creation are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent.</Answer>
+      <Answer id="e3af986a-1ef2-4fdd-804c-f91e4e6f6f86" type="Choice Answer">Key processes for Market Creation are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results.</Answer>
+      <Answer id="3c6c3c98-4aa1-46f9-8112-7aed3ea18c6b" type="Choice Answer">Processes for Market Creation are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results.</Answer>
+      <Answer id="5e777209-aa00-47e2-aea8-cff9f1a8d0e6" type="Choice Answer">Processes for Market Creation are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results.</Answer>
+      <Answer id="b1a861c8-d636-4e6b-b85c-816b30e327ad" type="Choice Answer">Unsure</Answer>
+      <Question id="643530c7-c984-cac1-4791-f8b4bc897df3" type="Multiple Choice">3.4.o: Considering the &lt;span style="text-decoration: underline;"&gt;people and organization dimension&lt;/span&gt; of &lt;strong&gt;Market Creation&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of people and organization that supports market creation include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Some members of the community have or provide marketing expertise.&lt;/li&gt;
+&lt;li&gt;There is a culture of understanding that work done, services provided and/or tools delivered needs to be. compensated, even if the source material is open source.&lt;/li&gt;
+&lt;li&gt;There is a culture that balances collaboration with competition.&lt;/li&gt;
+&lt;li&gt;Vendor forums.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="d4d1362d-d350-4286-813f-19217b109b78" type="Choice Answer">There is no organization for Market Creation.</Answer>
+      <Answer id="ff596433-e604-4c59-b34e-550c5846db50" type="Choice Answer">Community members have a weak understanding of how for Market Creation with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Market Creation.</Answer>
+      <Answer id="620751cc-afdc-4e7b-9942-174d5edb85e1" type="Choice Answer">Community members have some skills for Market Creation but may be lacking experience or training. Inconsistent roles and responsibilities.</Answer>
+      <Answer id="7735aa0c-0808-4064-81ad-40a0690da64c" type="Choice Answer">Community members have good skills, experience and available training is in place to help Market Creation. Roles and responsibilities are defined and assigned to members/working groups.</Answer>
+      <Answer id="259b6687-e1ca-4e99-8511-cd8ef80e9c78" type="Choice Answer">Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Market Creation. Members proactively identify people and organizational improvements and have succession plans in place.</Answer>
+      <Answer id="03b1f6ec-8edf-42a4-b6e2-6db790b98171" type="Choice Answer">Community members have an expert and deeply contextualized understanding of Market Creation and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation.</Answer>
+      <Answer id="8edd9425-e8c5-4d94-9659-279222124179" type="Choice Answer">Unsure</Answer>
+      <Question id="850e904a-76a1-e872-281a-3d8442b1ed8d" type="Multiple Choice">3.4.i: Considering the &lt;span style="text-decoration: underline;"&gt;Information dimension&lt;/span&gt; of &lt;strong&gt;Market Creation&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of information that supports market creation includes:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Documented/shared business cases (examples).&lt;/li&gt;
+&lt;li&gt;Overviews of potential vendors.&lt;/li&gt;
+&lt;li&gt;Overviews of potential customers.&lt;/li&gt;
+&lt;li&gt;Overview of use cases that have not been developed yet/that have no solution yet.&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="48d6d902-51e1-4fe7-b19c-3ffc05d05e45" type="Choice Answer">Data/information to support Market Creation does not exist.</Answer>
+      <Answer id="87d48f4e-7673-4492-be96-fa55a939fc29" type="Choice Answer">Information to support Market Creation is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making.</Answer>
+      <Answer id="60f8e5fa-9f1d-4e39-99e1-3ec28877e4da" type="Choice Answer">Information to support Market Creation is available in silos, hard to locate for others.</Answer>
+      <Answer id="fc0e6ceb-60ab-4f0e-8090-0e841729b0e1" type="Choice Answer">Information governance defines how information for Market Creation is collected, stored, understood, accessed, owned, and deleted.</Answer>
+      <Answer id="cf88b449-a9fe-4822-ad79-40dd8372ec76" type="Choice Answer">Information for Market Creation is available and well understood across the community and externally. Information quality is measured and corrected.</Answer>
+      <Answer id="89363ba7-12d0-413d-960e-e72d2fd88f7d" type="Choice Answer">New information for Market Creation is continuously identified and benchmarked.</Answer>
+      <Answer id="754275c1-23a4-430b-8da5-5d89b68efc5a" type="Choice Answer">Unsure</Answer>
+      <Question id="11816273-4bd7-4afc-cd72-8806d0770e8b" type="Multiple Choice">3.4.r: Considering the &lt;span style="text-decoration: underline;"&gt;resources dimension&lt;/span&gt; of &lt;strong&gt;Market Creation&lt;/strong&gt;, which description best fits the situation in your interoperability community?&lt;br /&gt;&lt;br /&gt;Examples of resources that support market creation include:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Investments in marketing&lt;/li&gt;
+&lt;li&gt;Regular conferences on the subject with vendor participation/showcases&lt;/li&gt;
+&lt;/ul&gt;</Question>
+      <Answer id="af66a4f0-ced4-4fe9-a307-65635fd8bb05" type="Choice Answer">There are no resources available for Market Creation . Individuals who do participate in Market Creation do so voluntarily in their own time.</Answer>
+      <Answer id="e7bf690c-799d-451d-b0e5-b34508914396" type="Choice Answer">Few, if any, resources, including budget, are assigned for Market Creation. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="5989ca64-3ae6-4999-bea7-3a45ddc6b697" type="Choice Answer">Some resources are identified for Market Creation, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent.</Answer>
+      <Answer id="8137c572-33a6-4e42-8077-5c0d28cafaad" type="Choice Answer">Market Creation's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Market Creation are compensated for their effort by the organization they represent.</Answer>
+      <Answer id="67ca1789-74af-41ff-aa90-17d443d57a3d" type="Choice Answer">New resources are made available to increase the maturity of Market Creation. Most work done for Market Creation is compensated.</Answer>
+      <Answer id="f9418ac9-e23b-4984-b800-8876187b7973" type="Choice Answer">New resources and other innovations that can improve Market Creation are investigated, benchmarked, proven, and deployed. All work done towards Market Creation is compensated.</Answer>
+      <Answer id="6137f9d6-cc2d-4c7b-92b7-06b8831f4168" type="Choice Answer">Unsure</Answer>
+    </Elements>
+  </Survey>
+  <Answers>
+    <AnswerSet list="38066705">
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="08ff49b7-24f5-48f2-b95c-77826d901225"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="eabe9621-aa2b-45a3-9813-690fe41de425"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="17b97ee3-848a-42de-8aa5-ef01378c1684"/>
+      <Answer qid="0de32b34-c527-19d4-f6ca-76af0cd7b88b" aid="bea16226-eae9-4588-9c0b-e7a6e76e162f"/>
+      <Answer qid="0de32b34-c527-19d4-f6ca-76af0cd7b88b" aid="9e80d470-c3fe-4770-a5e1-622feb715b8a"/>
+      <Answer qid="91cc8bfe-ee6e-c7e9-3462-b49021778bdc" aid="879866c3-ebc3-465b-9760-6f931b5c9db1"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="7709f4a9-032d-421d-b6df-561a5541190f"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="69ce7619-25e4-4d57-a726-b1d1fa399294"/>
+      <Answer qid="6d4606c8-31b7-5c8f-4463-5be353ea4f64" aid="59509e6b-a925-42f4-b5f4-0a6fc8ba898e"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="565bf524-e86d-43d3-b1d2-730e76af5af4"/>
+      <Answer qid="32457cf6-2f78-5a25-7691-cad210b83222">ENERSHARE-example</Answer>
+      <Answer qid="619d9713-706e-c382-3ba7-6fa142ec136c" aid="868afa68-29d6-47c0-9a82-b7432a5096d8"/>
+      <Answer qid="003b79cb-f328-eb1b-b862-90a00c21a602" aid="71920e57-d179-4890-9c66-fb8ace1660f9"/>
+      <Answer qid="e4b0274b-8669-ec21-6cb0-5c6be1547cfa" aid="5cec2330-1004-415b-a364-e4a677d9bf9f"/>
+      <Answer qid="9fdbb80d-2c0a-32df-3691-3c60b23a460b" aid="ad6ab2d3-b377-4a1f-a091-851dfe048671"/>
+      <Answer qid="0f6dfb1f-3f40-b12e-be9b-bc39f709785a" aid="9ae9567c-8af3-492b-a125-66a58912d56b"/>
+      <Answer qid="e331722f-5bd4-4b43-2415-08fe691fdcaa" aid="22cab17f-9772-4873-aed3-81ff8d8ab576"/>
+      <Answer qid="707474ba-460b-b3f0-2e7f-f91542b5ad84" aid="b3c52cb8-6bcf-4bc5-abf2-c89e9f06cbda"/>
+      <Answer qid="b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36" aid="0bfc10c7-16d3-4f7a-a87c-8f07b3ff4977"/>
+      <Answer qid="18a59f86-f8c9-05c4-b63f-f2b858739f70" aid="43ea0005-cff8-404c-bd0b-7c11c93c2ec8"/>
+      <Answer qid="1d856148-30ae-c626-57a7-2ec96b48e5dc" aid="ba9b6d33-e546-4078-bc57-081897bc574f"/>
+      <Answer qid="ccbc2961-4fa5-12fd-5f7b-85079c2cd008" aid="2abc248b-0381-45b3-aef9-8a93d9f6df91"/>
+      <Answer qid="5005a479-40ce-dbb8-c906-b2ea4c96624c" aid="816ee0f9-721c-42e0-955b-e4ba5463b29a"/>
+      <Answer qid="40bd6f27-e8f5-6dde-7426-4042eb8719b7" aid="698b42cb-9565-42e2-9c09-c26cfe3e03fa"/>
+      <Answer qid="c1ab4933-5dc6-7701-6351-29d6822d9f11" aid="4daeb9a0-807e-42de-9dcf-13e133255522"/>
+      <Answer qid="b58df7f7-e4da-cab6-c0b5-b2d870a2c870" aid="57ca4d77-ab09-470d-a2f5-895e6a01f1fc"/>
+      <Answer qid="c89aef48-8a2a-7570-b080-a72fbf28c3f7" aid="e80aeba6-4ad5-4470-b9f1-bb4aa996c273"/>
+      <Answer qid="b4c46c0b-6081-d15f-c3b4-1f168101dc7d" aid="db3b1f50-6c9c-4c58-b229-fe5b34a616f2"/>
+      <Answer qid="db98bace-e849-2709-6d08-39c36791a0e6" aid="f928f127-cf05-4869-9797-cf3fac270acb"/>
+      <Answer qid="7f5068ec-bce4-025f-1529-c6bb4c689782" aid="29a34d86-b1fa-4981-a69c-39b7d4646d69"/>
+      <Answer qid="575511d2-f0cf-6885-1218-d7064dc25b31" aid="44ac9c94-4a2a-41d4-9e0d-1a3cdec60325"/>
+      <Answer qid="366c6cd4-04e6-fb06-16f5-6310cd47a59b" aid="ae755a72-010a-4532-ae80-50c978ac43de"/>
+      <Answer qid="7f0862ca-5dd4-a107-d6ba-3c17b26de347" aid="1980ac9e-51ad-4a90-874c-6f780edf733d"/>
+      <Answer qid="3ba5ecb8-71e1-91ab-59f2-ce294eee61dc" aid="97c11670-3e81-44d4-9c95-5287cdc5b3ef"/>
+      <Answer qid="433856bb-a58b-3a1e-0fe9-4a3b54a1076b" aid="6c49d04f-a9e5-478b-8109-d368c3f462b3"/>
+      <Answer qid="1ecc4b9e-0476-9d94-c518-5f15f896e0d4" aid="6cd4d27e-e5a5-4f53-8f65-d4db163e76ec"/>
+      <Answer qid="0a0bc334-bed1-d2ab-934d-cdfcd5c54c50" aid="ed2fcfbe-a2b4-40e2-a300-fa570973cdc0"/>
+      <Answer qid="dcdbb4c8-6a98-3932-13c4-7459d982c940" aid="f42e0c68-dac1-49ec-b4d2-eb32c01ab8af"/>
+      <Answer qid="e33dceb9-9f08-4178-43d4-05f48083c73c" aid="c25493e5-1c0b-4402-899b-b74177655051"/>
+      <Answer qid="7d52c284-2657-0b82-492b-e661688f42e1" aid="5c861410-8e73-406f-bc7b-2059d9611096"/>
+      <Answer qid="d88ec0c6-85f0-239e-e5fa-1abcf3da400a" aid="a1fcfdde-6094-425a-8711-f565a9caa469"/>
+      <Answer qid="aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8" aid="43a04124-7f4e-4f2e-8214-282f2d0b8422"/>
+      <Answer qid="5d8279ed-c94d-5118-20c0-9ca39717d60a" aid="90f0ac03-3e9b-42b7-89ea-850013c5cae5"/>
+      <Answer qid="52ac82ad-2b2e-5453-cc5d-607a5de21846" aid="f21be6ec-00e8-4d10-9ca5-5cabd5550a1b"/>
+      <Answer qid="a53fdbd5-e05a-c784-4244-f82f705b5444" aid="80d18a2e-c7aa-45cc-8dba-c44889f3533e"/>
+      <Answer qid="6bd66ecf-755c-6e1b-f6cb-8f01d5564032" aid="d9004bfd-3410-4982-94d3-11fc5b22a1c6"/>
+      <Answer qid="b2f65531-8d1c-947e-4499-bf6882f51066" aid="990bf883-a325-4833-8714-a4707f9c0d60"/>
+      <Answer qid="71f6067e-3c57-8729-89dc-7e9324671021" aid="3c6c3c98-4aa1-46f9-8112-7aed3ea18c6b"/>
+      <Answer qid="643530c7-c984-cac1-4791-f8b4bc897df3" aid="8edd9425-e8c5-4d94-9659-279222124179"/>
+      <Answer qid="850e904a-76a1-e872-281a-3d8442b1ed8d" aid="cf88b449-a9fe-4822-ad79-40dd8372ec76"/>
+      <Answer qid="11816273-4bd7-4afc-cd72-8806d0770e8b" aid="8137c572-33a6-4e42-8077-5c0d28cafaad"/>
+    </AnswerSet>
+    <AnswerSet list="38066681">
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="6ab2e5f6-d1b9-40d3-8b9f-2fb699a80b99"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="eabe9621-aa2b-45a3-9813-690fe41de425"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="65ff0640-6cf0-486e-98f7-b70d473c7607"/>
+      <Answer qid="91cc8bfe-ee6e-c7e9-3462-b49021778bdc" aid="7048bc2e-d300-407a-831a-fa6b7a406e60"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="7709f4a9-032d-421d-b6df-561a5541190f"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="d2578dc7-13fd-4985-b143-19e3f05000d4"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="da363ff5-fe33-4202-b3f1-67c232318572"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="69ce7619-25e4-4d57-a726-b1d1fa399294"/>
+      <Answer qid="32457cf6-2f78-5a25-7691-cad210b83222">ENERSHARE-example</Answer>
+      <Answer qid="619d9713-706e-c382-3ba7-6fa142ec136c" aid="cbd8c662-4087-4ebe-81e9-a28bf6af373a"/>
+      <Answer qid="003b79cb-f328-eb1b-b862-90a00c21a602" aid="0e717ac3-1781-494c-9016-16cf8772259a"/>
+      <Answer qid="e4b0274b-8669-ec21-6cb0-5c6be1547cfa" aid="e25871a3-3288-412f-9b97-736de05b6cdc"/>
+      <Answer qid="9fdbb80d-2c0a-32df-3691-3c60b23a460b" aid="dc8d8c7c-09fd-4435-8a44-83dd40e11e2d"/>
+      <Answer qid="0f6dfb1f-3f40-b12e-be9b-bc39f709785a" aid="9ae9567c-8af3-492b-a125-66a58912d56b"/>
+      <Answer qid="e331722f-5bd4-4b43-2415-08fe691fdcaa" aid="0397c288-d671-4e15-b391-043ac354a837"/>
+      <Answer qid="707474ba-460b-b3f0-2e7f-f91542b5ad84" aid="b3c52cb8-6bcf-4bc5-abf2-c89e9f06cbda"/>
+      <Answer qid="b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36" aid="5e26ac50-f68e-4383-b219-00bc724cee2f"/>
+      <Answer qid="18a59f86-f8c9-05c4-b63f-f2b858739f70" aid="5064deb2-9c5a-432e-bc61-0d14faa8d7df"/>
+      <Answer qid="1d856148-30ae-c626-57a7-2ec96b48e5dc" aid="ba9b6d33-e546-4078-bc57-081897bc574f"/>
+      <Answer qid="ccbc2961-4fa5-12fd-5f7b-85079c2cd008" aid="c26c20ea-7908-4311-b629-4965984dd36d"/>
+      <Answer qid="5005a479-40ce-dbb8-c906-b2ea4c96624c" aid="816ee0f9-721c-42e0-955b-e4ba5463b29a"/>
+      <Answer qid="40bd6f27-e8f5-6dde-7426-4042eb8719b7" aid="698b42cb-9565-42e2-9c09-c26cfe3e03fa"/>
+      <Answer qid="c1ab4933-5dc6-7701-6351-29d6822d9f11" aid="4daeb9a0-807e-42de-9dcf-13e133255522"/>
+      <Answer qid="b58df7f7-e4da-cab6-c0b5-b2d870a2c870" aid="57ca4d77-ab09-470d-a2f5-895e6a01f1fc"/>
+      <Answer qid="c89aef48-8a2a-7570-b080-a72fbf28c3f7" aid="e80aeba6-4ad5-4470-b9f1-bb4aa996c273"/>
+      <Answer qid="b4c46c0b-6081-d15f-c3b4-1f168101dc7d" aid="db3b1f50-6c9c-4c58-b229-fe5b34a616f2"/>
+      <Answer qid="db98bace-e849-2709-6d08-39c36791a0e6" aid="f928f127-cf05-4869-9797-cf3fac270acb"/>
+      <Answer qid="7f5068ec-bce4-025f-1529-c6bb4c689782" aid="29a34d86-b1fa-4981-a69c-39b7d4646d69"/>
+      <Answer qid="575511d2-f0cf-6885-1218-d7064dc25b31" aid="44ac9c94-4a2a-41d4-9e0d-1a3cdec60325"/>
+      <Answer qid="366c6cd4-04e6-fb06-16f5-6310cd47a59b" aid="6b3331f1-543f-4c06-80b7-d6fa019edc38"/>
+      <Answer qid="7f0862ca-5dd4-a107-d6ba-3c17b26de347" aid="1980ac9e-51ad-4a90-874c-6f780edf733d"/>
+      <Answer qid="3ba5ecb8-71e1-91ab-59f2-ce294eee61dc" aid="97c11670-3e81-44d4-9c95-5287cdc5b3ef"/>
+      <Answer qid="433856bb-a58b-3a1e-0fe9-4a3b54a1076b" aid="5c157ce1-5d41-4104-8e51-1951a97f5535"/>
+      <Answer qid="1ecc4b9e-0476-9d94-c518-5f15f896e0d4" aid="6cd4d27e-e5a5-4f53-8f65-d4db163e76ec"/>
+      <Answer qid="0a0bc334-bed1-d2ab-934d-cdfcd5c54c50" aid="ed2fcfbe-a2b4-40e2-a300-fa570973cdc0"/>
+      <Answer qid="dcdbb4c8-6a98-3932-13c4-7459d982c940" aid="f42e0c68-dac1-49ec-b4d2-eb32c01ab8af"/>
+      <Answer qid="e33dceb9-9f08-4178-43d4-05f48083c73c" aid="c25493e5-1c0b-4402-899b-b74177655051"/>
+      <Answer qid="7d52c284-2657-0b82-492b-e661688f42e1" aid="5c861410-8e73-406f-bc7b-2059d9611096"/>
+      <Answer qid="d88ec0c6-85f0-239e-e5fa-1abcf3da400a" aid="a1fcfdde-6094-425a-8711-f565a9caa469"/>
+      <Answer qid="aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8" aid="43a04124-7f4e-4f2e-8214-282f2d0b8422"/>
+      <Answer qid="5d8279ed-c94d-5118-20c0-9ca39717d60a" aid="90f0ac03-3e9b-42b7-89ea-850013c5cae5"/>
+      <Answer qid="52ac82ad-2b2e-5453-cc5d-607a5de21846" aid="f21be6ec-00e8-4d10-9ca5-5cabd5550a1b"/>
+      <Answer qid="a53fdbd5-e05a-c784-4244-f82f705b5444" aid="80d18a2e-c7aa-45cc-8dba-c44889f3533e"/>
+      <Answer qid="6bd66ecf-755c-6e1b-f6cb-8f01d5564032" aid="d9004bfd-3410-4982-94d3-11fc5b22a1c6"/>
+      <Answer qid="b2f65531-8d1c-947e-4499-bf6882f51066" aid="990bf883-a325-4833-8714-a4707f9c0d60"/>
+      <Answer qid="71f6067e-3c57-8729-89dc-7e9324671021" aid="b1a861c8-d636-4e6b-b85c-816b30e327ad"/>
+      <Answer qid="643530c7-c984-cac1-4791-f8b4bc897df3" aid="8edd9425-e8c5-4d94-9659-279222124179"/>
+      <Answer qid="850e904a-76a1-e872-281a-3d8442b1ed8d" aid="754275c1-23a4-430b-8da5-5d89b68efc5a"/>
+      <Answer qid="11816273-4bd7-4afc-cd72-8806d0770e8b" aid="6137f9d6-cc2d-4c7b-92b7-06b8831f4168"/>
+    </AnswerSet>
+    <AnswerSet list="38066597">
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="bade021f-7d1b-4ae5-9336-4fbbfa11e9b6"/>
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="08ff49b7-24f5-48f2-b95c-77826d901225"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="b1aa2d06-7244-47ea-8b01-303dcd6eb5b8"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="eabe9621-aa2b-45a3-9813-690fe41de425"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="e54d742e-7780-4ae5-9320-4e2c0116119b"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="3e4bb51e-94b0-401b-9513-1f7f306e4907"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="17b97ee3-848a-42de-8aa5-ef01378c1684"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="65ff0640-6cf0-486e-98f7-b70d473c7607"/>
+      <Answer qid="0de32b34-c527-19d4-f6ca-76af0cd7b88b" aid="027378c5-b589-422f-9e79-4a3b4d80ff84"/>
+      <Answer qid="0de32b34-c527-19d4-f6ca-76af0cd7b88b" aid="9e80d470-c3fe-4770-a5e1-622feb715b8a"/>
+      <Answer qid="91cc8bfe-ee6e-c7e9-3462-b49021778bdc" aid="7e644d71-ece5-4bad-b9b3-d841e144951a"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="7709f4a9-032d-421d-b6df-561a5541190f"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="5e3e2d94-995a-41ca-ba84-0252adc58723"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="69ce7619-25e4-4d57-a726-b1d1fa399294"/>
+      <Answer qid="6d4606c8-31b7-5c8f-4463-5be353ea4f64" aid="b5bf0bce-069e-4579-bf25-bdf947dc585c"/>
+      <Answer qid="6d4606c8-31b7-5c8f-4463-5be353ea4f64" aid="59509e6b-a925-42f4-b5f4-0a6fc8ba898e"/>
+      <Answer qid="6d4606c8-31b7-5c8f-4463-5be353ea4f64" aid="b23bcf1f-eaf9-467d-95d7-688dd1bb09e2"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="fede0608-6e61-4866-9697-14ebf9dce485"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="fe44310f-a38f-4b20-ad9a-da23763d8c5c"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="565bf524-e86d-43d3-b1d2-730e76af5af4"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="58ae5178-139f-465b-8206-81293fcd5f87"/>
+      <Answer qid="32457cf6-2f78-5a25-7691-cad210b83222">ENERSHARE-example</Answer>
+      <Answer qid="619d9713-706e-c382-3ba7-6fa142ec136c" aid="cbd8c662-4087-4ebe-81e9-a28bf6af373a"/>
+      <Answer qid="003b79cb-f328-eb1b-b862-90a00c21a602" aid="3402d4d6-4ef3-41b9-a56a-ef5ca689d038"/>
+      <Answer qid="e4b0274b-8669-ec21-6cb0-5c6be1547cfa" aid="81bd2dcc-2c0f-4f84-9607-1ce9ec1771fc"/>
+      <Answer qid="9fdbb80d-2c0a-32df-3691-3c60b23a460b" aid="ad6ab2d3-b377-4a1f-a091-851dfe048671"/>
+      <Answer qid="0f6dfb1f-3f40-b12e-be9b-bc39f709785a" aid="26d570ec-d25f-43f4-bf72-f8512e61915b"/>
+      <Answer qid="e331722f-5bd4-4b43-2415-08fe691fdcaa" aid="44888405-cd41-415c-8555-8727c96404e3"/>
+      <Answer qid="707474ba-460b-b3f0-2e7f-f91542b5ad84" aid="b3c52cb8-6bcf-4bc5-abf2-c89e9f06cbda"/>
+      <Answer qid="b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36" aid="5e26ac50-f68e-4383-b219-00bc724cee2f"/>
+      <Answer qid="18a59f86-f8c9-05c4-b63f-f2b858739f70" aid="5064deb2-9c5a-432e-bc61-0d14faa8d7df"/>
+      <Answer qid="1d856148-30ae-c626-57a7-2ec96b48e5dc" aid="ba9b6d33-e546-4078-bc57-081897bc574f"/>
+      <Answer qid="ccbc2961-4fa5-12fd-5f7b-85079c2cd008" aid="c26c20ea-7908-4311-b629-4965984dd36d"/>
+      <Answer qid="5005a479-40ce-dbb8-c906-b2ea4c96624c" aid="816ee0f9-721c-42e0-955b-e4ba5463b29a"/>
+      <Answer qid="40bd6f27-e8f5-6dde-7426-4042eb8719b7" aid="698b42cb-9565-42e2-9c09-c26cfe3e03fa"/>
+      <Answer qid="c1ab4933-5dc6-7701-6351-29d6822d9f11" aid="4daeb9a0-807e-42de-9dcf-13e133255522"/>
+      <Answer qid="b58df7f7-e4da-cab6-c0b5-b2d870a2c870" aid="57ca4d77-ab09-470d-a2f5-895e6a01f1fc"/>
+      <Answer qid="c89aef48-8a2a-7570-b080-a72fbf28c3f7" aid="e80aeba6-4ad5-4470-b9f1-bb4aa996c273"/>
+      <Answer qid="b4c46c0b-6081-d15f-c3b4-1f168101dc7d" aid="db3b1f50-6c9c-4c58-b229-fe5b34a616f2"/>
+      <Answer qid="db98bace-e849-2709-6d08-39c36791a0e6" aid="f928f127-cf05-4869-9797-cf3fac270acb"/>
+      <Answer qid="7f5068ec-bce4-025f-1529-c6bb4c689782" aid="29a34d86-b1fa-4981-a69c-39b7d4646d69"/>
+      <Answer qid="575511d2-f0cf-6885-1218-d7064dc25b31" aid="44ac9c94-4a2a-41d4-9e0d-1a3cdec60325"/>
+      <Answer qid="366c6cd4-04e6-fb06-16f5-6310cd47a59b" aid="6b3331f1-543f-4c06-80b7-d6fa019edc38"/>
+      <Answer qid="7f0862ca-5dd4-a107-d6ba-3c17b26de347" aid="7cd85443-4c6e-4c80-95f2-87ccd17225d7"/>
+      <Answer qid="3ba5ecb8-71e1-91ab-59f2-ce294eee61dc" aid="f46711dc-f39a-4a2b-8e5f-7a6a4b026273"/>
+      <Answer qid="433856bb-a58b-3a1e-0fe9-4a3b54a1076b" aid="24a35330-50c7-4669-95ab-2e98c38e55a4"/>
+      <Answer qid="1ecc4b9e-0476-9d94-c518-5f15f896e0d4" aid="6cd4d27e-e5a5-4f53-8f65-d4db163e76ec"/>
+      <Answer qid="0a0bc334-bed1-d2ab-934d-cdfcd5c54c50" aid="ed2fcfbe-a2b4-40e2-a300-fa570973cdc0"/>
+      <Answer qid="dcdbb4c8-6a98-3932-13c4-7459d982c940" aid="f42e0c68-dac1-49ec-b4d2-eb32c01ab8af"/>
+      <Answer qid="e33dceb9-9f08-4178-43d4-05f48083c73c" aid="c25493e5-1c0b-4402-899b-b74177655051"/>
+      <Answer qid="7d52c284-2657-0b82-492b-e661688f42e1" aid="5c861410-8e73-406f-bc7b-2059d9611096"/>
+      <Answer qid="d88ec0c6-85f0-239e-e5fa-1abcf3da400a" aid="a1fcfdde-6094-425a-8711-f565a9caa469"/>
+      <Answer qid="aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8" aid="43a04124-7f4e-4f2e-8214-282f2d0b8422"/>
+      <Answer qid="5d8279ed-c94d-5118-20c0-9ca39717d60a" aid="90f0ac03-3e9b-42b7-89ea-850013c5cae5"/>
+      <Answer qid="52ac82ad-2b2e-5453-cc5d-607a5de21846" aid="f21be6ec-00e8-4d10-9ca5-5cabd5550a1b"/>
+      <Answer qid="a53fdbd5-e05a-c784-4244-f82f705b5444" aid="80d18a2e-c7aa-45cc-8dba-c44889f3533e"/>
+      <Answer qid="6bd66ecf-755c-6e1b-f6cb-8f01d5564032" aid="d9004bfd-3410-4982-94d3-11fc5b22a1c6"/>
+      <Answer qid="b2f65531-8d1c-947e-4499-bf6882f51066" aid="990bf883-a325-4833-8714-a4707f9c0d60"/>
+      <Answer qid="71f6067e-3c57-8729-89dc-7e9324671021" aid="b1a861c8-d636-4e6b-b85c-816b30e327ad"/>
+      <Answer qid="643530c7-c984-cac1-4791-f8b4bc897df3" aid="8edd9425-e8c5-4d94-9659-279222124179"/>
+      <Answer qid="850e904a-76a1-e872-281a-3d8442b1ed8d" aid="754275c1-23a4-430b-8da5-5d89b68efc5a"/>
+      <Answer qid="11816273-4bd7-4afc-cd72-8806d0770e8b" aid="6137f9d6-cc2d-4c7b-92b7-06b8831f4168"/>
+    </AnswerSet>
+    <AnswerSet list="38066591">
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="08ff49b7-24f5-48f2-b95c-77826d901225"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="eabe9621-aa2b-45a3-9813-690fe41de425"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="17b97ee3-848a-42de-8aa5-ef01378c1684"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="d953f7fe-4a56-424d-ae36-e18a1db30b40"/>
+      <Answer qid="0de32b34-c527-19d4-f6ca-76af0cd7b88b" aid="bea16226-eae9-4588-9c0b-e7a6e76e162f"/>
+      <Answer qid="91cc8bfe-ee6e-c7e9-3462-b49021778bdc" aid="5b8e6b54-22b8-4a92-999d-d9fb287cc9f7"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="7709f4a9-032d-421d-b6df-561a5541190f"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="69ce7619-25e4-4d57-a726-b1d1fa399294"/>
+      <Answer qid="6d4606c8-31b7-5c8f-4463-5be353ea4f64" aid="59509e6b-a925-42f4-b5f4-0a6fc8ba898e"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="072b975d-8fc6-4d6c-a575-0a41346f6903"/>
+      <Answer qid="32457cf6-2f78-5a25-7691-cad210b83222">ENERSHARE-example</Answer>
+      <Answer qid="619d9713-706e-c382-3ba7-6fa142ec136c" aid="d8c6bbcb-1ed1-4611-bee0-1c6ae0c0196a"/>
+      <Answer qid="003b79cb-f328-eb1b-b862-90a00c21a602" aid="0e717ac3-1781-494c-9016-16cf8772259a"/>
+      <Answer qid="e4b0274b-8669-ec21-6cb0-5c6be1547cfa" aid="055c594d-461f-4714-b838-65d318d9baf1"/>
+      <Answer qid="9fdbb80d-2c0a-32df-3691-3c60b23a460b" aid="6b25c3c5-a127-4078-854c-5b9b3c7627da"/>
+      <Answer qid="0f6dfb1f-3f40-b12e-be9b-bc39f709785a" aid="e8ba9013-c89a-42cb-8f82-3130d86b5fa7"/>
+      <Answer qid="e331722f-5bd4-4b43-2415-08fe691fdcaa" aid="31a2d97b-644e-4b44-a8be-1866bd94888a"/>
+      <Answer qid="707474ba-460b-b3f0-2e7f-f91542b5ad84" aid="93c40e34-16b7-4d71-af1d-8a704ec0562d"/>
+      <Answer qid="b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36" aid="ebd18549-2c39-4536-bb40-650dd1944352"/>
+      <Answer qid="18a59f86-f8c9-05c4-b63f-f2b858739f70" aid="5064deb2-9c5a-432e-bc61-0d14faa8d7df"/>
+      <Answer qid="1d856148-30ae-c626-57a7-2ec96b48e5dc" aid="42c8e4cc-b98f-4b63-a5e6-5e4194921bc2"/>
+      <Answer qid="ccbc2961-4fa5-12fd-5f7b-85079c2cd008" aid="6a186392-84c5-4784-890d-4ad8b34cf115"/>
+      <Answer qid="5005a479-40ce-dbb8-c906-b2ea4c96624c" aid="1a3a4bbe-3039-45f9-a2f9-66cf933d98ae"/>
+      <Answer qid="40bd6f27-e8f5-6dde-7426-4042eb8719b7" aid="bbc1019f-475f-4d5b-ae37-eeb5d824cb42"/>
+      <Answer qid="c1ab4933-5dc6-7701-6351-29d6822d9f11" aid="10748d31-8be9-422e-a936-0da93aa74d0a"/>
+      <Answer qid="b58df7f7-e4da-cab6-c0b5-b2d870a2c870" aid="6de23bb0-1bc4-4104-b1d7-9728a08f2970"/>
+      <Answer qid="c89aef48-8a2a-7570-b080-a72fbf28c3f7" aid="c817a975-e4a2-48f5-bc0f-4e89193dd54e"/>
+      <Answer qid="b4c46c0b-6081-d15f-c3b4-1f168101dc7d" aid="db3b1f50-6c9c-4c58-b229-fe5b34a616f2"/>
+      <Answer qid="db98bace-e849-2709-6d08-39c36791a0e6" aid="f928f127-cf05-4869-9797-cf3fac270acb"/>
+      <Answer qid="7f5068ec-bce4-025f-1529-c6bb4c689782" aid="29a34d86-b1fa-4981-a69c-39b7d4646d69"/>
+      <Answer qid="575511d2-f0cf-6885-1218-d7064dc25b31" aid="44ac9c94-4a2a-41d4-9e0d-1a3cdec60325"/>
+      <Answer qid="366c6cd4-04e6-fb06-16f5-6310cd47a59b" aid="17b69c9a-a858-41a7-9bb3-8554e80af263"/>
+      <Answer qid="7f0862ca-5dd4-a107-d6ba-3c17b26de347" aid="d66ec0ea-7b98-48ff-90e9-e2cb206ed04e"/>
+      <Answer qid="3ba5ecb8-71e1-91ab-59f2-ce294eee61dc" aid="99769ee0-a3af-4431-8931-27deb2c761ef"/>
+      <Answer qid="433856bb-a58b-3a1e-0fe9-4a3b54a1076b" aid="6c49d04f-a9e5-478b-8109-d368c3f462b3"/>
+      <Answer qid="1ecc4b9e-0476-9d94-c518-5f15f896e0d4" aid="6cd4d27e-e5a5-4f53-8f65-d4db163e76ec"/>
+      <Answer qid="0a0bc334-bed1-d2ab-934d-cdfcd5c54c50" aid="ed2fcfbe-a2b4-40e2-a300-fa570973cdc0"/>
+      <Answer qid="dcdbb4c8-6a98-3932-13c4-7459d982c940" aid="f42e0c68-dac1-49ec-b4d2-eb32c01ab8af"/>
+      <Answer qid="e33dceb9-9f08-4178-43d4-05f48083c73c" aid="c25493e5-1c0b-4402-899b-b74177655051"/>
+      <Answer qid="7d52c284-2657-0b82-492b-e661688f42e1" aid="5c861410-8e73-406f-bc7b-2059d9611096"/>
+      <Answer qid="d88ec0c6-85f0-239e-e5fa-1abcf3da400a" aid="a1fcfdde-6094-425a-8711-f565a9caa469"/>
+      <Answer qid="aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8" aid="43a04124-7f4e-4f2e-8214-282f2d0b8422"/>
+      <Answer qid="5d8279ed-c94d-5118-20c0-9ca39717d60a" aid="90f0ac03-3e9b-42b7-89ea-850013c5cae5"/>
+      <Answer qid="52ac82ad-2b2e-5453-cc5d-607a5de21846" aid="f21be6ec-00e8-4d10-9ca5-5cabd5550a1b"/>
+      <Answer qid="a53fdbd5-e05a-c784-4244-f82f705b5444" aid="80d18a2e-c7aa-45cc-8dba-c44889f3533e"/>
+      <Answer qid="6bd66ecf-755c-6e1b-f6cb-8f01d5564032" aid="d9004bfd-3410-4982-94d3-11fc5b22a1c6"/>
+      <Answer qid="b2f65531-8d1c-947e-4499-bf6882f51066" aid="990bf883-a325-4833-8714-a4707f9c0d60"/>
+      <Answer qid="71f6067e-3c57-8729-89dc-7e9324671021" aid="b1a861c8-d636-4e6b-b85c-816b30e327ad"/>
+      <Answer qid="643530c7-c984-cac1-4791-f8b4bc897df3" aid="8edd9425-e8c5-4d94-9659-279222124179"/>
+      <Answer qid="850e904a-76a1-e872-281a-3d8442b1ed8d" aid="754275c1-23a4-430b-8da5-5d89b68efc5a"/>
+      <Answer qid="11816273-4bd7-4afc-cd72-8806d0770e8b" aid="6137f9d6-cc2d-4c7b-92b7-06b8831f4168"/>
+    </AnswerSet>
+    <AnswerSet list="38066579">
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="08ff49b7-24f5-48f2-b95c-77826d901225"/>
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="6ab2e5f6-d1b9-40d3-8b9f-2fb699a80b99"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="30187abc-f084-446f-b207-94ee68edf0cc"/>
+      <Answer qid="32457cf6-2f78-5a25-7691-cad210b83222">ENERSHARE-example</Answer>
+      <Answer qid="619d9713-706e-c382-3ba7-6fa142ec136c" aid="cbd8c662-4087-4ebe-81e9-a28bf6af373a"/>
+      <Answer qid="003b79cb-f328-eb1b-b862-90a00c21a602" aid="3402d4d6-4ef3-41b9-a56a-ef5ca689d038"/>
+      <Answer qid="e4b0274b-8669-ec21-6cb0-5c6be1547cfa" aid="81bd2dcc-2c0f-4f84-9607-1ce9ec1771fc"/>
+      <Answer qid="9fdbb80d-2c0a-32df-3691-3c60b23a460b" aid="ad6ab2d3-b377-4a1f-a091-851dfe048671"/>
+      <Answer qid="0f6dfb1f-3f40-b12e-be9b-bc39f709785a" aid="5d449d90-ab87-4054-ba03-fa7a78e5f608"/>
+      <Answer qid="e331722f-5bd4-4b43-2415-08fe691fdcaa" aid="3f09add0-6590-4e23-a108-067965571efd"/>
+      <Answer qid="707474ba-460b-b3f0-2e7f-f91542b5ad84" aid="b3c52cb8-6bcf-4bc5-abf2-c89e9f06cbda"/>
+      <Answer qid="b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36" aid="60ec5764-7d58-4c78-a61a-88032dfa5a34"/>
+      <Answer qid="18a59f86-f8c9-05c4-b63f-f2b858739f70" aid="5064deb2-9c5a-432e-bc61-0d14faa8d7df"/>
+      <Answer qid="1d856148-30ae-c626-57a7-2ec96b48e5dc" aid="ba9b6d33-e546-4078-bc57-081897bc574f"/>
+      <Answer qid="ccbc2961-4fa5-12fd-5f7b-85079c2cd008" aid="c26c20ea-7908-4311-b629-4965984dd36d"/>
+      <Answer qid="5005a479-40ce-dbb8-c906-b2ea4c96624c" aid="816ee0f9-721c-42e0-955b-e4ba5463b29a"/>
+      <Answer qid="40bd6f27-e8f5-6dde-7426-4042eb8719b7" aid="698b42cb-9565-42e2-9c09-c26cfe3e03fa"/>
+      <Answer qid="c1ab4933-5dc6-7701-6351-29d6822d9f11" aid="4daeb9a0-807e-42de-9dcf-13e133255522"/>
+      <Answer qid="b58df7f7-e4da-cab6-c0b5-b2d870a2c870" aid="57ca4d77-ab09-470d-a2f5-895e6a01f1fc"/>
+      <Answer qid="c89aef48-8a2a-7570-b080-a72fbf28c3f7" aid="e80aeba6-4ad5-4470-b9f1-bb4aa996c273"/>
+      <Answer qid="b4c46c0b-6081-d15f-c3b4-1f168101dc7d" aid="db3b1f50-6c9c-4c58-b229-fe5b34a616f2"/>
+      <Answer qid="db98bace-e849-2709-6d08-39c36791a0e6" aid="f928f127-cf05-4869-9797-cf3fac270acb"/>
+      <Answer qid="7f5068ec-bce4-025f-1529-c6bb4c689782" aid="29a34d86-b1fa-4981-a69c-39b7d4646d69"/>
+      <Answer qid="575511d2-f0cf-6885-1218-d7064dc25b31" aid="44ac9c94-4a2a-41d4-9e0d-1a3cdec60325"/>
+      <Answer qid="366c6cd4-04e6-fb06-16f5-6310cd47a59b" aid="ae755a72-010a-4532-ae80-50c978ac43de"/>
+      <Answer qid="7f0862ca-5dd4-a107-d6ba-3c17b26de347" aid="8f3650b1-7440-4299-8c3a-ff399933d73c"/>
+      <Answer qid="3ba5ecb8-71e1-91ab-59f2-ce294eee61dc" aid="393f2537-2e48-4e08-8292-83fd14f66df9"/>
+      <Answer qid="433856bb-a58b-3a1e-0fe9-4a3b54a1076b" aid="5c157ce1-5d41-4104-8e51-1951a97f5535"/>
+      <Answer qid="1ecc4b9e-0476-9d94-c518-5f15f896e0d4" aid="6cd4d27e-e5a5-4f53-8f65-d4db163e76ec"/>
+      <Answer qid="0a0bc334-bed1-d2ab-934d-cdfcd5c54c50" aid="ed2fcfbe-a2b4-40e2-a300-fa570973cdc0"/>
+      <Answer qid="dcdbb4c8-6a98-3932-13c4-7459d982c940" aid="f42e0c68-dac1-49ec-b4d2-eb32c01ab8af"/>
+      <Answer qid="e33dceb9-9f08-4178-43d4-05f48083c73c" aid="c25493e5-1c0b-4402-899b-b74177655051"/>
+      <Answer qid="7d52c284-2657-0b82-492b-e661688f42e1" aid="5c861410-8e73-406f-bc7b-2059d9611096"/>
+      <Answer qid="d88ec0c6-85f0-239e-e5fa-1abcf3da400a" aid="a1fcfdde-6094-425a-8711-f565a9caa469"/>
+      <Answer qid="aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8" aid="43a04124-7f4e-4f2e-8214-282f2d0b8422"/>
+      <Answer qid="5d8279ed-c94d-5118-20c0-9ca39717d60a" aid="90f0ac03-3e9b-42b7-89ea-850013c5cae5"/>
+      <Answer qid="52ac82ad-2b2e-5453-cc5d-607a5de21846" aid="f21be6ec-00e8-4d10-9ca5-5cabd5550a1b"/>
+      <Answer qid="a53fdbd5-e05a-c784-4244-f82f705b5444" aid="80d18a2e-c7aa-45cc-8dba-c44889f3533e"/>
+      <Answer qid="6bd66ecf-755c-6e1b-f6cb-8f01d5564032" aid="d9004bfd-3410-4982-94d3-11fc5b22a1c6"/>
+      <Answer qid="b2f65531-8d1c-947e-4499-bf6882f51066" aid="990bf883-a325-4833-8714-a4707f9c0d60"/>
+      <Answer qid="71f6067e-3c57-8729-89dc-7e9324671021" aid="b1a861c8-d636-4e6b-b85c-816b30e327ad"/>
+      <Answer qid="643530c7-c984-cac1-4791-f8b4bc897df3" aid="8edd9425-e8c5-4d94-9659-279222124179"/>
+      <Answer qid="850e904a-76a1-e872-281a-3d8442b1ed8d" aid="754275c1-23a4-430b-8da5-5d89b68efc5a"/>
+      <Answer qid="11816273-4bd7-4afc-cd72-8806d0770e8b" aid="6137f9d6-cc2d-4c7b-92b7-06b8831f4168"/>
+    </AnswerSet>
+    <AnswerSet list="38066575">
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="bade021f-7d1b-4ae5-9336-4fbbfa11e9b6"/>
+      <Answer qid="a086bcf9-c9c9-8b58-a15a-0ab224d76de3" aid="08ff49b7-24f5-48f2-b95c-77826d901225"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="eabe9621-aa2b-45a3-9813-690fe41de425"/>
+      <Answer qid="0eb59ebe-5ffe-f965-78ca-852a40dc5ad7" aid="cf37c4f7-9980-43d3-ac49-0e0c642180c7"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="3e4bb51e-94b0-401b-9513-1f7f306e4907"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="17b97ee3-848a-42de-8aa5-ef01378c1684"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="65ff0640-6cf0-486e-98f7-b70d473c7607"/>
+      <Answer qid="51194433-574f-111a-7b94-7f048ef4dd79" aid="e2e25ef9-c520-444e-960d-459120bd7de2"/>
+      <Answer qid="0de32b34-c527-19d4-f6ca-76af0cd7b88b" aid="6927e76b-633b-45d6-b738-b64683298610"/>
+      <Answer qid="0de32b34-c527-19d4-f6ca-76af0cd7b88b" aid="9e80d470-c3fe-4770-a5e1-622feb715b8a"/>
+      <Answer qid="91cc8bfe-ee6e-c7e9-3462-b49021778bdc" aid="7048bc2e-d300-407a-831a-fa6b7a406e60"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="7709f4a9-032d-421d-b6df-561a5541190f"/>
+      <Answer qid="17d78fb6-586e-21f1-a958-93af40ed9c88" aid="da363ff5-fe33-4202-b3f1-67c232318572"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="5e3e2d94-995a-41ca-ba84-0252adc58723"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="69ce7619-25e4-4d57-a726-b1d1fa399294"/>
+      <Answer qid="9666d660-00fd-1a81-d1f7-717d39c6f5d7" aid="7f00f24d-8cfa-4422-a7e0-7cf29ed787da"/>
+      <Answer qid="6d4606c8-31b7-5c8f-4463-5be353ea4f64" aid="b5bf0bce-069e-4579-bf25-bdf947dc585c"/>
+      <Answer qid="6d4606c8-31b7-5c8f-4463-5be353ea4f64" aid="59509e6b-a925-42f4-b5f4-0a6fc8ba898e"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="fede0608-6e61-4866-9697-14ebf9dce485"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="fe44310f-a38f-4b20-ad9a-da23763d8c5c"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="565bf524-e86d-43d3-b1d2-730e76af5af4"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="58ae5178-139f-465b-8206-81293fcd5f87"/>
+      <Answer qid="b1acefb8-c977-c91a-b82c-6bee6a82a34d" aid="b7daa1ed-3168-4ad7-bc1a-af456fadfcef"/>
+      <Answer qid="32457cf6-2f78-5a25-7691-cad210b83222">ENERSHARE-example</Answer>
+      <Answer qid="619d9713-706e-c382-3ba7-6fa142ec136c" aid="cce3f117-a189-41d7-ad31-46e3f0018067"/>
+      <Answer qid="003b79cb-f328-eb1b-b862-90a00c21a602" aid="71920e57-d179-4890-9c66-fb8ace1660f9"/>
+      <Answer qid="e4b0274b-8669-ec21-6cb0-5c6be1547cfa" aid="1c92dfda-115e-4823-8b2e-87fef9e5f8d4"/>
+      <Answer qid="9fdbb80d-2c0a-32df-3691-3c60b23a460b" aid="cb0eb73f-db4b-43c7-ab4d-496b5ea9d0ef"/>
+      <Answer qid="0f6dfb1f-3f40-b12e-be9b-bc39f709785a" aid="5d449d90-ab87-4054-ba03-fa7a78e5f608"/>
+      <Answer qid="e331722f-5bd4-4b43-2415-08fe691fdcaa" aid="b2170f29-d789-4366-b9e3-3ff9888401cb"/>
+      <Answer qid="707474ba-460b-b3f0-2e7f-f91542b5ad84" aid="b3c52cb8-6bcf-4bc5-abf2-c89e9f06cbda"/>
+      <Answer qid="b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36" aid="5e26ac50-f68e-4383-b219-00bc724cee2f"/>
+      <Answer qid="18a59f86-f8c9-05c4-b63f-f2b858739f70" aid="5064deb2-9c5a-432e-bc61-0d14faa8d7df"/>
+      <Answer qid="1d856148-30ae-c626-57a7-2ec96b48e5dc" aid="ba9b6d33-e546-4078-bc57-081897bc574f"/>
+      <Answer qid="ccbc2961-4fa5-12fd-5f7b-85079c2cd008" aid="c26c20ea-7908-4311-b629-4965984dd36d"/>
+      <Answer qid="5005a479-40ce-dbb8-c906-b2ea4c96624c" aid="816ee0f9-721c-42e0-955b-e4ba5463b29a"/>
+      <Answer qid="40bd6f27-e8f5-6dde-7426-4042eb8719b7" aid="698b42cb-9565-42e2-9c09-c26cfe3e03fa"/>
+      <Answer qid="c1ab4933-5dc6-7701-6351-29d6822d9f11" aid="4daeb9a0-807e-42de-9dcf-13e133255522"/>
+      <Answer qid="b58df7f7-e4da-cab6-c0b5-b2d870a2c870" aid="57ca4d77-ab09-470d-a2f5-895e6a01f1fc"/>
+      <Answer qid="c89aef48-8a2a-7570-b080-a72fbf28c3f7" aid="e80aeba6-4ad5-4470-b9f1-bb4aa996c273"/>
+      <Answer qid="b4c46c0b-6081-d15f-c3b4-1f168101dc7d" aid="db3b1f50-6c9c-4c58-b229-fe5b34a616f2"/>
+      <Answer qid="db98bace-e849-2709-6d08-39c36791a0e6" aid="f928f127-cf05-4869-9797-cf3fac270acb"/>
+      <Answer qid="7f5068ec-bce4-025f-1529-c6bb4c689782" aid="29a34d86-b1fa-4981-a69c-39b7d4646d69"/>
+      <Answer qid="575511d2-f0cf-6885-1218-d7064dc25b31" aid="44ac9c94-4a2a-41d4-9e0d-1a3cdec60325"/>
+      <Answer qid="366c6cd4-04e6-fb06-16f5-6310cd47a59b" aid="6b3331f1-543f-4c06-80b7-d6fa019edc38"/>
+      <Answer qid="7f0862ca-5dd4-a107-d6ba-3c17b26de347" aid="7cd85443-4c6e-4c80-95f2-87ccd17225d7"/>
+      <Answer qid="3ba5ecb8-71e1-91ab-59f2-ce294eee61dc" aid="97c11670-3e81-44d4-9c95-5287cdc5b3ef"/>
+      <Answer qid="433856bb-a58b-3a1e-0fe9-4a3b54a1076b" aid="24a35330-50c7-4669-95ab-2e98c38e55a4"/>
+      <Answer qid="1ecc4b9e-0476-9d94-c518-5f15f896e0d4" aid="6cd4d27e-e5a5-4f53-8f65-d4db163e76ec"/>
+      <Answer qid="0a0bc334-bed1-d2ab-934d-cdfcd5c54c50" aid="ed2fcfbe-a2b4-40e2-a300-fa570973cdc0"/>
+      <Answer qid="dcdbb4c8-6a98-3932-13c4-7459d982c940" aid="f42e0c68-dac1-49ec-b4d2-eb32c01ab8af"/>
+      <Answer qid="e33dceb9-9f08-4178-43d4-05f48083c73c" aid="c25493e5-1c0b-4402-899b-b74177655051"/>
+      <Answer qid="7d52c284-2657-0b82-492b-e661688f42e1" aid="5c861410-8e73-406f-bc7b-2059d9611096"/>
+      <Answer qid="d88ec0c6-85f0-239e-e5fa-1abcf3da400a" aid="a1fcfdde-6094-425a-8711-f565a9caa469"/>
+      <Answer qid="aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8" aid="43a04124-7f4e-4f2e-8214-282f2d0b8422"/>
+      <Answer qid="5d8279ed-c94d-5118-20c0-9ca39717d60a" aid="90f0ac03-3e9b-42b7-89ea-850013c5cae5"/>
+      <Answer qid="52ac82ad-2b2e-5453-cc5d-607a5de21846" aid="f21be6ec-00e8-4d10-9ca5-5cabd5550a1b"/>
+      <Answer qid="a53fdbd5-e05a-c784-4244-f82f705b5444" aid="80d18a2e-c7aa-45cc-8dba-c44889f3533e"/>
+      <Answer qid="6bd66ecf-755c-6e1b-f6cb-8f01d5564032" aid="d9004bfd-3410-4982-94d3-11fc5b22a1c6"/>
+      <Answer qid="b2f65531-8d1c-947e-4499-bf6882f51066" aid="990bf883-a325-4833-8714-a4707f9c0d60"/>
+      <Answer qid="71f6067e-3c57-8729-89dc-7e9324671021" aid="b1a861c8-d636-4e6b-b85c-816b30e327ad"/>
+      <Answer qid="643530c7-c984-cac1-4791-f8b4bc897df3" aid="8edd9425-e8c5-4d94-9659-279222124179"/>
+      <Answer qid="850e904a-76a1-e872-281a-3d8442b1ed8d" aid="754275c1-23a4-430b-8da5-5d89b68efc5a"/>
+      <Answer qid="11816273-4bd7-4afc-cd72-8806d0770e8b" aid="6137f9d6-cc2d-4c7b-92b7-06b8831f4168"/>
+    </AnswerSet>
+  </Answers>
+</Results>

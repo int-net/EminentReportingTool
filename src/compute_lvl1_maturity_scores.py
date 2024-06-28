@@ -133,7 +133,7 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
         )
 
         dim = g.query(dimension_per_lvl1_capability_query, initBindings={'study': URIRef(study), 'capability' : URIRef(row.capability)} )
-        print(f"{row.capability } : {len(dim)}")
+        
         for d in dim:
             scores= g.query(collect_scores_query, initBindings={'study': URIRef(study), 'capabilityOrDimension' : URIRef(d.dimension)} )
             raw_data =[]
@@ -141,7 +141,7 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
 
                 raw_data.append(s.result.toPython())
             
-            # print(raw_data)
+            print(raw_data)
 
             maturity_score= raw_data_to_MaturityScore(raw_data=raw_data)
             maturity_df.loc[len(maturity_df.index)] = [str(d.prefLabel), 
@@ -168,21 +168,24 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
             maturity_df= maturity_df.sort_values(by='dimension')
             implementation_df = maturity_df
         
-        # print(maturity_df)
+        
 
         plot = subcapability_radar_plot(maturitydf=maturity_df, plotKind=plot_kind, capability= row.capability) 
         filename = output_folder + str(study).split("#",1)[1]+'_' +str(row.capability).split("#",1)[1] + '.svg'
         plot.savefig(filename, pad_inches= 2)
         plot.show()
+    print(community_facilitation_df)
+    print(technical_agreements_df)
+    print(implementation_df)    
     return community_facilitation_df , technical_agreements_df, implementation_df
 
 
 
-probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
-                                          maturity_assessment= './tests/EminentQUestionnaire_1.1.0.ttl',
-                                          responses= './tests/eminentresponses.ttl',
-                                          study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-                                          plot_kind='maturity_avg',
-                                          output_folder='./tests/')
+# probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
+#                                           maturity_assessment= './tests/EminentQUestionnaire_1.1.0.ttl',
+#                                           responses= './tests/eminentresponses.ttl',
+#                                           study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
+#                                           plot_kind='maturity_avg',
+#                                           output_folder='./tests/')
 
 

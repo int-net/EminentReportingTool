@@ -28,7 +28,7 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
     g.parse(maturity_assessment)
     g.parse(responses)
 
-    print(study)
+    # print(study)
     
     emar_ns= Namespace("http://eminent.intnet.eu/maturity_assessment_results#")
     ema_ns = Namespace("http://eminent.intnet.eu/maturity_assessment#")

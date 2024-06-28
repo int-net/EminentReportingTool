@@ -1,0 +1,1327 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ema: <http://eminent.intnet.eu/maturity_assessment#> .
+@prefix emar: <http://eminent.intnet.eu/maturity_assessment_results#> .
+@prefix emm: <http://eminent.intnet.eu/maturity_model#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sgam: <http://eminent.intnet.eu/sgam#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+emar:010e8532582bf036bf1432e93458e4ab1030ce11 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 .
+
+emar:04ec616c8774b97e4a5688659308eef24d4898f0 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1ecc4b9e-0476-9d94-c518-5f15f896e0d4 .
+
+emar:0657464c20886c598c1a910b327f3121c3b554f4 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b .
+
+emar:0931eed30c667b206f23db64c7a3d0769f26a6f3 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:e33dceb9-9f08-4178-43d4-05f48083c73c .
+
+emar:09a4e59f2dc016c658baf7dda19000c20e561880 a ema:Answer ;
+    ema:resultText "There are no processes for Integration Profile Establishment." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:IntegrationProfileEstablishment_process_0 ;
+    sosa:usedProcedure ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 .
+
+emar:0c0daf200fb8fb1815ee8a27163d06c64e03f4ef a ema:Answer ;
+    ema:resultText "Information governance defines how information for Community Growth is collected, stored, understood, accessed, owned, and deleted." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:CommunityGrowth_Information_3 ;
+    sosa:usedProcedure ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa .
+
+emar:0cad8b4470235e944cdfced82358b893efb07929 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:619d9713-706e-c382-3ba7-6fa142ec136c .
+
+emar:0d19641969e9a0ca96196d76f73d1902047d5813 a ema:Answer ;
+    ema:resultText "Key processes for Compliance Testing are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:ComplianceTesting_process_2 ;
+    sosa:usedProcedure ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b .
+
+emar:0df530bb74ad1ad36f7ee42795480b2682ff5181 a ema:Answer ;
+    ema:resultText "Unsure." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 .
+
+emar:101b3b81792cda6d97649ddbd794780348776c18 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 .
+
+emar:1116d5f2aea2d61746215905b58aebe893e9cbbe a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b .
+
+emar:118f7eb5e1fbb21b2a9e75dd3acc70b0e512d4ba a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 .
+
+emar:128aa9b6eb2e4f89bfafddf2453d5f4c6360ebb7 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1ecc4b9e-0476-9d94-c518-5f15f896e0d4 .
+
+emar:12a9c24fb4f0f968c73c28a312ef816bcbddf93d a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:575511d2-f0cf-6885-1218-d7064dc25b31 .
+
+emar:13e178d0ec6848f10075632025c9c40c7033f6b5 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 .
+
+emar:1404c9f57544b6290c87d1a56b03b3f8375db6dd a ema:Answer ;
+    ema:resultText "Little to no process documentation, -governance, or -ownership for Knowledge Retention. Progress on Knowledge Retention is based on individualâ€™s knowledge, manual interventions and with unpredictable results." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:KnowledgeRetention_process_1 ;
+    sosa:usedProcedure ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a .
+
+emar:14d576b6aa632be946935aa651307e2f071e44da a ema:Answer ;
+    ema:resultText "Community members have a weak understanding of how for Diversity of Perspectives with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Diversity of Perspectives." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:DiversityofPerspectives_peopleandorganization_1 ;
+    sosa:usedProcedure ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 .
+
+emar:15e287c68faf6b92bdf42438d64f6df5a56a1842 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:11816273-4bd7-4afc-cd72-8806d0770e8b .
+
+emar:17f69ecd9513cde6efd54343197d7f498af23489 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 .
+
+emar:18d056d13b2ab8ccd92c823ef3d9f1d4f6ea891b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5005a479-40ce-dbb8-c906-b2ea4c96624c .
+
+emar:1ad1f900006f11b8883a1adf7a86afc3b314fcaa a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 .
+
+emar:1d3e7ed7e729cc6b82840a3beb47694065df9aea a ema:Answer ;
+    ema:resultText "Key processes for Community Growth are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:CommunityGrowth_process_3 ;
+    sosa:usedProcedure ema:619d9713-706e-c382-3ba7-6fa142ec136c .
+
+emar:1d70c2fce60651713922e3dccb7c710200cdd17d a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5d8279ed-c94d-5118-20c0-9ca39717d60a .
+
+emar:1f82417adea775573b5c5d75e447cd064bdb2331 a ema:Answer ;
+    ema:resultText "Community members have a weak understanding of how for Community Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Community Growth." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:CommunityGrowth_peopleandorganization_1 ;
+    sosa:usedProcedure ema:003b79cb-f328-eb1b-b862-90a00c21a602 .
+
+emar:1ff8ec4f17f52c6219b62ef252bdfe69f47e7651 a ema:Answer ;
+    ema:resultText "Some resources are identified for Integration Profile Establishment, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:IntegrationProfileEstablishment_resources_2 ;
+    sosa:usedProcedure ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 .
+
+emar:20b2f67ed9e0b3575a3f1c792e837ca4b1d1fb21 a ema:Answer ;
+    ema:resultText "Information to support Compliance Testing is available in silos, hard to locate for others." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:ComplianceTesting_Information_2 ;
+    sosa:usedProcedure ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc .
+
+emar:21e053500be1372da781d30534b9e16e8445658e a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 .
+
+emar:2246116f54d6e111af0b2acb226a935a8a3a80f4 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 .
+
+emar:22ac089d9be16c70db6d67c9b1fb1a75c6d08682 a ema:Answer ;
+    ema:resultText "Few, if any, resources, including budget, are assigned for Diversity of Perspectives. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:DiversityofPerspectives_resources_1 ;
+    sosa:usedProcedure ema:5005a479-40ce-dbb8-c906-b2ea4c96624c .
+
+emar:2372451ed6d1e2d53b9018c1f84f51877f7fe4b2 a ema:Answer ;
+    ema:resultText "There is no organization for Knowledge Retention." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:KnowledgeRetention_peopleandorganization_0 ;
+    sosa:usedProcedure ema:e331722f-5bd4-4b43-2415-08fe691fdcaa .
+
+emar:24ac0ab439c0d032a8c5281c96ffcc2c511b36ae a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 .
+
+emar:283618bfd3040cda287b9492e9dfb099e1840860 a ema:Answer ;
+    ema:resultText "Data/information to support Community Growth does not exist." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:CommunityGrowth_Information_0 ;
+    sosa:usedProcedure ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa .
+
+emar:28b196fb4264c9872934d9120fa1c3d378fe15f2 a ema:Answer ;
+    ema:resultText "Few, if any, resources, including budget, are assigned for Compliance Testing. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:ComplianceTesting_resources_1 ;
+    sosa:usedProcedure ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b .
+
+emar:2a509d5f75548445cbb8c081451e115d5663492a a ema:Answer ;
+    ema:resultText "Key processes for Compliance Testing are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:ComplianceTesting_process_2 ;
+    sosa:usedProcedure ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b .
+
+emar:2df89d425d3b3b78eb106113fe6f9abc046d0454 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 .
+
+emar:2fd1fa927a9bc9c961b66e38f97414cf0bea6c9e a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7f5068ec-bce4-025f-1529-c6bb4c689782 .
+
+emar:30e09e93113a31489fd8f0f5074abff71ac75443 a ema:Answer ;
+    ema:resultText "Information governance defines how information for Knowledge Retention is collected, stored, understood, accessed, owned, and deleted." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:KnowledgeRetention_Information_3 ;
+    sosa:usedProcedure ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 .
+
+emar:3106c9bf1e6c7876f8f78d988f2fb13db5b1ec5f a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:619d9713-706e-c382-3ba7-6fa142ec136c .
+
+emar:3181b3f85b5e16013c1b5ea29110e19dfcaa6613 a ema:Answer ;
+    ema:resultText "Information for Market Creation is available and well understood across the community and externally. Information quality is measured and corrected." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:MarketCreation_Information_4 ;
+    sosa:usedProcedure ema:850e904a-76a1-e872-281a-3d8442b1ed8d .
+
+emar:31bb01d69199ce58c583e69c1ec741c930ef4d8f a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:a53fdbd5-e05a-c784-4244-f82f705b5444 .
+
+emar:31bcd453e4047a3b6637be3285f8a9899c4f7b5b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:db98bace-e849-2709-6d08-39c36791a0e6 .
+
+emar:32a064341694f30d433d5c632f0b8bcf33ccb05e a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:11816273-4bd7-4afc-cd72-8806d0770e8b .
+
+emar:32c6eec1c44591420dd2bb51a90fa3ff92846284 a ema:Answer ;
+    ema:resultText "Key processes for Compliance Testing are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:ComplianceTesting_process_3 ;
+    sosa:usedProcedure ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b .
+
+emar:34df041376a9d9ba5095eb7f3f2bbff73a46fee8 a ema:Answer ;
+    ema:resultText "Community members have some skills for Diversity of Perspectives but may be lacking experience or training. Inconsistent roles and responsibilities." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:DiversityofPerspectives_peopleandorganization_2 ;
+    sosa:usedProcedure ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 .
+
+emar:36b5746449d3f16f833a5fb44e98734ec5535d39 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d .
+
+emar:37e9aa2588919d10eb4613289df37b16b3a38887 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 .
+
+emar:37f3b8dc00b787175114ac0c933322a30e799bb0 a ema:Answer ;
+    ema:resultText "Community members have some skills for Compliance Testing but may be lacking experience or training. Inconsistent roles and responsibilities." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:ComplianceTesting_peopleandorganization_2 ;
+    sosa:usedProcedure ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 .
+
+emar:3894cbea60e3df7c317cc817b547288e076de206 a ema:Answer ;
+    ema:resultText "Key processes for Compliance Testing are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:ComplianceTesting_process_2 ;
+    sosa:usedProcedure ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b .
+
+emar:3b572059cea3e7e7887af29d21e85fc8ff11be56 a ema:Answer ;
+    ema:resultText "Few, if any, resources, including budget, are assigned for Knowledge Retention. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:KnowledgeRetention_resources_1 ;
+    sosa:usedProcedure ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 .
+
+emar:3dc91928d6ab28ef216b39f31ef8060f8767bb40 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:a53fdbd5-e05a-c784-4244-f82f705b5444 .
+
+emar:3e9ff6e2b9f7ffc9b87549bb0f72d9b74fa6b306 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:575511d2-f0cf-6885-1218-d7064dc25b31 .
+
+emar:3f077d432dde31803f260c329f4f9d53bcd58d0b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1d856148-30ae-c626-57a7-2ec96b48e5dc .
+
+emar:40c04c90e60c96135b32cbcd6aa5dc67f9a7b61c a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a .
+
+emar:471197a82a7a92fdf5d4457c6e47ef8665999e47 a ema:Answer ;
+    ema:resultText "There is no organization for Compliance Testing." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:ComplianceTesting_peopleandorganization_0 ;
+    sosa:usedProcedure ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 .
+
+emar:4be94e2711ba1cc9ee0a2d0e3ca081fb1da4b89f a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:003b79cb-f328-eb1b-b862-90a00c21a602 .
+
+emar:4c8b5fdac6f43bf9af9e27a104cd84da01e83172 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:850e904a-76a1-e872-281a-3d8442b1ed8d .
+
+emar:4ceffa1833a3e346e302f564ba15d1dbf5d8e21d a ema:Answer ;
+    ema:resultText "Community members have an expert and deeply contextualized understanding of Knowledge Retention and are working in a culture that supports and actively embraces continuous improvement, benchmarking and innovation." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:KnowledgeRetention_peopleandorganization_5 ;
+    sosa:usedProcedure ema:e331722f-5bd4-4b43-2415-08fe691fdcaa .
+
+emar:4e69288ff3d87e06cc0701b2fd7d23edbc47c1b3 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 .
+
+emar:51448b13efc410cbe38f6eac76a9a39e442c8724 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:643530c7-c984-cac1-4791-f8b4bc897df3 .
+
+emar:53f0bc1fe3bc0bb66368bed6d582a2012617620b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 .
+
+emar:55da6e1d7c07c1c4320ca8a9cd6afe0b0e099020 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5d8279ed-c94d-5118-20c0-9ca39717d60a .
+
+emar:570578919c534f5f3f25de32ca65094918de4c31 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7f5068ec-bce4-025f-1529-c6bb4c689782 .
+
+emar:572a9f42c598223a2f605aa7326d4e2dccc7648c a ema:Answer ;
+    ema:resultText "Key processes for Knowledge Retention are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:KnowledgeRetention_process_2 ;
+    sosa:usedProcedure ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a .
+
+emar:59a337517ad1c7a286abe3de21e4eb6b274351de a ema:Answer ;
+    ema:resultText "Key processes for Knowledge Retention are documented community wide, ownership is defined, and handoff points established. There is inconsistent adoption, execution, and results." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:KnowledgeRetention_process_3 ;
+    sosa:usedProcedure ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a .
+
+emar:59b62706990fa130cefef6f788ab2d8b940de6a0 a ema:Answer ;
+    ema:resultText "Knowledge Retention's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Knowledge Retention are compensated for their effort by the organization they represent." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:KnowledgeRetention_resources_3 ;
+    sosa:usedProcedure ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 .
+
+emar:59c6a49c5da86fbebf376073996256d89b9f73d7 a ema:Answer ;
+    ema:resultText "Information governance defines how information for Knowledge Retention is collected, stored, understood, accessed, owned, and deleted." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:KnowledgeRetention_Information_3 ;
+    sosa:usedProcedure ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 .
+
+emar:5c506639e88b9209f1a5c57c81324cb105dfc7b6 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 .
+
+emar:5d22a0dbf55405d7d0e21599e9570f11e8afe8e2 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 .
+
+emar:5d8be51e2173a45f2a92d1adc84ee37ef304d2a3 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:71f6067e-3c57-8729-89dc-7e9324671021 .
+
+emar:5eafb85173da7dc2d0e2e1460f6825eadc6c06ef a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 .
+
+emar:616565dfbc03dc29d9e8aac0df333d9578430c8c a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:e33dceb9-9f08-4178-43d4-05f48083c73c .
+
+emar:6211917092c9339ce4842f305d89a902d39392ca a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1d856148-30ae-c626-57a7-2ec96b48e5dc .
+
+emar:6243b1c7ef69817f3198c917df64364e481dfb15 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 .
+
+emar:62e10687c4bc0327f4c67d33d8d7077d938090a4 a ema:Answer ;
+    ema:resultText "Community members have some skills for Compliance Testing but may be lacking experience or training. Inconsistent roles and responsibilities." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:ComplianceTesting_peopleandorganization_2 ;
+    sosa:usedProcedure ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 .
+
+emar:63539075823a3532034cd633582d16b655bc699f a ema:Answer ;
+    ema:resultText "Community Growth's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Community Growth are compensated for their effort by the organization they represent." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:CommunityGrowth_resources_3 ;
+    sosa:usedProcedure ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b .
+
+emar:63bdc0d18a8d45fe6d11f3eedb08937ccff988f4 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 .
+
+emar:64403be29a39a2347c4af4f1fe57f362c7ad5835 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5d8279ed-c94d-5118-20c0-9ca39717d60a .
+
+emar:65bf858fd349d2fca56907a31f1eab5cf7e28dfd a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d .
+
+emar:67ab152cf603dce8153a0b1afc9b9e3ca81226e8 a ema:Answer ;
+    ema:resultText "Processes for Market Creation are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:MarketCreation_process_4 ;
+    sosa:usedProcedure ema:71f6067e-3c57-8729-89dc-7e9324671021 .
+
+emar:67cfb33185a84d5f58ca9f3f2660ca3e33b8eaf9 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 .
+
+emar:68ef603d46599c79d0bf7efc6309b3bb5fe372f0 a ema:Answer ;
+    ema:resultText "Information to support Compliance Testing is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:ComplianceTesting_Information_1 ;
+    sosa:usedProcedure ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc .
+
+emar:69a09e2aaf0e960732b50e59f8cf6a1926422533 a ema:Answer ;
+    ema:resultText "Processes for Knowledge Retention are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:KnowledgeRetention_process_4 ;
+    sosa:usedProcedure ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a .
+
+emar:6fb3772615359b115c80f8971c680371fc1fa383 a ema:Answer ;
+    ema:resultText "Community members have good skills, experience and available training is in place to help Compliance Testing. Roles and responsibilities are defined and assigned to members/working groups." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:ComplianceTesting_peopleandorganization_3 ;
+    sosa:usedProcedure ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 .
+
+emar:73fe76a316671332c728a80179af86469e7c2ee4 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d .
+
+emar:78c81697748fb9ff6b2ef45deec0f4af15530244 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b2f65531-8d1c-947e-4499-bf6882f51066 .
+
+emar:79e3302592092fcb4868f287d0c8d21bc79540a3 a ema:Answer ;
+    ema:resultText "Unsure." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 .
+
+emar:7b7dfee7eefe883c47cc95f6c62acb4bfbf45fcc a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:db98bace-e849-2709-6d08-39c36791a0e6 .
+
+emar:7b9ebfa65f7a9a3b6ceb465e7301b340fc64808f a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 .
+
+emar:8108e737d8c5fcd3ce379af61d1d7046fd7ea34c a ema:Answer ;
+    ema:resultText "Unsure." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 .
+
+emar:81469b61ddd70c1a66a1eb8ffde3315ee41d8c7f a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 .
+
+emar:82a3d0ea634533e7e23d779aa533dae301280102 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 .
+
+emar:8621836e099b47fbad56bdffd585b738774473b3 a ema:Answer ;
+    ema:resultText "Community members have good skills, experience and available training is in place to help Community Growth. Roles and responsibilities are defined and assigned to members/working groups." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:CommunityGrowth_peopleandorganization_3 ;
+    sosa:usedProcedure ema:003b79cb-f328-eb1b-b862-90a00c21a602 .
+
+emar:8683e09ac7bc305887e84654d28bc8f6009c6917 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:11816273-4bd7-4afc-cd72-8806d0770e8b .
+
+emar:8b5421bd48ac7b96bbfebe723769c545b771e1b0 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 .
+
+emar:8c6ef22cddb411ae4d6bdc81b7bfb1185804e678 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 .
+
+emar:8eb26b89717be268f5ac9f2aa5ca5c177688bd9b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 .
+
+emar:8ed8f5e15bd0281357dbf908f3e81706f1c063fe a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a .
+
+emar:8f6d5e425ef5314e9e13368c9131f5df8697576b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 .
+
+emar:904bf53e36a199cc21ac75c751edf137c3fee020 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:850e904a-76a1-e872-281a-3d8442b1ed8d .
+
+emar:91b541041271c9a1d041a56ca670b5991874ba7a a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 .
+
+emar:94a9f33865615dec5aafcdbd1e829101dc057a86 a ema:Answer ;
+    ema:resultText "Unsure." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 .
+
+emar:94dd5ca0d8b561196aca371df3775bb03337d275 a ema:Answer ;
+    ema:resultText "Knowledge Retention's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Knowledge Retention are compensated for their effort by the organization they represent." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:KnowledgeRetention_resources_3 ;
+    sosa:usedProcedure ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 .
+
+emar:95975e628c66000418e20651dafb6747504fc9ab a ema:Answer ;
+    ema:resultText "Few, if any, resources, including budget, are assigned for Community Growth. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:CommunityGrowth_resources_1 ;
+    sosa:usedProcedure ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b .
+
+emar:9717d615ce381b6750c34d688304af13dfaa7e08 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:643530c7-c984-cac1-4791-f8b4bc897df3 .
+
+emar:9757a5cc6e61e3e7e852e212746d6599d8ec2121 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 .
+
+emar:9853dc536243ea87d7092ef3bfc9cb71b998a791 a ema:Answer ;
+    ema:resultText "Processes for Diversity of Perspectives are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:DiversityofPerspectives_process_4 ;
+    sosa:usedProcedure ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 .
+
+emar:98553a7964338408893f236fbbcab5df657adac4 a ema:Answer ;
+    ema:resultText "Community members have clear roles and responsibilities, have suitable training and are adequately staffed for Knowledge Retention . Members proactively identify people and organizational improvements and have succession plans in place." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:KnowledgeRetention_peopleandorganization_4 ;
+    sosa:usedProcedure ema:e331722f-5bd4-4b43-2415-08fe691fdcaa .
+
+emar:9b0ad6c200bfdbb7952259007ffeef8108942fb4 a ema:Answer ;
+    ema:resultText "Community members have good skills, experience and available training is in place to help Compliance Testing. Roles and responsibilities are defined and assigned to members/working groups." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:ComplianceTesting_peopleandorganization_3 ;
+    sosa:usedProcedure ema:7f0862ca-5dd4-a107-d6ba-3c17b26de347 .
+
+emar:9d14fef86d3f7f9f37d33ab2bec3ed091f06c683 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5005a479-40ce-dbb8-c906-b2ea4c96624c .
+
+emar:9d215c7b56ab55b46c00e1bc9eb32cab4d5af675 a ema:Answer ;
+    ema:resultText "Community members have a weak understanding of how for Knowledge Retention with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Knowledge Retention." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:KnowledgeRetention_peopleandorganization_1 ;
+    sosa:usedProcedure ema:e331722f-5bd4-4b43-2415-08fe691fdcaa .
+
+emar:9d23333f981be21cd4baa438b118885bc2df5e20 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 .
+
+emar:9da4e18f22f41c13fb751ce1923dbf2948a2bc9d a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:a53fdbd5-e05a-c784-4244-f82f705b5444 .
+
+emar:9e0bfe74b96223b833005893dc0acc221fc8f976 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7f5068ec-bce4-025f-1529-c6bb4c689782 .
+
+emar:9f382c80640f42094941acb4cd24c402af8c2142 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b2f65531-8d1c-947e-4499-bf6882f51066 .
+
+emar:a032ceef3e4142aa4d537ef88da5c4cce1a0c558 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:575511d2-f0cf-6885-1218-d7064dc25b31 .
+
+emar:a0e13d4fe0ae75991064f92a4d048ff1cd0b0161 a ema:Answer ;
+    ema:resultText "Little to no process documentation, -governance, or -ownership for Compliance Testing. Progress on Compliance Testing is based on individualâ€™s knowledge, manual interventions and with unpredictable results." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:ComplianceTesting_process_1 ;
+    sosa:usedProcedure ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b .
+
+emar:a27da0e021a8112997082eb809e27b92db87acdd a ema:Answer ;
+    ema:resultText "Some resources are identified for Knowledge Retention, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:KnowledgeRetention_resources_2 ;
+    sosa:usedProcedure ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 .
+
+emar:a331b828a3b27f16f7e04c54eee5e824725c9beb a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 .
+
+emar:a674c291fa83738886c32e4e0cec9bbcf8dc08cb a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:a53fdbd5-e05a-c784-4244-f82f705b5444 .
+
+emar:a92b51eab1b3bfceac65c79a19553dbef41214e1 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5005a479-40ce-dbb8-c906-b2ea4c96624c .
+
+emar:a964181aff87a687e284d59ac27ed3eb26d25ca0 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:850e904a-76a1-e872-281a-3d8442b1ed8d .
+
+emar:aa9b00c9eee4cbc7ce55ef521008fb4c0dc4f35f a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7d52c284-2657-0b82-492b-e661688f42e1 .
+
+emar:acc2bf73ae7ca3f931785c704bc1b325eecdee52 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1ecc4b9e-0476-9d94-c518-5f15f896e0d4 .
+
+emar:ad1e16346cdc3361f4b73884952ed967a0ec4aef a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 .
+
+emar:ad8ff965bc84441c70c76337e0751462ad1d6c3b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5005a479-40ce-dbb8-c906-b2ea4c96624c .
+
+emar:ae5e1af5657a1fd5a4a5fb45406a3d3d4bbb07cd a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a .
+
+emar:af6a3843cc0c4ba6317f4a320ef8ca9a82b454ac a ema:Answer ;
+    ema:resultText "Community members have a weak understanding of how for Community Growth with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Community Growth." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:CommunityGrowth_peopleandorganization_1 ;
+    sosa:usedProcedure ema:003b79cb-f328-eb1b-b862-90a00c21a602 .
+
+emar:af7ce3088c47968c9796c4b084e26d5b803347ca a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1ecc4b9e-0476-9d94-c518-5f15f896e0d4 .
+
+emar:af92d45bf56c6590aadd48672aab0730f78b3d06 a ema:Answer ;
+    ema:resultText "Information for Community Growth is available and well understood across the community and externally. Information quality is measured and corrected." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:CommunityGrowth_Information_4 ;
+    sosa:usedProcedure ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa .
+
+emar:b02c1dd1df1046281fecc1cf76530dba201a8e9e a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:643530c7-c984-cac1-4791-f8b4bc897df3 .
+
+emar:b092c6561dcd04d44154eccf3177f91e78614fa4 a ema:Answer ;
+    ema:resultText "Few, if any, resources, including budget, are assigned for Compliance Testing. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:ComplianceTesting_resources_1 ;
+    sosa:usedProcedure ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b .
+
+emar:b127b57e3246980068e94e975e464e78894899d7 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:643530c7-c984-cac1-4791-f8b4bc897df3 .
+
+emar:b3489a0b5a07cb747dfada4338f96d2b6061b45a a ema:Answer ;
+    ema:resultText "Community members have some skills for Knowledge Retention but may be lacking experience or training. Inconsistent roles and responsibilities." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:KnowledgeRetention_peopleandorganization_2 ;
+    sosa:usedProcedure ema:e331722f-5bd4-4b43-2415-08fe691fdcaa .
+
+emar:b4608995040a4100fa30083dc01dce402625ea05 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 .
+
+emar:b4d94f6d3105a938eef49a1d8bdffe1a1143ccc8 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:643530c7-c984-cac1-4791-f8b4bc897df3 .
+
+emar:b69d486b1646952667f03df2df17f56b2a338cd9 a ema:Answer ;
+    ema:resultText "Community members have a weak understanding of how for Integration Profile Establishment with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Integration Profile Establishment." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:IntegrationProfileEstablishment_peopleandorganization_1 ;
+    sosa:usedProcedure ema:c1ab4933-5dc6-7701-6351-29d6822d9f11 .
+
+emar:b982a5bdb83ea742883a4ce1a8e0afbf33f7f05a a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1d856148-30ae-c626-57a7-2ec96b48e5dc .
+
+emar:b98c748020ada364900f4d47ed632fca195fbbfe a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1d856148-30ae-c626-57a7-2ec96b48e5dc .
+
+emar:ba5b7730845f67c501161977eafcda35eb48aff2 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b .
+
+emar:bc6141d76cfd5ef57b6afe14cde647b20c13cb5e a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 .
+
+emar:bca9aac5448fff20ac48d750fb68263b8b096c57 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 .
+
+emar:bd919a3be7b88bbb03694966fb95ca7ca8b6a0e8 a ema:Answer ;
+    ema:resultText "Information governance defines how information for Knowledge Retention is collected, stored, understood, accessed, owned, and deleted." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:KnowledgeRetention_Information_3 ;
+    sosa:usedProcedure ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 .
+
+emar:be8c0d52dd8535e84be4a0b0588ec555a60b8b41 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5d8279ed-c94d-5118-20c0-9ca39717d60a .
+
+emar:c29c741ef230520989da9000e718ea9a794d75f2 a ema:Answer ;
+    ema:resultText "Some resources are identified for Compliance Testing, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:ComplianceTesting_resources_2 ;
+    sosa:usedProcedure ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b .
+
+emar:c3a0dd56b6be47e0c4ffa92699458a26e2227328 a ema:Answer ;
+    ema:resultText "Knowledge Retention's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Knowledge Retention are compensated for their effort by the organization they represent." ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult emm:KnowledgeRetention_resources_3 ;
+    sosa:usedProcedure ema:b9b32ff9-6bf7-6d7c-cc1b-7205d118ce36 .
+
+emar:c426092b515b7a1badc41561a5e589821f26ffc4 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7f5068ec-bce4-025f-1529-c6bb4c689782 .
+
+emar:c50669ef287495b09447e11604950f49b7b91c1a a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:40bd6f27-e8f5-6dde-7426-4042eb8719b7 .
+
+emar:c5dfdef010700b8d34733c04d776e88970c65738 a ema:Answer ;
+    ema:resultText "Community members have a weak understanding of how for Diversity of Perspectives with limited skills, training, and poorly defined roles. The community has not allocated community members/working groups for Diversity of Perspectives." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:DiversityofPerspectives_peopleandorganization_1 ;
+    sosa:usedProcedure ema:1d856148-30ae-c626-57a7-2ec96b48e5dc .
+
+emar:c61749ffad7cbc2d858129da37d40c4986b2bcf8 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7d52c284-2657-0b82-492b-e661688f42e1 .
+
+emar:c7016f0ed9ff43a251d03c3059f44c63c328b965 a ema:Answer ;
+    ema:resultText "Market Creation's relationship to resources is defined and requirements are part of the investment planning process. Most individuals performing work for Market Creation are compensated for their effort by the organization they represent." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:MarketCreation_resources_3 ;
+    sosa:usedProcedure ema:11816273-4bd7-4afc-cd72-8806d0770e8b .
+
+emar:c933d2f9a32087b27b56bce0f8707b33c1d79013 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7d52c284-2657-0b82-492b-e661688f42e1 .
+
+emar:c9ef0be6598c231614dc3c1b04e1f0d07d7f17d2 a ema:Answer ;
+    ema:resultText "Information governance defines how information for Compliance Testing is collected, stored, understood, accessed, owned, and deleted." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:ComplianceTesting_Information_3 ;
+    sosa:usedProcedure ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc .
+
+emar:c9f5ade59c5b8fe935a9cbd9d90d7aacf53f44b9 a ema:Answer ;
+    ema:resultText "Processes for Knowledge Retention are defined, understood, reliable, standardized, efficient, measured and adopted community wide with consistent results." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:KnowledgeRetention_process_4 ;
+    sosa:usedProcedure ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a .
+
+emar:cada7ee1d404b28d6b18f0427d1b9e78df785def a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:850e904a-76a1-e872-281a-3d8442b1ed8d .
+
+emar:cb1ccaabc235331f4be6970325c72520bbf5d379 a ema:Answer ;
+    ema:resultText "Information to support Integration Profile Establishment is available in silos, hard to locate for others." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:IntegrationProfileEstablishment_Information_2 ;
+    sosa:usedProcedure ema:b58df7f7-e4da-cab6-c0b5-b2d870a2c870 .
+
+emar:ce1d73f5ca9462760a72e08e70bb0f81dc939578 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a .
+
+emar:ce5896f668f242425de553588685bf60ef87ca4c a ema:Answer ;
+    ema:resultText "Key processes for Community Growth are identified and documented locally. Responsibilities and handoff are poorly understood, and results are inconsistent." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:CommunityGrowth_process_2 ;
+    sosa:usedProcedure ema:619d9713-706e-c382-3ba7-6fa142ec136c .
+
+emar:d0cbfd44abbfb00f0356d4970ef6fd01b17d61fe a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d .
+
+emar:d3519a2865256ce43ad01f270fb82f6e5d46c2ac a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 .
+
+emar:d4ac2529f54d54fc3a474b8c24d3031593561c78 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:71f6067e-3c57-8729-89dc-7e9324671021 .
+
+emar:d56d424286e1400e2d20e8db5db06bfefcb2374d a ema:Answer ;
+    ema:resultText "Information to support Community Growth is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:CommunityGrowth_Information_1 ;
+    sosa:usedProcedure ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa .
+
+emar:de531049e4bb5eb300cab56f2e1624c2441c9581 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:18a59f86-f8c9-05c4-b63f-f2b858739f70 .
+
+emar:df610a4aa669e2986aa6998e1f95a24610a51c6a a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:a53fdbd5-e05a-c784-4244-f82f705b5444 .
+
+emar:dfb980306e2d8a6a75de590a1c3feb2ba2e9f6d4 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7d52c284-2657-0b82-492b-e661688f42e1 .
+
+emar:e457acde7e1a15e7937c6fdd94590ff846e73ead a ema:Answer ;
+    ema:resultText "Information to support Knowledge Retention is unavailable, unknown, incomplete, incorrect, inconsistent, and not exploited. Minimal descriptive reporting and analytics are performed manually, not used for decision making." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:KnowledgeRetention_Information_1 ;
+    sosa:usedProcedure ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 .
+
+emar:e45ce5a445b0857b53b09f211624c7af1bb287e0 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:11816273-4bd7-4afc-cd72-8806d0770e8b .
+
+emar:e4efea80b1cfb22f1c1513eeb03cecc96e1153af a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 .
+
+emar:e8391dd7acbc384d88aefb66a0dafdbf5ba59f23 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b2f65531-8d1c-947e-4499-bf6882f51066 .
+
+emar:e8e2c141651e81128e9028e844d7ef0ebf482a9a a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:6bd66ecf-755c-6e1b-f6cb-8f01d5564032 .
+
+emar:e96bbf794bff845e01d7752c1253d39ebe0a1097 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b4c46c0b-6081-d15f-c3b4-1f168101dc7d .
+
+emar:e96fbe5c74773a0c532c5e54fc638c745fc9e552 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b2f65531-8d1c-947e-4499-bf6882f51066 .
+
+emar:e9866a22eae0afb0556ada948268871566676e59 a ema:Answer ;
+    ema:resultText "Information to support Compliance Testing is available in silos, hard to locate for others." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:ComplianceTesting_Information_2 ;
+    sosa:usedProcedure ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc .
+
+emar:ea343112175acc4f4bb129655d3de57073a65b05 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:52ac82ad-2b2e-5453-cc5d-607a5de21846 .
+
+emar:ea6d9c57312f14775269ba5b889a046f95a4f984 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:dcdbb4c8-6a98-3932-13c4-7459d982c940 .
+
+emar:ea9cd1bd7beba939428a26c56f379c154388ccbc a ema:Answer ;
+    ema:resultText "Information to support Compliance Testing is available in silos, hard to locate for others." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:ComplianceTesting_Information_2 ;
+    sosa:usedProcedure ema:3ba5ecb8-71e1-91ab-59f2-ce294eee61dc .
+
+emar:eaec4f787c97e099a58cc9ff9a5b144ee2a33be1 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:b2f65531-8d1c-947e-4499-bf6882f51066 .
+
+emar:eaf690abfd2690dee41a72c98346398e9fc77fcc a ema:Answer ;
+    ema:resultText "There are no resources available for Community Growth . Individuals who do participate in Community Growth do so voluntarily in their own time." ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult emm:CommunityGrowth_resources_0 ;
+    sosa:usedProcedure ema:9fdbb80d-2c0a-32df-3691-3c60b23a460b .
+
+emar:eccd30360df913f5f0613abf5fff742349b12745 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:ccbc2961-4fa5-12fd-5f7b-85079c2cd008 .
+
+emar:ece5367ac1dc4257b655608cb64ac1cec3bf5ebd a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:db98bace-e849-2709-6d08-39c36791a0e6 .
+
+emar:ed8a053c4e89ccb4214a3adff50abbdfa172d876 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:e4b0274b-8669-ec21-6cb0-5c6be1547cfa .
+
+emar:edd6c8750855fbcc15da7d4d858a02c26796827b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7f5068ec-bce4-025f-1529-c6bb4c689782 .
+
+emar:ee924a7c1ffb1636c02dc544304ae3c8c90f76fb a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:575511d2-f0cf-6885-1218-d7064dc25b31 .
+
+emar:f0a4cdbe14ba78df1facc2a4fe67f46a6ef38bf3 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:e33dceb9-9f08-4178-43d4-05f48083c73c .
+
+emar:f15a1a721a9ca7f5917aa0c09ae1ffca87d027f1 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:1ecc4b9e-0476-9d94-c518-5f15f896e0d4 .
+
+emar:f1f643eda099e04c9cc7d7ae6b58c1e37408e91d a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:e33dceb9-9f08-4178-43d4-05f48083c73c .
+
+emar:f34bce4226dc2bca264df02869075592801f741a a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:575511d2-f0cf-6885-1218-d7064dc25b31 .
+
+emar:f35d83c8aa973f32f87593ccd6eee8ff0f47af72 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:71f6067e-3c57-8729-89dc-7e9324671021 .
+
+emar:f455f1bb0c0c7709bf565e073bc5ca39401ed6b9 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:5d8279ed-c94d-5118-20c0-9ca39717d60a .
+
+emar:f6c9803a01e3ddc03d199fdaf199d4b398c98a7d a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:aaa2be06-3abe-72ae-3c76-7ff8aaeac7d8 .
+
+emar:f6ccb67dca2fc2be2e17f52805504e5c9faee993 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:db98bace-e849-2709-6d08-39c36791a0e6 .
+
+emar:f77685cc8bade95b15917cc65a0a4568447caeb5 a ema:Answer ;
+    ema:resultText "Processes for Community Growth are continuously reviewed, benchmarked and improved resulting in industry-leading practices and results." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:CommunityGrowth_process_5 ;
+    sosa:usedProcedure ema:619d9713-706e-c382-3ba7-6fa142ec136c .
+
+emar:f7dae5e96ec44a92150c644a260e163f739155cb a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:71f6067e-3c57-8729-89dc-7e9324671021 .
+
+emar:f7e89d9582682cecaa51348ae30e181249daf995 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:e33dceb9-9f08-4178-43d4-05f48083c73c .
+
+emar:f8ba72e04e05d14978e2529fb53f3d8667a049e5 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:0a0bc334-bed1-d2ab-934d-cdfcd5c54c50 .
+
+emar:f8e18a30509f129b48d1a626e0feebdb35f57ee7 a ema:Answer ;
+    ema:resultText "Some resources are identified for Compliance Testing, but additional requirements are not part of investment decisions. Some participating individuals receive resources from the organizations they represent." ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult emm:ComplianceTesting_resources_2 ;
+    sosa:usedProcedure ema:433856bb-a58b-3a1e-0fe9-4a3b54a1076b .
+
+emar:f94d5e7313a46c544fa6bc167819262aa6c6b519 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066597 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:7d52c284-2657-0b82-492b-e661688f42e1 .
+
+emar:fb97c8b0772a511c94051add19bc7d822b8cf0f8 a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066591 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:d88ec0c6-85f0-239e-e5fa-1abcf3da400a .
+
+emar:fcad7eb241be45bbbd63c663f25288dac3b249f0 a ema:Answer ;
+    ema:resultText "Community members have good skills, experience and available training is in place to help Community Growth. Roles and responsibilities are defined and assigned to members/working groups." ;
+    dcterms:isPartOf emar:38066575 ;
+    sosa:hasResult emm:CommunityGrowth_peopleandorganization_3 ;
+    sosa:usedProcedure ema:003b79cb-f328-eb1b-b862-90a00c21a602 .
+
+emar:fce7d5330655c4e3dbdc8b31cf8c58e92f60e2c1 a ema:Answer ;
+    ema:resultText "Information governance defines how information for Knowledge Retention is collected, stored, understood, accessed, owned, and deleted." ;
+    dcterms:isPartOf emar:38066705 ;
+    sosa:hasResult emm:KnowledgeRetention_Information_3 ;
+    sosa:usedProcedure ema:707474ba-460b-b3f0-2e7f-f91542b5ad84 .
+
+emar:fe8a99a18f57cf72cfad09077761638b0d31f59b a ema:Answer ;
+    ema:resultText "Unsure" ;
+    dcterms:isPartOf emar:38066681 ;
+    sosa:hasResult ema:Unsure ;
+    sosa:usedProcedure ema:db98bace-e849-2709-6d08-39c36791a0e6 .
+
+emar:38066575 a ema:AnswerSet ;
+    dcterms:isPartOf emar:ENERSHARE-example ;
+    prov:wasQuotedFrom [ a foaf:Person ;
+            ema:areaOfExpertise [ a ema:FocusArea ;
+                    ema:inDomain sgam:DER,
+                        sgam:Distribution ;
+                    ema:inZone sgam:Enterprise,
+                        sgam:Operation ;
+                    ema:onLayer sgam:BusinessLayer,
+                        sgam:CommunicationLayer,
+                        sgam:FunctionLayer,
+                        sgam:InformationLayer ] ;
+            prov:actedOnBehalfOf [ a org:Organization ;
+                    ema:areaOfOperation [ a ema:FocusArea ;
+                            ema:inDomain sgam:DER,
+                                sgam:Distribution ;
+                            ema:inZone sgam:Enterprise,
+                                sgam:Field,
+                                sgam:Operation ;
+                            ema:onLayer sgam:BusinessLayer,
+                                sgam:CommunicationLayer,
+                                sgam:ComponentLayer,
+                                sgam:FunctionLayer,
+                                sgam:InformationLayer ] ;
+                    ema:description "Consultancy",
+                        "Research" ;
+                    ema:organizationSize "1001-5000" ;
+                    ema:sector "Electricity",
+                        "Hydrogen",
+                        "[]" ] ] ;
+    sosa:usedProcedure ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+emar:38066591 a ema:AnswerSet ;
+    dcterms:isPartOf emar:ENERSHARE-example ;
+    prov:wasQuotedFrom [ a foaf:Person ;
+            ema:areaOfExpertise [ a ema:FocusArea ;
+                    ema:inDomain sgam:Distribution ;
+                    ema:inZone sgam:Operation ;
+                    ema:onLayer sgam:InformationLayer,
+                        sgam:RegulatoryLayer ] ;
+            prov:actedOnBehalfOf [ a org:Organization ;
+                    ema:areaOfOperation [ a ema:FocusArea ;
+                            ema:inDomain sgam:Distribution ;
+                            ema:inZone sgam:Operation ;
+                            ema:onLayer sgam:RegulatoryLayer ] ;
+                    ema:description "Energy Utility" ;
+                    ema:organizationSize "501-1000" ;
+                    ema:sector "Electricity",
+                        "[]" ] ] ;
+    sosa:usedProcedure ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+emar:38066597 a ema:AnswerSet ;
+    dcterms:isPartOf emar:ENERSHARE-example ;
+    prov:wasQuotedFrom [ a foaf:Person ;
+            ema:areaOfExpertise [ a ema:FocusArea ;
+                    ema:inDomain sgam:DER,
+                        sgam:Distribution ;
+                    ema:inZone sgam:Field,
+                        sgam:Operation ;
+                    ema:onLayer sgam:CommunicationLayer,
+                        sgam:ComponentLayer,
+                        sgam:FunctionLayer,
+                        sgam:InformationLayer ] ;
+            prov:actedOnBehalfOf [ a org:Organization ;
+                    ema:areaOfOperation [ a ema:FocusArea ;
+                            ema:inDomain sgam:DER,
+                                sgam:Distribution,
+                                sgam:Transmission ;
+                            ema:inZone sgam:Field,
+                                sgam:Operation ;
+                            ema:onLayer sgam:CommunicationLayer,
+                                sgam:ComponentLayer,
+                                sgam:FunctionLayer,
+                                sgam:InformationLayer ] ;
+                    ema:description "Research",
+                        "Vendor" ;
+                    ema:organizationSize "11-100" ;
+                    ema:sector "Electricity",
+                        "[]" ] ] ;
+    sosa:usedProcedure ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+emar:38066681 a ema:AnswerSet ;
+    dcterms:isPartOf emar:ENERSHARE-example ;
+    prov:wasQuotedFrom [ a foaf:Person ;
+            ema:areaOfExpertise [ a ema:FocusArea ;
+                    ema:inDomain sgam:Generation ;
+                    ema:inZone sgam:Operation ;
+                    ema:onLayer sgam:FunctionLayer ] ;
+            prov:actedOnBehalfOf [ a org:Organization ;
+                    ema:areaOfOperation [ a ema:FocusArea ;
+                            ema:inZone sgam:Operation ] ;
+                    ema:organizationSize "1001-5000" ;
+                    ema:sector "Electricity",
+                        "Heat",
+                        "Hydrogen",
+                        "[]" ] ] ;
+    sosa:usedProcedure ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+
+emar:38066705 a ema:AnswerSet ;
+    dcterms:isPartOf emar:ENERSHARE-example ;
+    prov:wasQuotedFrom [ a foaf:Person ;
+            ema:areaOfExpertise [ a ema:FocusArea ;
+                    ema:inDomain sgam:Distribution ;
+                    ema:inZone sgam:Operation ;
+                    ema:onLayer sgam:InformationLayer ] ;
+            prov:actedOnBehalfOf [ a org:Organization ;
+                    ema:areaOfOperation [ a ema:FocusArea ;
+                            ema:inDomain sgam:Distribution ;
+                            ema:inZone sgam:Operation ;
+                            ema:onLayer sgam:InformationLayer ] ;
+                    ema:description "Energy Utility",
+                        "Research" ;
+                    ema:organizationSize "101-500" ;
+                    ema:sector "Electricity",
+                        "[]" ] ] ;
+    sosa:usedProcedure ema:89146514-1776-4ad0-b72b-3d5a2359134a .
+

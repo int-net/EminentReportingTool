@@ -39,7 +39,8 @@ def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.
                         responses= responses,
                         study= study,
                         )
-    print(overall_maturity_df.to_markdown)
+    # print(overall_maturity_df.to_markdown)
+
     # create and save plot
 
     overall_diagram = grp.generic_radar_plot(overall_maturity_df, plotKind= plotKind)
@@ -67,27 +68,61 @@ def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.
 
 maturity_model='./tests/imm.ttl'
 maturity_assessment = './tests/EminentQUestionnaire_1.1.0.ttl' # this will have to be passed as a variable in the function call
-study = 'http://eminent.intnet.eu/maturity_assessment_results#cim-expert-group-2024'
-responses = './tests/eminentresponses.ttl'
+study = 'http://eminent.intnet.eu/maturity_assessment_results#ENERSHARE-example'
+responses = './tests/ENERSHARE-example/20240628eminentresponses.ttl'
 plotKind = 'maturity_avg' # this will have to be passed as a variable in the function call
+
+
 
 generate_report(maturity_model=maturity_model, 
                         maturity_assessment=maturity_assessment,
                         responses= responses,
                         study= study,
-                        community='cim-expert-group',
+                        community= 'ENERSHARE',
                         plot_kind=plotKind,
-                        output_directory= './tests/cim/'
+                        output_directory= './tests/ENERSHARE-example/'
                         )
 
 
-generate_report(maturity_model=maturity_model, 
-                        maturity_assessment=maturity_assessment,
-                        responses= responses,
-                        study= 'http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-                        community= 'sif',
-                        plot_kind=plotKind,
-                        output_directory= './tests/sif/'
-                        )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

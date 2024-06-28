@@ -97,8 +97,8 @@ def organizations_tube_in_the_cube (responses: text, study: str, output_dir : st
         'RegulatoryLayer' : 6, 
     }
 
-    print(keyword_counts.zone[1])
-    print(list(zone_map.keys())[0])
+    # print(keyword_counts.zone[1])
+    # print(list(zone_map.keys())[0])
 
     keyword_counts.zone = keyword_counts.zone.map(zone_map)
     keyword_counts.domain= keyword_counts.domain.map(domain_map)

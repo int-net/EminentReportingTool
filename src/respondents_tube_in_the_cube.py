@@ -68,7 +68,7 @@ def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str)
     df = pd.DataFrame(tube_df)
     # Count occurrences of each combination of keywords
     keyword_counts = df.groupby(['domain', 'zone', 'layer']).size().reset_index(name='Count')
-    print(keyword_counts)
+    # print(keyword_counts)
 
     ####################################################
     ##### preprocessing for graphic representation #####

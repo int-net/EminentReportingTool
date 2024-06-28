@@ -70,9 +70,12 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
     for AS in AnswerSet:
         
         answerset_id = AS.get('list')
+        print(answerset_id)
+        print(len(AS))
+
         answerset_uri = emar_ns[answerset_id]
         # check if answerset has already been added to the graph
-        if (len(AS) > 50) and ((answerset_uri, RDF.type, ema_ns.AnswerSet) not in graph) :
+        if (len(AS) > 44) and ((answerset_uri, RDF.type, ema_ns.AnswerSet) not in graph) :
 
 
             # innitiate the person. organization, Area of Expertise and area of operation blanknodes
@@ -158,6 +161,7 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
             ## itterate over the responded answers and add them to the graph
             for answer in Answers:
                 question_id = answer.get("qid")
+                
                 if question_id not in whoAreYouQuestionIDs:
 
                     answer_id = answer.get('aid')
@@ -176,9 +180,9 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
                         if answer_value == "Unsure" or answer_value == "Unsure.": # nopt sure how we ever got a period there
                             choiceanswer_uri= ema_ns.Unsure
                         else :
-                            print(answer_value)
+                            # print(answer_value)
                             choiceanswer_uri = classify_characteristic.classify_characteristic(description=answer_value)
-                            print(choiceanswer_uri)
+                            # print(choiceanswer_uri)
 
 
                     # add triples for each given answer to the graph
@@ -196,4 +200,6 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
 
 
 
-answerset_to_rdf(input_xml= './tests/Content_Export_Eminent_eminentresponses.xml', input_rdf= './tests/EminentResponsesOld.ttl',  output_rdf= './tests/eminentresponses.ttl')
+answerset_to_rdf(input_xml= './tests/Content_Export_Eminent_enershare-example.xml', 
+                #  input_rdf= './tests/EminentResponsesOld.ttl',  
+                 output_rdf= './tests/ENERSHARE-example/20240628eminentresponses.ttl')

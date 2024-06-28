@@ -157,7 +157,8 @@ def crete_md_report (study= str,
                          " the main report. Each table has 7 collumns:")
     
     collumns = [
-        "dimension: The combination of capability and dimension",
+        "capability: The capability to which the scores apply. (only used in the first table)"
+        "dimension: The combination of capability and dimension to which the scores apply. (only used used in the last 3 tables)",
         "maturity_avg: The mean maturity score based on the respnents' answers. Excluding the 'unsure' responses.",
         "maturity_median: The median maturity score, meaning 50 % of respondents selected an equal or lower score and 50 % selected an equal or higher score. Excluding the 'unsure' responses.",
         "maturity_mode: The maturity score that was selected the most by the respondents. Excluding the 'unsure' responses.",

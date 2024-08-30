@@ -99,7 +99,7 @@ emar:13e178d0ec6848f10075632025c9c40c7033f6b5 a ema:Answer ;
     sosa:usedProcedure ema:c89aef48-8a2a-7570-b080-a72fbf28c3f7 .
 
 emar:1404c9f57544b6290c87d1a56b03b3f8375db6dd a ema:Answer ;
-    ema:resultText "Little to no process documentation, -governance, or -ownership for Knowledge Retention. Progress on Knowledge Retention is based on individualâ€™s knowledge, manual interventions and with unpredictable results." ;
+    ema:resultText "Little to no process documentation, -governance, or -ownership for Knowledge Retention. Progress on Knowledge Retention is based on individual’s knowledge, manual interventions and with unpredictable results." ;
     dcterms:isPartOf emar:38066591 ;
     sosa:hasResult emm:KnowledgeRetention_process_1 ;
     sosa:usedProcedure ema:0f6dfb1f-3f40-b12e-be9b-bc39f709785a .
@@ -699,7 +699,7 @@ emar:a032ceef3e4142aa4d537ef88da5c4cce1a0c558 a ema:Answer ;
     sosa:usedProcedure ema:575511d2-f0cf-6885-1218-d7064dc25b31 .
 
 emar:a0e13d4fe0ae75991064f92a4d048ff1cd0b0161 a ema:Answer ;
-    ema:resultText "Little to no process documentation, -governance, or -ownership for Compliance Testing. Progress on Compliance Testing is based on individualâ€™s knowledge, manual interventions and with unpredictable results." ;
+    ema:resultText "Little to no process documentation, -governance, or -ownership for Compliance Testing. Progress on Compliance Testing is based on individual’s knowledge, manual interventions and with unpredictable results." ;
     dcterms:isPartOf emar:38066591 ;
     sosa:hasResult emm:ComplianceTesting_process_1 ;
     sosa:usedProcedure ema:366c6cd4-04e6-fb06-16f5-6310cd47a59b .

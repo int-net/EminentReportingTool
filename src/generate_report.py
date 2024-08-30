@@ -68,19 +68,19 @@ def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.
 
 maturity_model='./tests/imm.ttl'
 maturity_assessment = './tests/EminentQUestionnaire_1.1.0.ttl' # this will have to be passed as a variable in the function call
-study = 'http://eminent.intnet.eu/maturity_assessment_results#ENERSHARE-example'
-responses = './tests/ENERSHARE-example/20240628eminentresponses.ttl'
+study = 'http://eminent.intnet.eu/maturity_assessment_results#osmses-2024'
+responses = './tests/osmses-2024/Content_Export_Eminent_osmses-2024.ttl'
 plotKind = 'maturity_avg' # this will have to be passed as a variable in the function call
-
+community= 'osmses-2024'
 
 
 generate_report(maturity_model=maturity_model, 
                         maturity_assessment=maturity_assessment,
                         responses= responses,
                         study= study,
-                        community= 'ENERSHARE',
+                        community= community,
                         plot_kind=plotKind,
-                        output_directory= './tests/ENERSHARE-example/'
+                        output_directory= './tests/osmses-2024/'
                         )
 
 

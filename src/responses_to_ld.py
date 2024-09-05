@@ -200,6 +200,6 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
 
 
 
-answerset_to_rdf(input_xml= './tests/osmses-2024/Content_Export_Eminent_osmses-2024.xml', 
+answerset_to_rdf(input_xml= './tests/OSMSES-2024/Content_Export_Eminent_OSMSES-2024.xml', 
                 #  input_rdf= './tests/EminentResponsesOld.ttl',  
-                 output_rdf= './tests/osmses-2024/Content_Export_Eminent_osmses-2024.ttl')
+                 output_rdf= './tests/OSMSES-2024/Content_Export_Eminent_OSMSES-2024.ttl')

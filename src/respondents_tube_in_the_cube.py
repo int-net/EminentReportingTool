@@ -174,7 +174,7 @@ def respondants_tube_in_the_cube (responses: text, study: str, output_dir : str)
 
 
 respondants_tube_in_the_cube(
-    responses = './tests/eminentresponses.ttl',
-    study = 'http://eminent.intnet.eu/maturity_assessment_results#cim-expert-group-2024',
-    output_dir = './tests/cim/'
+    responses = './tests/OSMSES-2024/Content_Export_Eminent_OSMSES-2024.ttl',
+    study = 'http://eminent.intnet.eu/maturity_assessment_results#OSMSES-2024',
+    output_dir = './tests/OSMSES-2024/'
 )

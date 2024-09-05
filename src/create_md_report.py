@@ -11,7 +11,7 @@ def crete_md_report (study= str,
                      implementation_df= pd.DataFrame) :
     study_name =str(study).split("#",1)[1]
 
-    mdFile = MdUtils(file_name= output_dir+study_name+'_Maturity_Report', title= 'Results of the '+study_name+' maturity assessment')
+    mdFile = MdUtils(file_name= output_dir+study_name+'_Maturity_Report', title= 'Results of the '+study_name+' interoperability maturity assessment')
 
 
     #########################################

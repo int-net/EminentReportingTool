@@ -129,5 +129,3 @@ def survey_to_rdf(input_xml = str, version_number= str, output_rdf= str, seriali
 
     graph.serialize(destination= output_rdf, format=serialization)
 
-survey_to_rdf(input_xml="./tests/EUSurveyTestData.xml", version_number='1.1.0', serialization= 'ttl', output_rdf='./tests/EminentQUestionnaire_1.1.0.ttl')
-

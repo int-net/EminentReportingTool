@@ -252,5 +252,3 @@ def crete_md_report (study= str,
     mdFile.create_md_file()
 
 
-# crete_md_report(study='http://eminent.intnet.eu/maturity_assessment_results#cim-expert-group-2024',
-#                 output_dir='./tests/cim/', community= 'cim-expert-group')

@@ -167,9 +167,3 @@ def organizations_tube_in_the_cube (responses: text, study: str, output_dir : st
     figname= output_dir+ study_name+'_organizations_tube_in_the_cube.png' 
     plt.savefig(figname)
 
-
-organizations_tube_in_the_cube(
-    responses = './tests/eminentresponses.ttl',
-    study = 'http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-    output_dir = './tests/sif/'
-)

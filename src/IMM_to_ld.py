@@ -76,7 +76,3 @@ def imm_to_ld ( input_spreadsheet = str, namespace=str , output_rdf = str):
     return graph
 
 
-
-maturity_model = imm_to_ld(input_spreadsheet='./tests/EminentV2.1.xlsx', namespace= 'http://eminent.intnet.eu/maturity_model#', output_rdf='./tests/imm.ttl')
-
-#print(maturity_model.serialize())

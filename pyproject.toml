@@ -2,7 +2,7 @@
 name = "EminentReportingTool"
 version = "0.0.1"
 authors = [
-  { name="Joep van Genuchten", email="jvangenuchten@epri.com },
+  { name="Joep van Genuchten", email="joep@uuidea.eu"},
 ]
 description = "A package to analyse and publish results from EMINEnT maturity assessment studies"
 readme = "README.md"

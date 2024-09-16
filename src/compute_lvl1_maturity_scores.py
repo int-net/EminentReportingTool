@@ -181,11 +181,5 @@ def compute_lvl1_maturity_scores(maturity_model= str, maturity_assessment = str,
 
 
 
-# probeersel = compute_lvl1_maturity_scores(maturity_model='./tests/imm.ttl', 
-#                                           maturity_assessment= './tests/EminentQUestionnaire_1.1.0.ttl',
-#                                           responses= './tests/eminentresponses.ttl',
-#                                           study='http://eminent.intnet.eu/maturity_assessment_results#SIF-2024',
-#                                           plot_kind='maturity_avg',
-#                                           output_folder='./tests/')
 
 

@@ -8,7 +8,7 @@ import qid_to_answerValue
 
         
         
-def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serialization= 'ttl' ):
+def answerset_to_rdf(input_xml: str,  output_rdf: str, input_rdf: str= None ,serialization:str= 'ttl' ):
 
 
     # Read the XML content from a file
@@ -21,6 +21,8 @@ def answerset_to_rdf(input_xml = str, input_rdf=None , output_rdf= str, serializ
     # otherwise create a new graph
     # innitiate graph and all the namespaces
     graph = Graph()
+    print('input rdf=')
+    print(input_rdf)
     if input_rdf != None :
         graph.parse(input_rdf)   
 

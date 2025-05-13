@@ -9,8 +9,12 @@ readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: Apache 2",
+    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
+]
+license = {text = "Apache License (2.0)"}
+dependencies = [
+  "rdflib","plotly", "numpy", "pydantic", "pandas", "matplotlib", "mdutils", "seaborn", "tabulate"
 ]
 
 [project.urls]

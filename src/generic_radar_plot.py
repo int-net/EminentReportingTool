@@ -26,6 +26,8 @@ def generic_radar_plot(maturitydf: pd.DataFrame, plotKind: str):
     elif plotKind == 'maturity_avg':
         data = maturitydf['maturity_avg'].tolist()
 
+    print(len(maturitydf))    
+
     for i in range(len(data)):
 
         # replace hardik with shardul

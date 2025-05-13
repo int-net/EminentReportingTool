@@ -17,8 +17,13 @@ import respondents_tube_in_the_cube as rtc
 import organizations_tube_in_the_cube as otc
 
 
-def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.URIRef, community= str,
-                    responses = str, plot_kind= str, output_directory= str):
+def generate_report(maturity_model: str,
+                    maturity_assessment: str, 
+                    study: rdflib.URIRef, 
+                    community: str,
+                    responses: str, 
+                    plot_kind: str, 
+                    output_directory: str):
     
 
     # analize respondents
@@ -39,11 +44,12 @@ def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.
                         responses= responses,
                         study= study,
                         )
-    # print(overall_maturity_df.to_markdown)
+    print("overall_maturity_df")
+    print(overall_maturity_df)
 
     # create and save plot
 
-    overall_diagram = grp.generic_radar_plot(overall_maturity_df, plotKind= plotKind)
+    overall_diagram = grp.generic_radar_plot(overall_maturity_df, plotKind= plot_kind)
     filename = output_directory + str(study).split("#",1)[1]+'.svg'
     overall_diagram.savefig(filename, pad_inches= 2)
 
@@ -62,51 +68,12 @@ def generate_report(maturity_model= str,maturity_assessment =str, study= rdflib.
                          implementation_df= implementation_df
                          )
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# generate_report(
+#     maturity_model='tests/imm.ttl',
+#     maturity_assessment='tests/EminentQUestionnaire_1.1.0.ttl',
+#     study=  rdflib.URIRef('http://eminent.intnet.eu/maturity_assessment_results#ES-2025'), 
+#     community= "ENERSHARE",
+#     responses= '/home/joep/Documents/uuidea/git/EminentResultsDatabase/EminentResponses/EminentResponses.ttl', 
+#     output_directory="tests/ENERSHARE-2025/"
+# )
 

@@ -7,7 +7,25 @@ This package contains several functions that each perform different functions in
 
 There are two important input artifacts that these functions use:
 - export of the EUSurvey responses in XML
-- a spreadsheet with the capability and maturity model.\
+- a spreadsheet with the capability and maturity model.
+
+### import_write_results_generate_reports()
+
+This function performs all the actions supported by this package.
+
+It takes as inputs:
+
+- input_xml =str,  path to input xml 
+- input_rdf= str, path to rdf file to which the results need to be added
+- output_rdf = str, path to the output rdf
+- serialization= str, syntax to which output rdf needs to be serialized,  default 'ttl',
+- maturity_model= str, path to maturity model to be used,
+- maturity_assessment =str, path to maturity assessment to be used, 
+- study= rdflib.URIRef, uri of the study
+- community= str, name of the community
+- responses = str, path to the responses to be used for generating the report, 
+- plot_kind= str, which statistical method should be used for the plots, default 'maturity_avg'
+- output_directory= str, directory to which the files need to be written
 
 ### IMM_to_ld()
 

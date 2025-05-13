@@ -201,7 +201,7 @@ def crete_md_report (study= str,
                          "the maturity_mode (the most frequently selected answer), as well as the number_of_unsure and the stddev values"
                          "give important extra context.")
     
-    mdFile.new_paragraph("A high stddev score indicates that there is disagreemnt among the respondents as to the performance of the "
+    mdFile.new_paragraph("A high stddev score indicates that there is disagreement among the respondents as to the performance of the "
                          "interoperability community in that particular capability/dimension combination. What is a high score? "
                          "Well, given that the possible range of values is between 0 and 5, a stddev of 2.5 would mean half the respondents"
                          " thinks the maturity is 0 and the other half thinks it is 5. So as a rule of thumb, a stddev <1 suggests a high degree "

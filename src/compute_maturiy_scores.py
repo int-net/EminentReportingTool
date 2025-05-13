@@ -22,7 +22,7 @@ from raw_data_to_maturityscore import raw_data_to_MaturityScore
 
 
 
-def compute_maturity_scores(maturity_model= str, maturity_assessment = str, responses= str, study= URIRef):
+def compute_maturity_scores(maturity_model: str, maturity_assessment : str, responses: str, study: URIRef):
     g= Graph()
     g.parse(maturity_model)
     g.parse(maturity_assessment)
@@ -86,6 +86,7 @@ def compute_maturity_scores(maturity_model= str, maturity_assessment = str, resp
         )
 
     lvl2_capabilities = g.query(lvl2_capability_query)
+    print(len(lvl2_capabilities))
 
 
     for row in lvl2_capabilities:
